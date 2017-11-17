@@ -1,0 +1,14 @@
+# THIS FILE IS WHERE TO DEFINE GAME LINKS
+# EACH SECTION NEEDS TO INCLUDE TITLE, IMAGE AND URL. IMAGE SHOULD HAVE SAME FILENAME IN /IMAGES/GAMES FOLDER
+
+- title: Learning Games for Kids
+  image: edugames.jpg
+  url: http://www.learninggamesforkids.com/
+
+- title: Starfall
+  image: starfall.png
+  url: http://www.starfall.com/n/level-k/index/play.htm?f
+
+- title: Jumping Spider
+  image: spider.png
+  url: http://www.media.perthnow.com.au/multimedia/2009/sept/fun/jumping_spider.html
