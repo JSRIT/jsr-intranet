@@ -1,7 +1,7 @@
 <ul class="link-container row" id="games">
         {% for game in site.data.games %}
                 <li class="col-xs-6 col-md-4 col-lg-3">
-                        <a href="{{ game.url }}"><img src="/images/games/{{ game.image }}" alt="{{ game.title }}" class="img-responsive img-rounded" /></a>
+                        <a href="{{ game.url }}"><img src="{[ site.baseurl }}/images/games/{{ game.image }}" alt="{{ game.title }}" class="img-responsive img-rounded" /></a>
 		</li>
         {% endfor %}
 </ul>
