@@ -55,7 +55,7 @@ games:
 info:
 - title: Student Internet Usage Policy
   image: usage.jpg
-  url: /assets/policy.htm 
+  url: {{ site.baseurl }}/assets/policy.htm 
 
 - title: Learn how to stay safe on the internet
   image: safety.jpg
@@ -63,4 +63,4 @@ info:
 
 - title: Languages (Indonesian and Italian)
   image: lote.jpg
-  url: /assets/lote/LOTE.htm
+  url: {{ site.baseurl }}/assets/lote/LOTE.htm
