@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>What was a rude shock for Matteo?</p></question>
+			<feedback><p><b>eating a roll or something light for lunch at school</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Why was this the case?</p></question>
+			<feedback><p><b>In Italy he finishes school at 1pm. He goes home for a hot lunch, then he has time to rest, do homework and go out.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What comments does he make about water?</p></question>
+			<feedback><p><b>It%27s never on the table. Mineral water is not very common and is expensive.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What does he notice about mixing food?  </p></question>
+			<feedback><p><b>Foods are mixed %2D pasta with milk. Cappuccino is drunk after dinner. In Italy it is drunk only in the morning.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What does his Australian family do with leftovers?</p></question>
+			<feedback><p><b>They have them for lunch or dinner the next day. </b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>How is this different from what happens in Italy?</p></question>
+			<feedback><p><b>His mother always prepares fresh meals.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What comments does Matteo make about the spaghetti he eats in Australia?</p></question>
+			<feedback><p><b>He often eats spaghetti but the dishes are not very authentic.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Matteo is astonished to find so many pizzeria and Italian restaurants in Australia. What is his explanation for this?</p></question>
+			<feedback><p><b>Perhaps because Italian cuisine is very good. He personally thinks that it is the best in the world.</b></p></feedback>
+		</answer>
+</enterAnswer>

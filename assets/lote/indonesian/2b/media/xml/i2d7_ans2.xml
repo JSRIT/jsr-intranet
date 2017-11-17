@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="ffffff" />
+		<fontColor reqColor="223542" />
+		<buttonColors startColor="000000" rollOverColor="999999" fontColor="ffffff" />
+		<startText> </startText>
+		<openingText introText="Instructional text" />
+		<openingText titleText="Interaction Title" />
+	</openingSettings>
+	
+	<questions>
+		<question>
+			<questionText>
+				<p>Anak yang biasanya (usually) saya jaga (supervise) berumur tiga sampai duabelas tahun.</p>
+			</questionText>
+			<answerText>
+				<p>The children whom I usually baby sit are aged between three and twelve years.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Pekerjaan yang ingin saya dapatkan adalah pekerjaan di bidang seni (art) karena saya orang yang kreatif.</p>
+			</questionText>
+			<answerText>
+				<p>The work that I wish to obtain is work in the field/area of art because I am a creative person.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Pekerjaan yang pernah (ever) saya dapatkan termasuk pekerjaan di warung, di kantor bapak saya, dan di wartel.</p>
+			</questionText>
+			<answerText>
+				<p>Work/jobs which I have obtained include work in a warung, my dad's office, and in a wartel.</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Orang yang kami cari harus bersifat disiplin.</p>
+			</questionText>
+			<answerText>
+				<p>The person whom we seek must have a disciplined nature.</p>
+				</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Tugas yang harus Anda kerjakan termasuk mencuci piring dan membersihkan WC.</p>
+			</questionText>
+			<answerText>
+				<p>The jobs that you must do include washing the dishes and cleaning the toilets.</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Lamaran yang Anda serahkan tidak lengkap.</p>
+			</questionText>
+			<answerText>
+				<p>The application which you submitted was incomplete.</p>
+			</answerText>
+		</question>
+
+	</questions>
+</enterAnswer>

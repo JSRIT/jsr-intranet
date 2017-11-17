@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Come ti chiami?</p></question>
+			<feedback><p><b>What's your name?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Quanti anni hai?</p></question>
+			<feedback><p><b>How old are you?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Dove abiti?</p></question>
+			<feedback><p><b>Where do you live?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Di che nazionalit%C3%A0 sei?</p></question>
+			<feedback><p><b>What nationality are you?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Di quale segno zodiacale sei?</p></question>
+			<feedback><p><b>What star sign are you?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Quali sono i tuoi hobby?</p></question>
+			<feedback><p><b>What are your hobbies?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Che tipo di persona sei?</p></question>
+			<feedback><p><b>What type of person are you?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Qual %C3%A8 la tua passione?</p></question>
+			<feedback><p><b>What is your passion?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Cosa non sopporti?</p></question>
+			<feedback><p><b>What can't you stand?</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

@@ -1,0 +1,302 @@
+/*
+@author [insert initials here], WestOne Services
+@created for [enter specific project details]
+WUPI: [insert WUPI code]
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+*/
+
+/* Reset styles
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 			0;
+	padding: 			0;
+	border: 			0;
+	outline: 			0;
+	font-size: 			100%;
+}
+
+body {	
+	background: 		#fff;
+	color: 				#000;
+	font-family: 		Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			80%;	/*at 75% and lower, opera is smaller, but moz & ie pc hardly change. 
+						76% is the smallest size that will stay the same across browsers.*/
+	line-height: 		1.2em;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote,
+form, ul, ol, dl, address, table {
+	margin: 			10px 0px;
+}
+
+li, dd, blockquote {
+	margin-left: 		5%;
+}
+fieldset, form, legend {
+	padding: 			.5em;
+}
+
+ul ul {
+	margin: 			1em 0;
+}
+ol ol {
+	margin: 			1em 0; 
+	list-style-type: 	lower-alpha;
+}
+
+/* Standard elements
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+	font-size: 			2.0em;
+}
+h2 {
+	font-size: 			1.7em;
+	color:				#575757;
+}
+h3 {
+	font-size: 			1.4em;
+	color:				#575757;
+}
+h4, h5, h6 {
+	font-size: 			1.2em;
+	color:				#575757;
+}
+
+p  {
+	font-size: 			1.0em;
+}
+
+table {
+	border-collapse:	collapse;
+}
+th, td {
+	padding: 			5px; 
+	border: 			1px solid #000000; 
+}
+caption {
+	caption-side:		top;
+}
+
+a:link {
+	text-decoration:	underline;
+}
+a:visited {}
+a:active {}
+a:hover {
+	text-decoration:	none;
+}
+
+#content a:link {
+	color:				#00ABD0;
+}
+#content a:visited {
+	color:				#00ABD0;
+}
+#content a:active {
+	color:				#00ABD0;
+}
+#content a:hover {
+	color:				#8CA600;
+}
+
+#header h1 { 
+	margin:				0px;
+	padding:			0px;
+	text-align:			right;
+	color: 				#00ff00; 
+	background:			#CCCC66;
+}
+
+
+/* General purpose classes
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+	margin: 			0; 
+	padding: 			0; 
+	border: 			0;	
+	font: 				100% Verdana, Arial, Helvetica, sans-serif;
+	text-align: 		center;
+	background: 		#eee; 
+}
+
+/*====================== div areas below ===========================*/
+
+#no_js {
+	margin: 			20px auto;
+	padding: 			7px 7px 7px 70px;
+	border: 			2px dashed #b22020;
+	width: 				593px;
+	height: 			50px;
+	text-align: 		left;
+	color:				#000000;
+	background: 		url(../../../../../../../italian/3b/content/shared/images/nojs.jpg) 10px 10px no-repeat #fff;
+}
+
+#blockerlink {
+	display: 			none;
+	padding: 			0 5px;
+}
+
+#container {
+	margin: 			20px auto;
+	padding: 			0 10px 10px 10px;
+	border: 			1px solid #999;
+	width: 				650px;
+	min-height: 		700px;
+	text-align: 		left;
+	color:				#000;
+	background: 		#fff;
+}
+#header {
+	width:				100%;
+	color:				#000000;
+	background:			#19BEED;
+}
+
+.content {
+	padding: 			0 5px;
+	border: 			1px solid #ccc;
+	color:				#000000;
+	background: 		#efefef;
+}
+
+#system_test {
+	padding:			0px;
+}
+
+#ieblocker {
+	display: 			none;
+}
+
+/*====================== text/image styles below ===========================*/
+
+p, td, li {	
+	font-size: 			0.75em;
+	color: 				#333;
+}
+
+a {
+	color : 			#4984aa;
+	font-weight: 		bold;
+	text-decoration : 	underline;
+}
+
+a:hover  {
+	text-decoration : 	none;
+}
+
+ul {
+	margin: 			1em 0;
+	padding: 			0 20px;
+}
+
+li ul li {
+	font-size: 			1em;
+}
+
+h1 {
+	margin: 			1ex 0;
+	letter-spacing : 	1.5pt;
+	font-size: 			1.5em;
+	font-weight: 		normal;
+	color: 				#222;
+}
+
+h2 {
+	margin: 			1ex 0;
+	padding-top: 		11px;
+	font-size: 			1.2em;
+	letter-spacing: 	0.04em; 
+	color: 				#333;
+}
+.heading2gfx
+{
+	margin-top:			1em;
+}
+
+h3 {
+	margin: 			1ex 0;
+	font-size: 			0.8em;
+	letter-spacing: 	0.04em; 
+	color: 				#444;
+}
+
+h4, h5, h6 {
+	margin: 			1ex 0;
+	font-size: 			0.75em;
+	letter-spacing: 	0.01em; 
+	color: 				#555;
+}
+
+p {	
+	margin: 			1em 0;
+}
+
+img {
+	border: 			0;
+}
+
+hr {
+	clear: 				both;
+	margin: 			1ex 5px;
+	padding: 			0;
+	border-top: 		1px dashed #ccc;
+	border-right:		0;
+	border-bottom:		0;
+	border-left:		0;
+	height: 			0;
+	background: 		#fff;
+	color:				#000;
+}
+
+/* ========================= useful classes ============================== */
+
+
+.leftpic {
+	float: 				left;
+	margin: 			0 9px 7px 0;
+}
+
+.rightpic {
+	float: 				right;
+	margin: 			0 0 7px 9px;
+}
+
+.clear {
+	clear: 				both;
+}
+
+.sortItem {
+	margin: 			3px 0 3px 0;
+	padding: 			3px 0 3px 0;
+	width: 				90%;
+	cursor:				pointer;
+	list-style-type:	none;
+	color: 				#000;
+	background:			#E8E8E8;
+}
+
+
+.print_status {
+	color:				#090;
+}
+
+/* TODO: Hide flash content
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+#flashcontent {
+	display:			none;
+}
+#flashcontent_1 {
+	display:			none;
+}

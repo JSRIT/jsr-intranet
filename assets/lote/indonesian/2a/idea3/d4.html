@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Indonesian 2A</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="../js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/swfobject.js"></script>
+<script type="text/javascript">
+<!--
+	var thisSection = "d";
+	addLoadEvent(initIdea);
+	addLoadEvent(doHides);
+	
+function doHides(){
+	toggle('ans1');
+	toggle('ans2');
+	toggle('ans3');
+	toggle('ans4');
+	toggle('ans5');
+}
+
+function doEx1(){
+	var filled = true;
+	for (i=0;i<4;i++){
+		if (!document.ex1.elements[i].value) filled = false;
+	}
+	if (!filled){
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		show('ans1');
+		show('ans2');
+		show('ans3');
+		show('ans4');				
+	}
+}
+function doEx2(){
+	var filled = true;
+	if (!document.ex2.elements[0].value) {
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		show('ans5');
+	}
+}
+//--> 
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header3">
+<div id="idea"><a href="i.html"><img src="../images/i.jpg" alt="Introduce" name="inav" width="24" height="58" hspace="0" vspace="0" border="0" id="inav" onmouseover="javascript:doRoll(0);" onmouseout="javascript:initIdea();" /></a><a href="d0.html"><img src="../images/d.jpg" alt="Discover" name="dnav" width="34" height="58" hspace="0" vspace="0" border="0" id="dnav" onmouseover="javascript:doRoll(1);" onmouseout="javascript:initIdea();" /></a><a href="e0.html"><img src="../images/e.jpg" alt="Engage" name="enav" width="29" height="58" hspace="0" vspace="0" border="0" id="enav" onmouseover="javascript:doRoll(2);" onmouseout="javascript:initIdea();" /></a><a href="a0.html"><img src="../images/a.jpg" alt="Apply" name="anav" width="48" height="58" hspace="0" vspace="0" border="0" id="anav" onmouseover="javascript:doRoll(3);" onmouseout="javascript:initIdea();" /></a><br />
+	  <img src="../images/D_text.jpg" name="ideatitle" width="135" height="40" hspace="0" vspace="0" border="0" id="ideatitle" /></div>
+  </div>
+	<div id="content">
+	<!-- START CONTENT -->
+	<h2> What is object focus anyway?</h2>
+	<h3>Object focus questions </h3>
+	<p>Look at the following sentences. In the box below each  sentence, identify the <strong>subject/actor</strong> (person, animal, or object that  performs the main action in the sentence). &nbsp;</p>
+    <form name="ex1" id="ex1" action="#">
+	<p>1. Jo caught the ball.<br />
+	  <input type="text" name="q1" />
+	<span id="ans1" class="answers"> Answer: Jo </span></p>
+	<p>2. A car knocked over that lamp post.<br />
+	  <input type="text" name="q2" />
+      <span id="ans2" class="answers"> Answer: car </span>
+	</p>
+	<p>These sentences are called <strong>active</strong> or <strong>subject focus </strong>sentences because the main <strong>actor</strong> (or <strong>subject</strong>) in the sentence (that is, the person or thing performing  the action/verb) comes first.</p>
+	<p> Look at the next two sentences. In the box below each  sentence, identify the <strong>object</strong> that is acted upon (or &lsquo;verbed&rsquo;) by the actor/subject. </p>
+	<p>3. The ball was caught by Jo.<br />
+	  <input type="text" name="q3" />
+      <span id="ans3" class="answers"> Answer: ball </span>
+	</p>
+	<p>4. That lamp post was knocked over by a car.<br />
+        <input type="text" name="q4" />
+        <span id="ans4" class="answers"> Answer: lamp post </span>	</p>
+	<p>
+	  <input type="button" name="button" id="button" value="Cek jawaban" onclick="javascript:doEx1();" />
+	 </p>
+     </form>
+	<p>These sentences are called <strong>object focus</strong> or <strong>passive</strong> sentences, because the <strong>object</strong> (person, animal or thing upon which the  verb is performed) comes first.</p>
+	<div class="yellowBox">
+	  <p>In simple terms, an <strong>active/subject focus</strong> sentence is  structured as &lsquo;someone does something&rsquo;, for example: &lsquo;the cat sat on the mat&rsquo;.  A <strong>passive/object focus</strong> sentence is structured as, &lsquo;something is done by  someone/something&rsquo;, for example: &lsquo;the mat was sat on by the cat&rsquo;.</p>
+	  <p> In Indonesian, passive/object focus sentences are more  common than they are in English. It may sound unnatural to say, &lsquo;the mat was  sat on by the cat&rsquo; in English, but this structure is used frequently in  Indonesian. </p>
+	  <p> Can  you see the difference?</p>
+	</div>
+	<p>In the text box below, explain in your own words the  difference between a passive (object focus) and an active sentence. Use two  different examples of sentences to aid your explanation.</p>
+	<p>
+	  <textarea name="textarea" cols="70" rows="3"></textarea>
+	</p>
+	<p><strong>Bonus challenge!</strong> Can you  think of texts or situations where it is more common in English to hear or see  passive (object focus) sentences?</p>
+    <form name="ex2" id="ex2" action="#">
+	<p>
+	  <textarea name="textarea2" cols="70" rows="4"></textarea>
+	</p>
+<p class="answers" id="ans5">Newspaper headlines are also often written in  object focus, particularly when there is no obvious Actor/Subject or the  Actor/Subject is implied. For example, &lsquo;Three killed in Lebanon&rsquo;, or  &lsquo;Bank robber captured in raid&rsquo;.&nbsp; Sport  commentaries also use passive/object focus quite a bit &ndash; the mark was made by  Kerr, kicked to Judd, passed to Cousins &hellip;</p>
+	
+	<p>
+	  <input type="button" name="button2" id="button2" value="Cek jawaban" onclick="javascript:doEx2();" />
+	</p>
+    </form>
+	<p><em>Bingung? Tidak apa&sup2;</em>.  There will be plenty more opportunities to practise this. Don&rsquo;t expect to  understand it all the first time, but you will get there!</p>
+
+<p>Are the following sentences active (subject focus) or passive (object  focus)? Click on the button you think indicates the correct answer. </p>
+	<div class="yellowBox" id="flash1">++ interaction ++</div>
+	<p><img src="../images/AW13.jpg" align="right" /> <a href="docs/txt_alt4.doc" target="_blank">Text alternative</a></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+	
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+        <tr>
+          <td width="50%" class="yellowBox"><div align="left"><a href="d3.html"><img src="../images/arrowl.gif" alt="Previous" border="0" /></a></div></td>
+          <td width="50%" class="yellowBox"><div align="right"><a href="d5.html"><img src="../images/arrow.gif" alt="Next" border="0" /></a></div></td>
+        </tr>
+      </table>
+	<!-- END CONTENT -->
+  </div>
+  <div id="footer">
+  </div>
+</div>
+<br />&nbsp;
+<script type="text/javascript">
+   var so = new SWFObject("../media/i3d4-mc1.swf", "mymovie", "550", "300", "8", "#fef2d0");
+   so.write("flash1");
+</script>
+</body>
+</html>

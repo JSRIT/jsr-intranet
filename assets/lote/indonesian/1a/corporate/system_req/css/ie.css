@@ -1,0 +1,51 @@
+/*
+ie.css
+
+Copyright © 2007 WestOne Services All WestOne materials, regardless of format are protected by copyright law. No part may be reproduced or re-used for any commercial purposes whatsoever without written permission from WestOne Services (IPUnit@westone.wa.gov.au)
+
+@author Paul Haimes (paul.haimes@westone.wa.gov.au), WestOne Services
+
+$CreatedDate: 2007/07/04 $
+
+$LastChangedDate: yyyy/mm/dd $
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+============================================
+REQUIRES:
+    * Internet Explorer 6.0+, or
+    * Netscape 7.x+, or
+    * Mozilla 1.x+, or
+    * Firefox 1.5+
+
+DESCRIPTION:
+Styling for checker.html, specifically for Internet Explorer 6 and below
+=============================================
+*/
+
+/*====================== div areas below ===========================*/
+
+#container {
+	height: 700px;
+}
+
+#blockerlink, #ieblocker {
+	display: block;
+}
+
+/*====================== text/image styles below ===========================*/
+
+hr {
+	margin: 0 5px;
+}
+
+.content p {
+	height: 1%;
+}
+
+#updates {
+	padding: 8px 5px;
+}
+
+#ieblocker li img {
+	padding: 5px 0;
+}

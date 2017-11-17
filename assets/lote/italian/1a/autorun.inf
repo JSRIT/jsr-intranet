@@ -1,0 +1,5 @@
+[Autorun]
+open=autorunpro.exe /s
+
+[AutorunPro]
+Run1=index.html

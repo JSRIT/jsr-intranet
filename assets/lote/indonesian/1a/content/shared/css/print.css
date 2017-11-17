@@ -1,0 +1,365 @@
+/*
+	@author e4023932, WestOne Services
+	@created for Biological Science 1a
+	WUPI: 1105K1208
+	@modified [Date], [Name], [Reason] $Rev: 01 $
+*/
+
+/* Layout styles */
+
+body {
+	background-color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.86em;
+	padding:0;
+	margin:0;
+}
+
+/* Navigation
+----------------------------------------------- */
+
+#header {
+	background: #690 url(../images/content_header_bg.jpg) top right no-repeat;
+	height: 105px;
+	margin: 0;
+	padding: 0;
+}
+#header h1 { 
+	margin: 0;
+	padding: 0;
+	color: #FFF; 
+	text-align:right;
+}
+
+#content {
+	padding: 10px;
+	margin:0;
+}
+
+/* Root */
+ul#navmenu {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	/*width: 500px; For KHTML*/
+	list-style: none;
+	height: 24px;
+	float:right;
+	position:absolute;
+	top:105px;
+	right:0;
+}
+
+ul#navmenu li {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	float: left; /*For Gecko*/
+	display: inline;
+	list-style: none;
+	position: relative;
+	height: 24px;
+}
+
+ul#navmenu ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 160px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+
+ul#navmenu ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu ul li {
+	width:160px;
+	height:auto;
+	float:right; /*For IE 7 lack of compliance*/
+}
+
+/* Root Menu */
+ul#navmenu a {
+	border: 1px solid #FFD900;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	padding: 0 6px;
+	float: none !important; /*For Opera*/
+	float: left; /*For IE*/
+	display: block;
+	/* set the background and text color of root menu normal state */
+	background: #C30808;
+	color: #FFF;
+	font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	height: auto !important;
+	height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,q
+ul#navmenu li.iehover a {
+	/* set the color of the background and text of the top nav on rollover */
+	background: #8C8C8C;
+	color:#FFFFFF;
+	border: 1px solid #FFD900;
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+	/* set the color of the background and text of the 2nd nav normal state */
+	float: left;
+	background: #C30808;
+	color: #FFFFFF;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+	/* set the color of the background and text of the top nav on rollover */
+	background: #8C8C8C;
+	color: #FFFFFF;
+}
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+	background: #EEE;
+	color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+  display: block;
+}
+
+/* Layout
+----------------------------------------------- */
+/* remove later */
+.interactionHL {
+	padding: 3px;
+	background-color:#FF0;
+}
+
+.dummy {
+	padding: 3px;
+	border: 1px dashed white;
+	background-color:#CC0;
+}
+
+.OM_remove {
+	padding: 3px;
+	border: 1px dashed white;
+	background-color:#F0F;
+}
+/* remove end */
+
+
+/* Element styles */
+h1 { 
+	color: #FFF; 
+	margin: 0;
+	padding: 0;
+}
+
+h2, h3, h4, p { margin-top:0; }
+
+hr {
+	border: 1px solid #666;
+	margin-bottom: 10px;
+}
+
+img.vmid {
+	vertical-align:middle;
+}
+
+table td { vertical-align:top; }
+
+table.grid {
+	padding: 0; margin: 0;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+}
+table.grid td, table.grid th {
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	padding: 5px;
+}
+
+table.grid.lth th {
+	text-align: left;
+	vertical-align: top; 
+}
+
+table.grid.tdc td {
+	text-align: center;
+	vertical-align: top; 
+}
+table.grid.tc { margin: 0 auto; }
+
+input { margin: 0; }
+
+li { padding-bottom: 5px; }
+
+/* Content styles */
+.cnt_img {
+	float: right;
+	border: 1px solid #000;
+	padding:0;
+	margin: 0 0 5px 5px;
+}
+.cnt_img_nb {
+	float: right;
+	border: none;
+}
+
+.box {
+	border: 1px solid #000;
+	padding: 3px;
+	background-color:#CCC;
+}
+.box.ref {
+	background-color: #FFFFCC;
+}
+
+.tab1, a.tab1 {	margin-left: 25px; }
+.tab2, a.tab2 {	margin-left: 50px; }
+.tab3, a.tab3 {	margin-left: 75px; }
+
+.tab_box {
+	display: block;
+	width: 100px;
+	float: left;
+}
+* html .tab_box {
+	display: inline;
+	float:none;
+	padding-right: 30px;
+}
+
+.hidden {
+	padding-top: 4px;
+	color: #F00;
+}
+.hidden.bt { color: #000; }
+.hidden.ans { 
+	color: #390; 
+	background: url(../images/ico_tick.gif) center left no-repeat;
+	padding-left: 15px;
+}
+.hidden.fls { 
+	background: url(../images/ico_cross.gif) center left no-repeat;
+	padding-left: 15px;	
+}
+
+.invis { visibility: hidden; }
+
+.res_vector { color: #F00; }
+
+.sh_toggle {
+	padding-bottom: 10px;
+	display: block;
+	background: url(../images/tab_down.gif) top center no-repeat;
+	text-decoration: none;
+	outline: none;
+	margin-bottom: 0;
+}
+.sh_toggle.ch {
+	background: none;
+	text-decoration: underline;
+}
+
+.sh_toggle.down {
+	background: url(../images/tab_up.gif) top center no-repeat;
+}
+
+ul.tab_nav {
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #000;
+}
+.tab_nav li {
+	list-style-type: none;
+	display: inline;
+}
+.tab_nav li a {
+	padding: 2px 5px;
+	border-left: 2px solid #000;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	text-decoration:none;
+	color: #000;
+	font-weight: bold;
+	background-color:#F7F7F7;
+}
+.tab_nav li a:hover, .tab_nav li a.ctab { 
+	background-color: #FFCC33;
+}
+	  
+.tab {
+	padding: 5px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	background-color:#F7F7F7;
+}
+
+.clear { clear:both; }
+

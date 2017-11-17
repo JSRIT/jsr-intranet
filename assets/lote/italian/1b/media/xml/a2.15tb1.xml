@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>What is the sand like on the beach at Rimini?</p></question>
+			<feedback><p><b>There are kilometres of light (golden) sand.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What equipment and facilities are available?</p></question>
+			<feedback><p><b>There are beach umbrellas, sun lounges, beach huts, showers, bars, restaurants, ice-cream kiosks/parlour, spas and libraries.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What is the latest novelty on the beach?</p></question>
+			<feedback><p><b>Sun loungers which open by remote control</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What do the life guards do?</p></question>
+			<feedback><p><b>They patrol the beach.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What do some lifeguard teams organise for children?</p></question>
+			<feedback><p><b>They organise entertainment for children.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Essentially what is the beach a place for?</p></question>
+			<feedback><p><b>It is a place for meeting people, for friendship and communicating with others. It's a place for fun and for those who love sport.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Which sport is very fashionable on the beach at Rimini?</p></question>
+			<feedback><p><b>Beach volleyball.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What is provided for the children?</p></question>
+			<feedback><p><b>The children have their areas/spaces in which to play. If they feel like it there are also games to they can play with friends.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<dragon3>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<dropWaterMarks drop0="Chiro" drop1="Dany" drop2="Bombom" />
+		<openingText titleText="" />
+	</openingSettings>
+
+	<wordsList>
+		<word txtNeeded="Ketua OSIS dari SMU 3 Padmanaba" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="Sukarelawan dari SMU John De Britto" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="koordinator Posko" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="sukarelawan yang duduk di semester 2 jurusan Komunikasi, UAJY" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="&quot;Pada dasarnya kita itu makhluk sosial dan harusnya kita memiliki kesadaran untuk menolong sesama kita&quot;" correctPos0="-1" correctPos1="1"  correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="Merasa prihatin karena orang yang tak bertanggung jawab yang mencuri barang orang lain" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="Belum pulang ke rumah sejak gempa terjadi" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="&quot;terus ngeyakinin masyarakat kalo saat ini harusnya nggak perlu khawatir dengan kondisi memprihatinkan ini&quot;" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="&quot;Tenang, semua ini bisa diatasi dengan gotong royong bersama. Yang penting mari bangkit bersama, jangan terpuruk dan sedih berlarut-larut&quot;" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="Merasa prihatin karena orang yang tak bertanggung jawab yang mencuri barang orang lain" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />		
+		<word txtNeeded="Ikut mendistribusikan barang" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="Standby 24 jam tiap hari" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+		<word txtNeeded="Kapan dibutuhkan dan di manapun itu, dia selalu sedia bantu" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah. Coba lagi." />
+
+	</wordsList>
+</dragon3>

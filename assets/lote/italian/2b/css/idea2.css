@@ -1,0 +1,44 @@
+/* CSS Document Italian 2a - Idea 1 */
+.BGBrowser {
+	background: url(../images/brws_bg.gif) repeat-y;
+	padding: 5px 15px;
+}
+* html .BGBrowser {
+	background-position: left top;
+	margin: 0px; padding: 5px 15px;
+}
+
+.chat_room {
+	background: url(../images/idea2/aw4.gif) repeat-y;
+	padding: 80px 90px 5px 30px;
+}
+* html .chat_room {
+	background-position: left top;
+	margin: 0px; padding: 80px 90px 5px 30px;
+}
+
+.l_imgbox { 
+	width:150px;
+	float:left;
+}
+
+.email {
+	padding: 5px;
+	border: 1px solid grey;
+	background-color: #CCC;
+}
+#email_to, #email_subject {
+	padding: 2px;
+	border: 1px solid grey;
+	background-color:#FFF;
+	margin-bottom: 2px;
+}
+#email_body {
+	padding: 5px;
+	border: 1px solid grey;
+	background-color: #FFF;
+}
+
+#ideaContent {
+	background:url(../images/idea2/idea2_bott.jpg) bottom right no-repeat;
+}

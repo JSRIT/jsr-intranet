@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>His name is Marco.</p></question>
+			<feedback><p><b>Si chiama Marco?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You play the guitar.</p></question>
+			<feedback><p><b>Suoni la chitarra?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Alicia listens to the radio.</p></question>
+			<feedback><p><b>Alicia ascolta la radio?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>The boys are going to the concert.</p></question>
+			<feedback><p><b>I ragazzi vanno al concerto?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You (pl) listen to rock music.</p></question>
+			<feedback><p><b>Ascoltate la musica rock?</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

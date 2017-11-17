@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="000000" dropBackingColor="FF9175" dropCorrectBackingColor="BFFFA8" dropRollOverFontColor="FFFFFF" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="English%09%09%09%09%09%20%20%20%20%20%20Italian" finalFeedback="Molto bene !">
+	
+	<dropNeeded>
+		<dropZone startDrop="to play a musical instrument:" stopDrop="to play a musical instrument:%09%09%09suonare uno strumento musicale" />
+		<dropZone startDrop="to go out with friends:" stopDrop="to go out with friends:%09%09%09%09%09uscire con gli amici" />
+		<dropZone startDrop="to do (light) physical activity:" stopDrop="to do (light) physical activity:%09%09%09fare un%E2%80%99attivit%C3%A0 leggera" />
+		<dropZone startDrop="to go to parties:" stopDrop="to go to parties:%09%09%09%09%09%09%09andare alle feste" />
+		<dropZone startDrop="to sleep:" stopDrop="to sleep:%09%09%09%09%09%09%09%09dormire" />
+		<dropZone startDrop="to do nothing:" stopDrop="to do nothing:%09%09%09%09%09%09%09non fare niente" />
+		<dropZone startDrop="to chat on the phone:" stopDrop="to chat on the phone:%09%09%09%09%09chiacchierare al telefono" />
+		<dropZone startDrop="to surf the Internet:" stopDrop="to surf the Internet:%09%09%09%09%09%09navigare/la rete in Internet" />
+		<dropZone startDrop="to go to the city:" stopDrop="to go to the city:%09%09%09%09%09%09%09andare in citt%C3%A0" />
+		<dropZone startDrop="to listen to music:" stopDrop="to listen to music:%09%09%09%09%09%09ascoltare la musica" />
+		<dropZone startDrop="to do shopping:" stopDrop="to do shopping:%09%09%09%09%09%09fare shopping" />
+		<dropZone startDrop="to spend time with family:" stopDrop="to spend time with family:%09%09%09%09stare in famiglia" />
+		<dropZone startDrop="to do sport:" stopDrop="to do sport:%09%09%09%09%09%09%09%09praticare sport" />
+		<dropZone startDrop="to study:" stopDrop="to study:%09%09%09%09%09%09%09%09studiare" />
+		<dropZone startDrop="to go on trips/tours/excursions:" stopDrop="to go on trips/tours/excursions:%09%09fare gite" />
+		<dropZone startDrop="to watch TV:" stopDrop="to watch TV:%09%09%09%09%09%09%09guardare la tiv%C3%B9" />
+		<dropZone startDrop="to go to the cinema:" stopDrop="to go to the cinema:%09%09%09%09%09andare al cinema" />
+		<dropZone startDrop="to read/reading:" stopDrop="to read/reading:%09%09%09%09%09%09leggere/lettura" />		
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="FF9175" dragFontColor="000000" rollOverBackingColor="BFFFA8" rollOverFontColor="000000">
+		<dragZone drag="fare gite" correct="14" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="suonare uno strumento musicale" correct="0" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="uscire con gli amici" correct="1" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="praticare sport" correct="12" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="fare un%E2%80%99attivit%C3%A0 leggera" correct="2" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="non fare niente" correct="5" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="andare al cinema" correct="16" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="andare alle feste" correct="3" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="navigare/la rete in Internet" correct="7" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="fare shopping" correct="10" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="andare in citt%C3%A0" correct="8" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="stare in famiglia" correct="11" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="chiacchierare al telefono" correct="6" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="studiare" correct="13" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="guardare la tiv%C3%B9" correct="15" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="leggere/lettura" correct="17" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="ascoltare la musica" correct="9" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="dormire" correct="4" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+	</dragNeeded>
+</sentenceStart>
+
+

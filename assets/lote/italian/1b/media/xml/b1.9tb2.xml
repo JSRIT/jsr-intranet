@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Hai guardato la partita di calcio ieri?<br />(Yes. It was fantastic). La mia squadra ha vinto.</p></question>
+			<feedback><p><b>S%C3%AC. %C3%88 stata fantastica. La mia squadra ha vinto.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Sei andato in palestra stamattina?<br />(No. I didn't go). Non ho avuto tempo.</p></question>
+			<feedback><p><b>(No), non sono andato/a.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Hai fatto molto sport questa settimana?<br />(Yes. I did heaps). Adesso sono stanco morto.</p></question>
+			<feedback><p><b>S%C3%AC ho fatto un sacco.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Ti %C3%A8 piaciuta la lezione di yoga?<br />(No. I didn't like it very much.) %C3%88 troppo diffi cile per me.</p></question>
+			<feedback><p><b>No. Non mi %C3%A8 piaciuta molto.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Sei andata alla spiaggia domenica?<br />(Yes. I went with my friends). L'acqua era favolosa.</p></question>
+			<feedback><p><b>S%C3%AC sono andata con gli amici/con i miei amici.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

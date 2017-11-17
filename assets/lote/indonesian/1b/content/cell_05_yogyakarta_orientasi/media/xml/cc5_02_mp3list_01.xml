@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="Daniel">../media/audio/5_02_01.mp3</mp3file>
+	<mp3file title="Ibu">../media/audio/5_02_02.mp3</mp3file>
+	<mp3file title="Daniel">../media/audio/5_02_03.mp3</mp3file>
+	<mp3file title="Ibu">../media/audio/5_02_04.mp3</mp3file>
+	<mp3file title="Daniel">../media/audio/5_02_05.mp3</mp3file>
+	<mp3file title="Ibu">../media/audio/5_02_06.mp3</mp3file>
+	<mp3file title="Daniel">../media/audio/5_02_07.mp3</mp3file>
+	<mp3file title="Ibu">../media/audio/5_02_08.mp3</mp3file>
+</playlist>

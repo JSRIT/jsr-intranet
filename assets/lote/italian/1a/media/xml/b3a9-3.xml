@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<question1>
+		<sentence>What can’t the person writing the diary believe?</sentence>
+		<example>that he/she is in Rome</example> 		
+	</question1>
+	<question2>
+		<sentence>Which groups of people can be seen in Rome?</sentence>
+		<example>tourists, Italians, Romans, students on school excursions</example>
+	</question2>
+	<question3>
+		<sentence>In which place do you feel as if you go back in time?</sentence>
+		<example>the Roman forum</example>
+	</question3>
+	<question4>
+		<sentence>Which place is fascinating?</sentence>
+		<example>the Trevi fountain</example>
+	</question4>
+	<question5>
+		<sentence>Why do people throw coins into the Trevi fountain? </sentence>
+		<example>Because it is said that you will return to Rome if you throw a coin in the fountain.</example>
+	</question5>	
+	<question6>
+		<sentence>What is the fashion like?</sentence>
+		<example>very elegant</example></question6>
+	<question7>
+		<sentence>What requires a lot of energy?</sentence>
+		<example>shopping</example>
+	</question7>
+</strings>
+
+
+
+
+

@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 
+checker.html
+
+Copyright © 2007 WestOne Services All WestOne materials, regardless of format are protected by copyright law. No part may be reproduced or re-used for any commercial purposes whatsoever without written permission from WestOne Services (IPUnit@westone.wa.gov.au)
+
+@author PH, WestOne Services
+@author BK, WestOne Services
+
+$CreatedDate: 2007/07/04 $
+
+$LastChangedDate: yyyy/mm/dd $
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+@modified 4th Jan 2008, [DG], [Adding hardware requirements to the specifications] $Rev: 01 $
+============================================
+REQUIRES:
+    * Internet Explorer 6.0+, or
+    * Netscape 7.x+, or
+    * Mozilla 1.x+, or
+    * Firefox 1.5+
+
+DESCRIPTION:
+HTML document that tests the user's OS and browser for compatible plug-ins
+=============================================
+-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" type="text/css" href="../system_req/css/before.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../system_req/css/before_print.css" media="print" />
+	<!--[if lte IE 6]>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" media="all" />
+	<![endif]-->
+	<title>System requirements</title>
+	<script type="text/javascript" src="../system_req/js/jquery.js"></script>
+	<script type="text/javascript" src="../system_req/js/check.js"></script>
+</head>
+<body>
+
+<div id="no_js">
+	<p>You don&rsquo;t have Javascript enabled, you will need this in order to run the multimedia interactions in this unit.</p>
+</div>
+
+<div id="container">
+	<div id="header">
+		<img align="middle" src="../system_req/images/req_header.gif" alt="System requirements" width="547" height="63" border="0" />
+	</div>
+	<div id="blockerlink">
+	<!--   <p><a href="#ieblocker">Click here to read important information</a> regarding your browser and this product.</p> -->
+	</div>
+	<img src="../system_req/images/min_req.gif" alt="Minimum requirements for using this resource" width="468" height="23" class="heading2gfx" />
+	<div class="content">
+		<h3>Hardware</h3>
+		<h4>Microsoft&reg; Windows&reg; based computer</h4>
+		<ul>
+			<li>PC or compatible computer running Windows&reg; XP or later</li>
+			<li>CD Drive (DVD optional)</li>
+			<li>Internet connection</li>
+			<li>Sound card</li>
+		</ul>		
+		<h4>Apple Macintosh based computer</h4>
+		<ul>
+			<li>Apple Macintosh running OSX v10.2.0 or later</li>
+			<li>CD Drive (DVD optional)</li>
+			<li>Internet connection</li>
+			<li>Sound card</li>
+		</ul>		
+		
+		<h3>Software</h3>
+		<p>You will need the following software installed on your computer:</p>
+		<ul>
+			<li> An Internet browser such as:
+				<ul>
+					<li>Microsoft&reg; Internet Explorer&reg; 6.0+, or</li>
+					<li>Safari 2+, or</li>
+					<li>Mozilla&reg; Firefox&reg; 2+</li>
+				</ul>
+			</li>
+			<li>Adobe&reg; Flash&reg; Player</li>
+			<li>Adobe&reg; Reader&reg;</li>
+			<li>Apple QuickTime Player</li>
+			<li>Windows&reg; Media&reg; Player</li>
+			<li>Microsoft&reg; Word 2003</li>
+		</ul>
+
+		<h3>Screen resolution</h3>
+		<ul>
+			<li>1024 x 768 pixels, 16 bit colour display</li>
+		</ul>
+	</div>
+
+	<div id="system_test">
+		<img src="../system_req/images/test.gif" alt="Testing your machine" width="237" height="23" class="heading2gfx" />
+		<div class="content">
+			<div id="os_test">
+				<h3>Your Operating System</h3>
+				<p><em id="os_details"></em></p>
+			</div>
+		
+			<div id="bw_test">
+				<h3>Your Browser</h3>
+				<p><em id="bw_details"></em></p>
+			</div>
+
+			<div id="fl_test">
+				<h4>Testing your version of Adobe&reg; Flash&reg; Player</h4>
+				<p id="flash"><img src="../system_req/images/tick.jpg" alt="Version acceptable" class="tick" id="fl_icon" /><em id="fl_details">Adobe&reg; Flash&reg; Player Version: <strong id="fl_cur"></strong>&nbsp;Required Version: <span id="fl_req"></span></em></p>
+				<hr />
+			</div>
+
+			<div id="ar_test">
+				<h4>Testing your version of Adobe&reg; Reader&reg;</h4>
+				<p id="acrobat"><img src="../system_req/images/tick.jpg" alt="Version acceptable" class="tick" id="ar_icon" /><em id="ar_details">Adobe&reg; Reader&reg; Version: <strong id="ar_cur"></strong>&nbsp;Required Version: <span id="ar_req"></span></em></p>
+				<hr />
+			</div>
+
+			<div id="qt_test">
+				<h4>Testing your version of Apple QuickTime Player</h4>
+				<p id="quicktime"><img src="../system_req/images/tick.jpg" alt="Version acceptable" class="tick" id="qt_icon" /><em id="qt_details">Apple QuickTime Version: <strong id="qt_cur"></strong>&nbsp;Required Version: <span id="qt_req"></span></em></p>
+				<hr />
+			</div>
+
+			<div id="wm_test">
+				<h4>Testing for Windows&reg; Media&reg; Player</h4>
+				<p id="wmediaplayer"><img src="../system_req/images/tick.jpg" alt="Version acceptable" class="tick" id="wm_icon" /><em id="wm_details">Windows&reg; Media&reg; Player is: <strong id="wm_cur"></strong></em></p>
+			</div>
+
+			<br class="clear" />
+		</div>
+	
+		<img src="../system_req/images/down_updates.gif" alt="Download updates" width="195" height="23" class="heading2gfx" />
+		
+		<p>If you don't have all green ticks above, you may need to update your plug-ins by clicking on the appropriate link below.</p>
+
+		<div class="content" id="updates">
+			<p><a title="Opens Adobe&reg; Flash&reg; Player download page in a new window" href="http://www.adobe.com/go/getflashplayer/" target="_blank">Adobe&reg; Flash&reg; Player <img src="../system_req/images/external_link.gif" height="13" width="13" border="0" alt="Opens in a new window" /></a>
+			<br />If your computer does not have Adobe&reg; Flash&reg; Player installed then you can download this free player from the Adobe&reg; website which enables you to view Flash&reg; content.</p>
+			<hr />
+			
+			<p><a title="Opens Adobe&reg; Reader&reg; download page in a new window" href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Adobe&reg; Reader&reg; <img src="../system_req/images/external_link.gif" height="13" width="13" border="0" alt="Opens in a new window" /></a>
+			<br />If your computer does not have Adobe&reg; Reader&reg; installed then you can download this free reader from the Adobe&reg; website which enables you to read documents.</p>
+			<hr />
+
+			<p><a title="Opens QuickTime Player download page in a new window" href="http://www.apple.com/quicktime/download/standalone.html" target="_blank">Apple QuickTime Player <img src="../system_req/images/external_link.gif" height="13" width="13" border="0" alt="Opens in a new window" /></a>
+			<br />If your computer does not have QuickTime Player installed then you can download this free player from the Apple website which enables you to view QuickTime content.</p>
+			<hr />
+
+			<p><a title="Opens Microsoft&reg; Media&reg; Player download page in a new window." href="http://www.microsoft.com/windows/windowsmedia/player/download/" target="_blank">Windows&reg; Media&reg; Player <img src="../system_req/images/external_link.gif" height="13" width="13" border="0" alt="Opens in a new window" /></a>
+			<br />If your computer does not have Windows&reg; Media&reg; Player installed then you can download this free viewer from the Windows&reg; website which enables you to view media content.</p>
+			<hr />
+			
+			<p><a title="Opens Microsoft&reg; viewer 2003 download page in a new browser window." href="http://www.microsoft.com/downloads/details.aspx?familyid=95e24c87-8732-48d5-8689-ab826e7b8fdf&amp;displaylang=en" target="_blank">Word Viewer 2003 <img src="../system_req/images/external_link.gif" height="13" width="13" border="0" alt="Opens in a new window" /></a>
+			<br />If your computer does not have Microsoft&reg; Word installed then you can download this free viewer from the Microsoft&reg; website which enables you to read Microsoft&reg; Word documents.</p>
+			
+		</div>
+		
+		<img src="../system_req/images/attributions.gif" alt="Attributions" width="157" height="23" class="heading2gfx" />
+		<div class="content">
+		
+		<p><strong>Adobe</strong><br />
+		Adobe, Adobe Reader and Adobe Flash are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.</p>
+		
+		<p><strong>Apple</strong><br />
+		Apple, Apple Macintosh and Apple Quicktime are trademarks of Apple Inc., registered in the U.S. and other countries.</p>
+		
+		<p><strong>Microsoft</strong><br />
+		Microsoft, Windows, Internet Explorer and Windows Media are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.</p>
+		
+		<p><strong>Netscape</strong><br />
+		Netscape Navigator is a registered trademark of Netscape Communications Corporation in the United States and other countries.</p>
+
+
+		</div>
+	</div>
+	<p><a href="#container">Return to Top</a></p>
+</div>
+
+</body>
+</html>

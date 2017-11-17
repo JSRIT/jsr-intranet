@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Io vado in giro in motorino. (lui)</p></question>
+			<feedback><p><b>Lui va in giro in motorino.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Tu esci con i genitori. (voi)</p></question>
+			<feedback><p><b>Voi uscite con i genitori.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Loro incontrano gli amici. (noi)</p></question>
+			<feedback><p><b>Noi incontriamo gli amici.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Marisa guarda le vetrine. (loro)</p></question>
+			<feedback><p><b>Loro guardano le vetrine.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Iragazzi girano per i negozi. (tu)</p></question>
+			<feedback><p><b>Tu giri per i negozi.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Io scrivo un%E2%80%99e-mail. (voi)</p></question>
+			<feedback><p><b>Voi scrivete un%E2%80%99e-mail.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Lorenzo va in citt%C3%A0. (loro)</p></question>
+			<feedback><p><b>Loro vanno in citt%C3%A0.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Noi preferiamlo i fi lm comici. (lui)</p></question>
+			<feedback><p><b>Lui preferisce i fi lm comici.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Io e la mia amica fi niamo Io fi nisco i compiti. (tu)</p></question>
+			<feedback><p><b>Tu fi nisci i compiti.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Io dico la verit%C3%A0. (noi)</p></question>
+			<feedback><p><b>Noi diciamo la verit%C3%A0.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

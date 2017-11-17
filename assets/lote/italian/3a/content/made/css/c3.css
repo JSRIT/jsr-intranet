@@ -1,0 +1,99 @@
+
+.mii_browser {
+	background: url(../images/browser_bg.jpg) repeat-y;
+	width: 500px;
+	padding: 10px 0 0 20px;
+	margin: 0;
+}
+.mii_left {
+	float:left;
+	width:300px;
+	padding-right:10px;
+	border-right:2px solid #000;
+
+}
+.mii_right {
+	margin:30px 10px 0px 310px;
+	width:150px;
+	padding-left:10px;
+
+}
+
+.mii_header {
+	background: url(../images/browser_urlbar.jpg) no-repeat;
+	padding: 51px 0 0px 130px;
+	margin: 0;
+	width: 520px;
+	font-size:0.8em;
+}
+
+.leftbox {
+	float:left;
+	width:150px;
+}
+.rightbox {
+	margin-left:150px;
+	width:150px;
+}
+
+.leftmovie {
+	float:left;
+	width:350px;
+	height: 350px;
+	padding:10px;
+	border:1px solid #000;
+}
+.rightmovie {
+	margin-left:350px;
+	width:350px;
+	height:350px;
+	padding:10px;
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+.rightmovie p, .rightmovie div {
+	padding-left: 20px;
+}
+
+.grana {
+	background-image:url(../images/AW13.jpg); 
+	background-repeat:no-repeat; 
+	width:640px; 
+	height:400px; 
+	padding:180px 0 0 45px;
+}
+.granatopleft {
+	width:470px; float:left;
+}
+.granabotleft {
+	 width:300px; float:left;
+}
+.granaright {
+	width:150px;
+	padding: 3px;
+	float: right;
+}
+
+.ylw_browser {
+	background: url(../images/ylw_bg.jpg) repeat-y;
+	width: 500px;
+	padding: 10px 0 0 20px;
+	margin: 0;
+}
+.ylw_header {
+	background: url(../images/ylw_urlbar.jpg) no-repeat;
+	padding: 51px 0 7px 130px;
+	margin: 0;
+	width: 490px;
+	font-size:0.8em;
+}
+
+.email {
+	width:500px; padding:10px;
+}
+.article {
+	width:450px; padding:10px;
+	border:1px solid #000;
+}
+.box.cinema { background-color:#CCFFFF; }

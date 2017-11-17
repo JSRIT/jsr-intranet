@@ -1,0 +1,36 @@
+/* global */
+img {
+	max-width: 100%;
+}
+hr {
+	background-color: #910028;
+}
+
+/* header */
+.jumbotron {
+	border-top: 12px #910028 solid;
+	border-radius: 0 !important;
+}
+.jumbotron img {
+	max-height: 200px;
+	float: right;
+}
+
+/* links */
+.link-container {
+	list-style: none;
+	padding-left: 0;
+}
+.link-container a {
+	text-decoration: none;
+	color: #0f0f0f;
+}
+.link-container a:hover {
+	text-decoration: underline;
+}
+
+/* footer */
+#footer {
+	margin-bottom: 0;
+	text-align: center;
+}

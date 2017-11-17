@@ -1,0 +1,84 @@
+/*
+@author E4024405, WestOne Services
+@created for Indonesian Unit 1A
+WUPI: 1081K1208
+@modified [Date], [Name], [Reason] $Rev: 01 $
+*/ 
+		
+body { 
+	margin: 0;
+	padding: 0;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: url(../images/nav_bg_tile.jpg) top left repeat-y;
+}
+
+#navCont {
+	background: url(../images/nav_bg.jpg) top left no-repeat;
+	height: 472px;
+}
+
+#menu {
+	padding: 0;
+	width: 150px;
+	margin: 53px 0 30px 0;
+	border-top: 1px solid #FFD900;
+	border-left: 1px solid #FFD900;
+	border-right: 1px solid #FFD900;
+}
+		
+#menu li { 
+	font-size: 0.75em;
+	width: 150px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+#menu li a { 
+	text-decoration: none;
+	color: #FFF;
+	display:block; 
+	border-bottom: 1px solid #CDCDCB;
+	background: #C30808; 
+	padding: 3px 6px;
+	/* height: 1.5em; */
+	line-height: 1.5em;
+}
+
+#menu li a:hover { 
+	background: #8C8C8C;
+	color:#FFF;
+}
+
+#menu li a.selected { 
+	background: #8C8C8C; 
+	color: #fff;
+}
+
+#menu li a.selected:hover { 
+	background: #8C8C8C; 
+	color: #fff;
+}
+
+#menu ul {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 179px; 
+}
+
+#menu ul li { 
+	font-size: 1.0em;
+	border-left: 15px solid #666; 
+	width: 165px; 
+}
+
+#menu ul li a { 
+	color: #eee; 
+}
+
+#menu ul li a:hover {
+	color: #888; 
+	background: #eee; 
+}
+	

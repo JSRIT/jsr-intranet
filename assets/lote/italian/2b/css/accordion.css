@@ -1,0 +1,14 @@
+/*
+File: accordion.css 
+Written by BK in 2008, for Westone Services - http://www.westone.wa.gov.au
+Italian 2B 
+*/
+#accord {
+	margin: 0;
+	padding: 0 0 0 20px;
+	list-style-type: none;
+}
+
+.acc_content {
+	padding-top: 5px;
+}

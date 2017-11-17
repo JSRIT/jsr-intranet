@@ -1,0 +1,181 @@
+/* CSS Document Italian 2a - Idea 2 */
+
+#e1_sitelist li {
+	padding: 10px 0;
+}
+
+#e1_sitelist li ol {
+	list-style-type:none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#e1_sitelist li ol li {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+#e1_sitelist input { 
+	margin: 0 30px 0 0;
+	padding: 0;
+}
+
+.barList {
+	/* border-bottom: 1px solid #ccc; */
+	voice-family: inherit;
+	background : #fff; 
+	text-align : center;
+	padding: 0;
+	margin: 0;
+	height: 27px;
+	line-height: 27px;
+}
+
+* html .barList {
+ 	overflow: visible;
+}
+.barList ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.barList li {
+    float:left;
+    margin: 0;
+    padding: 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #000;
+	text-align: center;
+}
+.barList li#annuci {
+	width: 95px;
+	font-weight:bold;
+	border-left: 1px solid #999;
+}
+.barList li#anni20 {
+	width: 150px;
+	background-color:#FFFFCC;
+}
+.barList li#anni25 {
+	width: 150px;
+	background-color:#FFFF99;
+}
+.barList li#anni30 {
+	width: 150px;
+	background-color:#FFFF66;
+}
+.barList li#profile {
+	width: 95px;
+	font-weight:bold;
+	border-left: 1px solid #999;
+}
+.barList li#enrico {
+	width: 214px;
+	background-color:#66CCFF;
+}
+.barList li#valentina {
+	width: 235px;
+	background-color:#FFCCCC;
+}
+
+#box_enrico {
+	float: left;
+	width: 290px;
+	border: 1px solid #999;
+	border-top: none;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 15px;
+}
+#box_valentina {
+	float: left;
+	width: 215px;
+	border: 1px solid #999;
+	border-top: none;
+	border-left: none;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 15px;
+}
+
+.commenti_enrico {
+	padding: 5px;
+	width: 300px;
+	margin: -5px -10px 0 -10px;
+	border-top: 1px solid #999;
+	background-color:#CCC;
+}
+.commenti_valentina {
+	padding: 5px;
+	width: 225px;
+	margin: -5px -10px 0 -10px;
+	border-top: 1px solid #999;
+	background-color:#CCC;
+}
+
+#brws_wrapper {
+	background: url('../images/idea2/browser_lg.gif') top left no-repeat;
+	padding: 45px 10px 25px 10px; 
+	height:1%;
+}
+
+table {
+	padding: 0; margin:0;
+}
+th { padding: 5px; background-color: #CCC; }
+td { padding: 10px; }
+
+.tlb_table {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.tlb_table th {
+	text-align: left;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.tlb_table td {
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.lb_table { margin: 0 auto; }
+.lb_table td.lb, .lb_table th.lb { border-left: 1px solid #000; }
+
+.all_table {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.v_top { vertical-align:top; }
+
+.all_table td, .all_table th {
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.altRows {
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+.altRows td {
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+tr.altRow td {
+	background-color:#EBEBEB;
+}
+
+.ita_col2_5 { width: 380px; }
+.subTH { background-color: #FFF; }
+
+.hidden.noAns {
+	color: #000;
+}
+
+.scrollPane {
+	overflow: auto;
+	height: 200px;
+	width: 550px;
+}

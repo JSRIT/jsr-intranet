@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Robbie Williams</p></question>
+			<feedback><p><b>le ventuno e quindici</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>The Veronicas</p></question>
+			<feedback><p><b>le diciotto e mezzo</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Evermore</p></question>
+			<feedback><p><b>le venti e quarantacinque</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Madonna</p></question>
+			<feedback><p><b>le diciannove</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Missy Higgins</p></question>
+			<feedback><p><b>le dieci e trenta (mezzo)</b></p></feedback>
+		</answer>
+</enterAnswer>

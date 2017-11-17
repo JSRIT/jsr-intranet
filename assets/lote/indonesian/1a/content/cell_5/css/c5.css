@@ -1,0 +1,24 @@
+
+/* Backgrounds
+----------------------------------------------- */
+#aw34_bg {
+	background: url(../../cell_5/images/aw34.jpg) repeat-y;
+	padding: 10px;
+	width: 480px;
+}
+
+#col_box {
+	background-color:#CCCC66;
+	padding: 10px;
+	width: 350px;
+}
+
+#maptext { /* face IA */
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 3px;
+	display: block;
+	height: 20px;
+	width: 240px;
+	text-align:center;
+}

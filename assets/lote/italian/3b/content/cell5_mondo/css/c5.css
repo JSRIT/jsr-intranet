@@ -1,0 +1,48 @@
+/* CSS Document */
+
+.grey_hl {
+	padding: 5px;
+	background-color:#CCC;
+	border: 1px solid #999;
+}
+
+#aw8 { 
+	background: #FFF url(../images/aw8.jpg) top left no-repeat;
+	width: 545px;
+	min-height: 575px;
+	padding: 10px 15px;
+}
+#aw8 { height: 575px; }
+
+#benetton {
+	padding: 0 10px;
+	width: 575px;
+}
+
+#b_title { font-weight:bold; }
+#b_pics {
+    min-height:  250px;
+    width:   300px;  
+    padding: 0;  
+    margin:  0;  
+} 
+* html #b_pics {
+	height:  250px;
+}
+ 
+#b_pics img {  
+    padding: 15px;  
+    border:  1px solid #ccc;  
+    background-color: #eee;  
+    width:  283px; 
+    top:  0; 
+    left: 0;
+}
+
+#aw23 { 
+	background: #FFF url(../images/aw23.jpg) top left no-repeat;
+	width: 540px;
+	min-height: 206px;
+	padding: 220px 20px 10px 20px;
+}
+* html #aw23 { height: 206px; }

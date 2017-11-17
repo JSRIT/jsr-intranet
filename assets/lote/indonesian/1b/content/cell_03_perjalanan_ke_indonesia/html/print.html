@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Indonesian Unit 1B</title>
+<link rel="stylesheet" media="screen" type="text/css" href="../../shared/css/print_all.css" />
+<script type="text/javascript" src="../../shared/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../../shared/js/jquery/jquery_ui_base.js"></script>
+<script type="text/javascript" src="../../shared/js/jquery/jquery_ui_sortable.js"></script>
+<script type="text/javascript" src="../../shared/js/print_all.js"></script>
+<script type="text/javascript">
+<!--
+	$(document).ready(function(){
+		
+		// hide the alert
+		$('#noJSalert').hide();
+		
+		// print all config
+		
+	// *** EDIT after this line	
+		divLayerToCapture = "content"; // ID withOUT the #
+		courseTitle = "Indonesian Unit 1B";	
+		w1_debug = false; // set to true if you want to see the content being concatenated before printing
+			
+addPrintPage("../index.html", "<strong>Perjalanan ke Indonesia<\/strong>");
+addPrintPage("cc3_01.html", "Rencana");
+addPrintPage("cc3_02.html", "Kebanggaanku");
+addPrintPage("cc3_03.html", "Sambutan Kapten");
+addPrintPage("cc3_04.html", "Petunjuk di pesawat");
+addPrintPage("cc3_05.html", "Mau minum? Mau makan?");
+addPrintPage("cc3_06.html", "Blog entry &ndash; Daniel");
+addPrintPage("cc3_07.html", "Putri Pariwisata");
+addPrintPage("cc3_08.html", "Apply");
+
+
+	// *** STOP editing after this line
+		
+		// print all init
+		init();
+	
+	});	 
+// -->
+</script>
+</head>
+<body>
+<div id="noJSalert">You will need to enable Javascript to use this feature.</div>
+
+<div id="container">
+	<div id="header">
+		<img src="../../shared/images/print_all/print_cell.gif" alt="" width="547" height="63" />
+	</div>
+	<br />
+	<div class="content">
+	
+	<p>Please select the pages you would like to print.</p>
+	
+	<form name="printForm" action="#">
+		<p><input type="checkbox" name="chkSelectAll" id="chkSelectAll" checked="checked" /> Select all / none</p>
+		<div id="printContent">Print Content</div>
+		<br />
+		<input type="button" name="btnPrint" id="btnPrint" value="Print" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" name="btnReset" id="btnReset" value="Reset" /><br />
+	</form>
+	
+	<div id="printingLayer"></div>
+	
+	<div id="loadHolder"></div>
+	<div id="transferHolder"></div>
+	
+	</div>
+</div>
+</body>
+</html>

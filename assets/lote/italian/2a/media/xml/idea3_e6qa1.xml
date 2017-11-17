@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Family is very important for Italians.</p></question>
+			<feedback><p><b>La famiglia %C3%A8 importantissima per gli italiani.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Elisa has really nice friends.</p></question>
+			<feedback><p><b>Gli amici di Elisa sono simpaticissimi.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Roberto is a very tall boy.</p></question>
+			<feedback><p><b>Roberto %C3%A8 un ragazzo altissimo.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>The students are very nervous today. </p></question>
+			<feedback><p><b>Gli studenti sono nervosissimi oggi.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>The girls in my class are very cute.</p></question>
+			<feedback><p><b>Le ragazze nella mia classe sono carinissime.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

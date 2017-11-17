@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="000000" dropBackingColor="FF9175" dropCorrectBackingColor="BFFFA8" dropRollOverFontColor="FFFFFF" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="" finalFeedback="Molto bene !">
+	
+	<dropNeeded>
+		<dropZone startDrop="Are you free Friday afternoon? = " stopDrop="Are you free Friday afternoon? = Sei libera venerd%C3%AC pomeriggio?" />
+		<dropZone startDrop="Do you feel like coming to my place? = " stopDrop="Do you feel like coming to my place? = Ti va di venire da me?" />
+		<dropZone startDrop="I really would like to have a party. = " stopDrop="I really would like to have a party. = Ho tanta voglia di fare una festa. " />
+		<dropZone startDrop="Nothing in particular/special. = " stopDrop="Nothing in particular/special. = Niente di particolare." />
+		<dropZone startDrop="We can celebrate the holidays! = " stopDrop="We can celebrate the holidays! = Possiamo festeggiare le vacanze!" />
+		<dropZone startDrop="What (nice things) are you up to? = " stopDrop="What (nice things) are you up to? = Cosa fai di bello?" />
+		<dropZone startDrop="Why don't we organise a party, together? = " stopDrop="Why don't we organise a party, together? = Perch%C3%A9 non organizziamo una festa insieme?" />
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="FF9175" dragFontColor="000000" rollOverBackingColor="BFFFA8" rollOverFontColor="000000">
+		<dragZone drag="Cosa fai di bello?" correct="5" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Ho tanta voglia di fare una festa." correct="2" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Niente di particolare." correct="3" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Perch%C3%A9 non organizziamo una festa insieme?" correct="6" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Possiamo festeggiare le vacanze!" correct="4" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Sei libera venerd%C3%AC pomeriggio?" correct="0" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Ti va di venire da me?" correct="1" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+	</dragNeeded>
+</sentenceStart>
+
+

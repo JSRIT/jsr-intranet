@@ -1,0 +1,43 @@
+.dbox { 
+	margin: 5px;
+	border: 1px dashed #000; 
+}
+.dbox p {
+	padding: 0 20px;
+}
+.dbox_alt { 
+	background-color:#EFEFEF;
+	margin:0; 
+	padding:5px 0; 
+	border-bottom: 1px solid #000; 
+}
+
+#ita_london {
+	background: url(../images/ita_london_bg.gif) top right repeat-y;
+	padding: 20px;
+	margin: 0;
+	width: 540px;
+}
+#ita_london img {
+	border: 3px solid #FFF;
+}
+#ita_london img#topl { 
+	float:left; 
+	margin: 0 10px 10px 0;
+}
+#ita_london img#topr { 
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#ita_aud { width: 550px; }
+#ita_aud td { vertical-align:top; }
+#ita_aud td ul { padding-right: 15px; }
+#ita_aud td ul li { padding-bottom: 10px; }
+
+.browser_r {
+	background: #FFF url(../images/browser_bg_r.gif) top left repeat-y;
+	padding: 15px;
+	margin: 0;
+	width: 550px;
+}

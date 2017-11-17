@@ -1,0 +1,109 @@
+table {
+	padding: 0; margin:0;
+}
+th { padding: 5px; background-color: #CCC; }
+td { padding: 10px; }
+
+.tlb_table {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.tlb_table th {
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.tlb_table td {
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	vertical-align: top;
+}
+#cause_tbl {
+	line-height: 2em;
+	border: 1px solid green;
+}
+#cause_tbl td#rside {
+	border-left: 1px solid #CCC;
+}
+
+.article {
+	background-color:#FF6;
+	border: 1px solid #000;
+	border-bottom: 1px dashed #000;
+}
+.article_sub {
+	border: 1px solid #000;
+	border-top: none;
+	background-color:#FFC;
+}
+
+.conv {
+	line-height: 2em;
+}
+.conv .pers {
+	display:block;
+	float:left;
+	margin-right: 20px;
+	height: 60px; 
+	width: 80px;
+}
+
+.ita_col3_ta { width: 162px; }
+
+.BGBrowser {
+	background: url(../images/idea5/aw19.gif) no-repeat;
+	padding: 50px 15px 15px 15px;
+}
+* html .BGBrowser {
+	background-position: left top;
+	margin: 0px; padding-left: 15px;
+}
+.BGBrowser span {
+	display:block;
+	padding: 3px;
+}
+.BGBrowser span.altrow {
+	display:block;
+	padding: 3px;
+	background-color:#99F;
+}
+
+
+/* background id's */
+
+#aw4 {
+	background:url(../images/idea5/aw4.jpg) no-repeat;
+	min-height: 410px;
+}
+* html #aw4 {
+	height: 410px;
+}
+
+#aw7 {
+	background:url(../images/idea5/aw7.jpg) no-repeat;
+}
+#aw7_sub {
+	background:url(../images/idea5/aw7.jpg) 0 -350px no-repeat;
+}
+
+#aw10 {
+	background:url(../images/idea5/aw10.jpg) -2px -2px no-repeat;
+}
+
+#aw17 {
+	background:url(../images/idea5/aw17.jpg) center center no-repeat;
+}
+
+#site {
+	padding: 40px 10px 10px 10px;
+	background: url(../images/idea5/aw18.gif) no-repeat;
+}
+
+#aw20 {
+	background:url(../images/idea5/aw20.jpg) center center no-repeat;
+}
+
+#aw22 {
+	padding: 130px 10px 10px 10px;
+	background:url(../images/idea5/aw22.jpg) no-repeat;
+}

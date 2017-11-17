@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Indonesian 2A</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+ 	var mapArray = new Array("../images/iroll.jpg","../images/droll.jpg","../images/eroll.jpg","../images/aroll.jpg");
+ 	var mapArray2= new Array("../images/I_text.jpg","../images/D_text.jpg","../images/E_text.jpg","../images/A_text.jpg");
+	preload_image_object = new Image();
+	preload_image_object2 = new Image();
+	var i = 0;
+	for(i=0; i<4; i++) {	
+		preload_image_object.src = mapArray[i];
+		preload_image_object2.src = mapArray2[i]; 
+	}
+	addLoadEvent(initIdea);
+	addLoadEvent(doHides);
+	
+function addLoadEvent(func) { 
+  	var oldonload = window.onload; 
+  	if (typeof window.onload != 'function') { 
+    	window.onload = func; 
+  	} else { 
+    	window.onload = function() { 
+      	oldonload(); 
+      	func(); 
+    } 
+  } 
+} 
+function initIdea(){
+	var thisSection = "i";
+	switch (thisSection){
+		case "i" : doRoll(0); break;
+		case "d" : doRoll(1); break;
+		case "e" : doRoll(2); break;
+		case "a" : doRoll(3); break;
+	}
+}	
+function doRoll(rollID){
+	document.images["inav"].src = "../images/i.jpg";
+	document.images["dnav"].src = "../images/d.jpg";
+	document.images["enav"].src = "../images/e.jpg";
+	document.images["anav"].src = "../images/a.jpg";
+	switch(rollID){
+		case 0 : document.images["inav"].src = mapArray[rollID]; break;
+		case 1 : document.images["dnav"].src = mapArray[rollID]; break;
+		case 2 : document.images["enav"].src = mapArray[rollID]; break;
+		case 3 : document.images["anav"].src = mapArray[rollID]; break;
+	}
+	document.images["ideatitle"].src = mapArray2[rollID];	
+} 	
+
+function toggle(id) {
+	var e = document.getElementById(id);
+	if(e.style.display == 'none') {
+		e.style.display = 'block';
+	} else {
+		e.style.display = 'none';
+	}
+}
+
+function doHides(){
+	toggle('notes1');
+}
+//--> 
+</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header1">
+	<div id="idea"><a href="i.html"><img src="../images/i.jpg" alt="Introduce" name="inav" width="24" height="58" hspace="0" vspace="0" border="0" id="inav" onmouseover="javascript:doRoll(0);" onmouseout="javascript:initIdea();" /></a><a href="d0.html"><img src="../images/d.jpg" alt="Discover" name="dnav" width="34" height="58" hspace="0" vspace="0" border="0" id="dnav" onmouseover="javascript:doRoll(1);" onmouseout="javascript:initIdea();" /></a><a href="e0.html"><img src="../images/e.jpg" alt="Engage" name="enav" width="29" height="58" hspace="0" vspace="0" border="0" id="enav" onmouseover="javascript:doRoll(2);" onmouseout="javascript:initIdea();" /></a><a href="a0.html"><img src="../images/a.jpg" alt="Apply" name="anav" width="48" height="58" hspace="0" vspace="0" border="0" id="anav" onmouseover="javascript:doRoll(3);" onmouseout="javascript:initIdea();" /></a><br />
+	  <img src="../images/A_text.jpg" name="ideatitle" width="135" height="40" hspace="0" vspace="0" border="0" id="ideatitle" /></div>
+	</div>
+	<div id="content">
+	<!-- START CONTENT -->
+	
+	<p>This section introduces you to the general features of <em>majalah  remaja Indonesia</em>. With a population of over 220 million, the  market for magazines in Indonesia  is huge. </p>
+	<p><a href="javascript:toggle('notes1');"><img src="../images/icon_culture96.jpg" alt="Cultural point, click to unhide or hide cultural notes." width="96" height="95" border="0" /></a></p>
+	<div class="yellowBox" id="notes1">
+	  <p>Even though magazines cost a fraction of what they do in Australia  (around 12 000 rupiah), they are still a costly luxury beyond the financial  capabilities of most Indonesians. (Check out <a href="http://www.xe.com/" target="_blank">http://www.xe.com</a> for exchange rates.) As a result, there is an enormous market for magazines  produced on newsprint rather than glossy paper, which are much cheaper. Online  magazines or even television shows following a magazine format are also  popular, as they cost nothing extra to those people who have access to a  television or the Internet.</p>
+	  <p> Magazines in Indonesia  are produced mostly in Jakarta and other big  cities like Yogyakarta and Surabaya,  where the biggest markets are. Both the content of the magazines, and the sort  of language used, reflect the interests and language of people in these cities.&nbsp; Therefore, it is important to realise that  magazines are &lsquo;Jakarta-centric&rsquo;. There are attempts to represent and include  people living outside Jakarta, but there is a  definite Jakarta  bias first, and secondly, a Java bias. (Java is the most densely populated  island in the world.)</p>
+	  <p> However, because the big media companies broadcast across  all of Indonesia  &ndash; television and radio having a broader reach and appeal than magazines &ndash; there  is a radiating effect. The language and interests represented in the media have  spread throughout other areas of Indonesia, so slang phrases that used to be heard  only in Jakarta are now heard all over Indonesia. Slang varies from region to  region (just as Australian English has different colloquialisms from UK  English, American English, or South African English) and with over 700  different languages spoken throughout Indonesia, there is a huge variety  of regional slang. </p>
+	</div>
+	<p>This topic covers the basics of colloquial Indonesian that  is used in magazines and other popular media, and by teenagers and close  acquaintances in their 20s and 30s. Without a knowledge of the basics of  Indonesian slang, it can be difficult to read or understand popular texts and  everyday conversation. However, you do not necessarily have to be able to speak  slang yourself. It is important to know when and where it is appropriate to use  slang. For example:</p>
+	
+	  <ul>
+        <li>Spoken Indonesian is different from written  Indonesian. (This is not too difficult &ndash; in English, you write a bit  differently than you speak, &lsquo;donchya&rsquo;?).</li>
+        <li>The language you use differs according to the <strong>context  of communication. &nbsp;</strong>(The context of communication refers to both  the situation in which the communication occurs and the type of communication.  For example, you speak to your teacher differently than you do to your  friends; you use different language writing an essay to the language you use  when writing an SMS to your friends).</li>
+      </ul>
+	  
+	<h3>Outcomes</h3>
+	<ul>
+	  <li>You will be able to recognise and understand  some common <acronym title="slang/colloquial language">bahasa gaul</acronym>  words. </li>
+	  <li>You will be able to differentiate between <acronym title="colloquial language">bahasa gaul</acronym>   and <acronym title="formal language">bahasa baku</acronym>.</li>
+	  <li>You will be able to choose the appropriate <strong>register</strong> (the level of language used, such as formal or informal) for a situation.</li>
+	  <li>You will consolidate strategies for reading  texts.</li>
+	  <li>You will form an impression of the interests and  identity of Indonesian teenagers.</li>
+	  </ul>
+	<h3>You will engage with the following text types:</h3>
+	<ul>
+	  <li>magazine covers</li>
+	  <li>contents pages</li>
+	  <li>SMS.</li>
+	  </ul>
+
+	<!-- END CONTENT -->
+	</div>
+	<div id="footer">
+	</div>
+</div>
+<br />&nbsp;
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Dove sei andata ieri sera, Giorgia? (alla festa di Massimo)</p></question>
+			<feedback><p><b>Sono andata alla festa di Massimo.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>A che ora sono arrivate le ragazze a scuola stamattina? (alle otto)</p></question>
+			<feedback><p><b>Sono arrivate alle otto.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Dario, con chi hai parlato al telefono ieri sera? (con Pia)</p></question>
+			<feedback><p><b>Ho parlato con Pia.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Ragazzi, dove siete stati sabato sera? (al cinema)</p></question>
+			<feedback><p><b>Siamo stati al cinema.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Cosa avete mangiato per colazione domenica? (le uova e la pancetta)</p></question>
+			<feedback><p><b>Abbiamo mangiato le uova e la pancetta.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

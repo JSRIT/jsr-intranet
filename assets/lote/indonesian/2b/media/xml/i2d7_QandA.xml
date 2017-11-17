@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="E9E2B9" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="FFFFFF" />
+		<answewrFontColor reqColor="FFFFFF" />
+		<questBackingColor reqColor="ABA480" />
+		<ansBackingColor reqColor="ABA480" />
+		<feedbackBackingColor reqColor="ABA480" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="FF9900" />
+		<buttonRolloverColor reqColor="FFCA0C" />
+		<buttonFontColor reqColor="635329" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question>
+				<p>Orang yang dicari harus bersifat disiplin.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The person who is sought (by an unnamed person/company) must have a disciplined nature.</p>			
+				<br />
+				<p></p>			
+				<br />
+				<p></p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Saya seorang yang dapat diandalkan.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>I am a person who can be relied on (by others – this is why it is third person).</p>
+
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Pelanggan yang dilayani kebanyakannya orang asing.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The customers who are served are mostly foreigners.</p>			
+				<br />
+					
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Biasanya, Anda harus diwawancarai sebelum mendapat pekerjaan.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Usually, you have to be interviewed (by someone) before getting a job.</p>
+			</feedback>
+		</answer>
+			
+	</answers>
+</enterAnswer>

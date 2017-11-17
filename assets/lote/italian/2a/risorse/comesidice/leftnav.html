@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Come si dice left navigation</title>
+<style type="text/css">
+<!--
+div#menu1,div#menu2,div#menu3,div#menu4,div#menu5,div#menu6 {
+	margin: 0px 0px 0px 0px;
+	display: none;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+a:link {
+	color: #339900;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #339900;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #339900;
+}
+-->
+</style>
+<script language="JavaScript" type="text/javascript">
+function toggleLayer(whichLayer) {
+	if (document.getElementById){
+		var style2 = document.getElementById(whichLayer).style;
+		style2.display = style2.display? "":"block";
+	} else if (document.all){
+		var style2 = document.all[whichLayer].style;
+		style2.display = style2.display? "":"block";
+	} else if (document.layers){
+		var style2 = document.layers[whichLayer].style;
+		style2.display = style2.display? "":"block";
+	}
+}
+</script>
+</head>
+
+<body>
+<p><a href="intro.html" target="mainFrame"><img src="images/comesidice.gif" width="58" height="58" alt="Come si dice?" border="0" /></a></p>
+ 	<a href="1_mesi.html" target="mainFrame">I mesi dell'anno</a><br />
+ 	<a href="2_nazionalita.html" target="mainFrame">Le nazionalità</a><br />
+ 	<a href="3_come_sei.html" target="mainFrame">Come sei?</a><br />
+ 	<a href="4_zodiaco.html" target="mainFrame">I segni dello zodiaco</a><br />		
+ 	<a href="5_falsi.html" target="mainFrame">Falsi amici</a><br />		
+<p>&nbsp; </p>
+</body>
+</html>

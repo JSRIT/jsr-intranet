@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>jsNav 0.1</title>
+<script type="text/javascript" src="script/prototype.lite.js"></script>
+<script type="text/javascript" src="script/moo.fx.js"></script>
+<script type="text/javascript" src="script/moo.fx.pack.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/flashembed.js"></script>
+<script type="text/javascript">
+function init(){
+	var stretchers = document.getElementsByClassName('box');
+	var toggles = document.getElementsByClassName('tab');
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: true, height: true, duration: 500}
+	);
+	//hash functions
+	var found = false;
+	toggles.each(function(h3, i){
+		var div = Element.find(h3, 'nextSibling');
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(div);
+				found = true;
+			}
+		});
+		if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+}
+</script>
+<style type="text/css">
+p{
+	margin: 0;
+	padding: 5px;
+	line-height: 1.5em;
+	text-align: justify;
+	border: 1px solid #73A405;
+}
+#wrapper{
+	width: 180px;
+	margin: 0 auto;
+}
+.box{
+	background: #fff;
+}
+.boxholder{
+	clear: both;
+	padding: 2px;
+	background: #8DC70A;
+	border-bottom: 1px solid #ffffff;
+}
+.tab{
+	font-weight: normal;
+	padding: 2px 0px 5px 2px;	
+}
+.lighttab{
+clear:both;
+	width: 178px;
+	font-weight: normal;
+	background-color: #CC0000;
+	/*padding: 2px 0px 5px 2px; */
+	padding: 2px;
+	border-bottom: 1px solid #ffffff;
+}
+.lighttabtxt{
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 2px 0 0 0;
+}
+.tabtxt{
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 2px 0 0 0;
+}
+.tabtxt a { color: #ffffff; }
+
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.button {
+	width: 98%;
+	/* border-right: 1px solid #000; */
+	padding: 0 0 1em 0;
+	margin-bottom: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Grande',
+	  Verdana, Lucida, Geneva, Helvetica, 
+	  Arial, sans-serif;
+	background-color: #ffffff;
+	color: #333;
+	}
+.button ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+		
+.button li {
+		border-bottom: 1px solid #cccccc;
+		margin: 0;
+	}	
+.button li a {
+		display: block;
+		padding: 5px 5px 5px 0.5em;
+		/*border-left: 10px solid #ffffff; */
+		background-color: #ffffff;
+		color: #666666;
+		text-decoration: none;
+		width: 100%;
+	}
+
+	html>body .button li a {
+		width: auto;
+	}
+
+	.button li a:hover {
+		/* border-left: 10px solid #f0f0f0; */
+		
+		background-color: #f5f5f5;
+		color: #333333;
+	}	
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+</head>
+
+<body>
+<a href="../index.html"><img src="../images/header.jpg" alt="Italian 1A logo" width="170" height="81" hspace="0" vspace="0" border="0" /></a>
+<div id="wrapper">
+<div class="lighttab">
+<span class="lighttabtxt"><a href="#">Voglia d'amicizia</a></span></div>
+<div class="boxholder">
+	<div class="tab">
+	  <h3 class="tabtxt" title="uno"><a href="#">Incontri </a></h3>
+	</div>
+		<div class="box">
+			<div class="button">
+			<ul>
+				<li><a href="../a1.1.html" target="mainFrame">Activity 1</a></li>
+				<li><a href="../a1.2.html" target="mainFrame">Activity 2</a></li>
+				<li><a href="../a1.3.html" target="mainFrame">Activity 3</a></li>
+				<li><a href="../a1.4.html" target="mainFrame">Activity 4</a></li>
+				<li><a href="../a1.5.html" target="mainFrame">Activity 5</a></li>
+				<li><a href="../a1.6.html" target="mainFrame">Activity 6</a></li>
+				<li><a href="../a1.7.html" target="mainFrame">Activity 7</a></li>
+				<li><a href="../a1.8.html" target="mainFrame">Activity 8</a></li>
+				<li><a href="../a1.9.html" target="mainFrame">Activity 9</a></li>
+				<li><a href="../a1.10.html" target="mainFrame">Activity 10</a></li>
+				<li><a href="../a1.11.html" target="mainFrame">Activity 11</a></li>
+				<li><a href="../a1.extra.html" target="mainFrame">Extra</a></li>
+				<li><a href="../a1.perfinire.html" target="mainFrame">Per Finire</a></li>
+			</ul>
+			</div>
+		</div>
+  </div>
+<div class="boxholder">
+
+	<div class="tab">
+	  <h3 class="tabtxt" title="ee"><a href="#">Conosciamoci </a></h3>
+	</div>
+		<div class="box">
+			<div class="button">
+			<ul>
+				<li><a href="../a2.1.html" target="mainFrame">Activity 1</a></li>
+				<li><a href="../a2.2.html" target="mainFrame">Activity 2</a></li>
+				<li><a href="../a2.3.html" target="mainFrame">Activity 3</a></li>
+				<li><a href="../a2.4.html" target="mainFrame">Activity 4</a></li>
+				<li><a href="../a2.5.html" target="mainFrame">Activity 5</a></li>
+				<li><a href="../a2.6.html" target="mainFrame">Activity 6</a></li>
+				<li><a href="../a2.7.html" target="mainFrame">Activity 7</a></li>
+				<li><a href="../a2.8.html" target="mainFrame">Activity 8</a></li>
+				<li><a href="../a2.9.html" target="mainFrame">Activity 9</a></li>
+				<li><a href="../a2.10.html" target="mainFrame">Activity 10</a></li>
+				<li><a href="../a2.11.html" target="mainFrame">Activity 11</a></li>
+				<li><a href="../a2.12.html" target="mainFrame">Activity 12</a></li>
+				<li><a href="../a2.extra.html" target="mainFrame">Extra</a></li>
+				<li><a href="../a2.perfinire.html" target="mainFrame">Per Finire</a></li>
+			</ul>
+			</div>
+		</div>
+  </div>
+
+<div class="boxholder">
+	<div class="tab">
+	  <h3 class="tabtxt" title="ww"><a href="#">Amori.. ma non solo </a></h3>
+	</div>
+		<div class="box">
+			<div class="button">
+			<ul>
+				<li><a href="../a3.1.html" target="mainFrame">Activity 1</a></li>
+				<li><a href="../a3.2.html" target="mainFrame">Activity 2</a></li>
+				<li><a href="../a3.3.html" target="mainFrame">Activity 3</a></li>
+				<li><a href="../a3.4.html" target="mainFrame">Activity 4</a></li>
+				<li><a href="../a3.5.html" target="mainFrame">Activity 5</a></li>
+				<li><a href="../a3.6.html" target="mainFrame">Activity 6</a></li>
+				<li><a href="../a3.7.html" target="mainFrame">Activity 7</a></li>
+				<li><a href="../a3.8.html" target="mainFrame">Activity 8</a></li>
+				<li><a href="../a3.9.html" target="mainFrame">Activity 9</a></li>
+				<li><a href="../a3.10.html" target="mainFrame">Activity 10</a></li>
+				<li><a href="../a3.11.html" target="mainFrame">Activity 11</a></li>
+				<li><a href="../a3.12.html" target="mainFrame">Activity 12</a></li>
+				<li><a href="../a3.extra.html" target="mainFrame">Extra</a></li>
+				<li><a href="../a3.perfinire.html" target="mainFrame">Per Finire</a></li>
+			</ul>
+			</div>
+		</div>
+  </div>		
+
+<div class="lighttab">
+<h3 class="tabtxt"><a href="#">Il mio mondo il tuo mondo</a></h3>
+</div>
+
+<div class="boxholder">
+
+	<div class="tab">
+	  <h3 class="tabtxt" title="ee"><a href="#">Dove abito</a></h3>
+	</div>
+		<div class="box">
+			<div class="button">
+			<ul>
+				<li><a href="../b1.1.html" target="mainFrame">Activity 1</a></li>
+				<li><a href="../b1.2.html" target="mainFrame">Activity 2</a></li>
+				<li><a href="../b1.3.html" target="mainFrame">Activity 3</a></li>
+				<li><a href="../b1.4.html" target="mainFrame">Activity 4</a></li>
+				<li><a href="../b1.5.html" target="mainFrame">Activity 5</a></li>
+				<li><a href="../b1.extra.html" target="mainFrame">Extra</a></li>
+				<li><a href="../b1.perfinire.html" target="mainFrame">Per Finire</a></li>
+			</ul>
+			</div>
+		</div>
+  </div>
+  
+<div class="boxholder">
+
+	<div class="tab">
+	  <h3 class="tabtxt" title="ee"><a href="#">Il mio spazio personale</a></h3>
+	</div>
+		<div class="box">
+			<div class="button">
+			<ul>
+				<li><a href="../b2.1.html" target="mainFrame">Activity 1</a></li>
+				<li><a href="../b2.2.html" target="mainFrame">Activity 2</a></li>
+				<li><a href="../b2.3.html" target="mainFrame">Activity 3</a></li>
+				<li><a href="../b2.4.html" target="mainFrame">Activity 4</a></li>
+				<li><a href="../b2.5.html" target="mainFrame">Activity 5</a></li>
+				<li><a href="../b2.6.html" target="mainFrame">Activity 6</a></li>
+				<li><a href="../b2.7.html" target="mainFrame">Activity 7</a></li>
+				<li><a href="../b2.extra.html" target="mainFrame">Extra</a></li>
+				<li><a href="../b2.perfinire.html" target="mainFrame">Per Finire</a></li>
+			</ul>
+			</div>
+		</div>
+  </div>
+  
+<div class="boxholder">
+
+	<div class="tab">
+	  <h3 class="tabtxt" title="ee"><a href="#">Cosa c'e da fare e vedere?</a></h3>
+	</div>
+		<div class="box">
+			<div class="button">
+			<ul>
+				<li><a href="../b3.1.html" target="mainFrame">Activity 1</a></li>
+				<li><a href="../b3.2.html" target="mainFrame">Activity 2</a></li>
+				<li><a href="../b3.3.html" target="mainFrame">Activity 3</a></li>
+				<li><a href="../b3.4.html" target="mainFrame">Activity 4</a></li>
+				<li><a href="../b3.5.html" target="mainFrame">Activity 5</a></li>
+				<li><a href="../b3.6.html" target="mainFrame">Activity 6</a></li>
+				<li><a href="../b3.7.html" target="mainFrame">Activity 7</a></li>
+				<li><a href="../b3.8.html" target="mainFrame">Activity 8</a></li>
+				<li><a href="../b3.9.html" target="mainFrame">Activity 9</a></li>
+				<li><a href="../b3.10.html" target="mainFrame">Activity 10</a></li>
+				<li><a href="../b3.extra.html" target="mainFrame">Extra</a></li>
+				<li><a href="../b3.perfinire.html" target="mainFrame">Per Finire</a></li>
+			</ul>
+			</div>
+		</div>
+  </div>    
+
+<div class="boxholder">
+	<div class="tab">
+	  <h3 class="tabtxt" title="qq"><a href="#">resources</a></h3>
+	</div>
+		<div class="box">
+<div class="button">
+<ul>
+	<li><a href="javascript:void(0);" onclick="centredWindow('../comesidice/index.html','720','480','comesidice')">Come si dice</a></li>
+	<li><a href="javascript:void(0);" onclick="centredWindow('../linguistici/index.html','700','550','linguistici')">Linguistic elements</a></li>
+	<li><a href="javascript:void(0);" onclick="centredWindow('../culturali/index.html','700','480','comesidice')">Elementi Culturali</a></li>
+</ul>
+</div>
+		</div>
+  </div>
+
+</div>
+<script type="text/javascript">
+	 Element.cleanWhitespace('wrapper');
+	init();
+</script>
+</body>
+</html>

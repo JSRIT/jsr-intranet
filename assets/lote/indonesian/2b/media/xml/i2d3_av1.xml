@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist>
+	<mp3file title="1" belongsTo="1">../media/audio/indo2b_idea2-1-01.mp3</mp3file>
+	<mp3file title="2" belongsTo="2">../media/audio/indo2b_idea2-1-02.mp3</mp3file>
+	<mp3file title="3" belongsTo="3">../media/audio/indo2b_idea2-1-03.mp3</mp3file>
+	<mp3file title="4" belongsTo="4">../media/audio/indo2b_idea2-1-04.mp3</mp3file>
+	<mp3file title="5" belongsTo="5">../media/audio/indo2b_idea2-1-05.mp3</mp3file>
+	
+</playlist>

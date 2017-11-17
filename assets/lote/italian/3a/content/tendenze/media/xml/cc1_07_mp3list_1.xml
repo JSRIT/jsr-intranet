@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Audio CD – Track ?">
+	<mp3file title="DJ">../media/audio/a01_a1_01.mp3</mp3file>
+	<mp3file title="Chiara">../media/audio/a01_a1_02.mp3</mp3file>
+	<mp3file title="Riccardo">../media/audio/a01_a1_03.mp3</mp3file>
+	<mp3file title="I gemelli">../media/audio/a01_a1_04.mp3</mp3file>
+	<mp3file title="DJ">../media/audio/a01_a1_05.mp3</mp3file>
+</playlist>

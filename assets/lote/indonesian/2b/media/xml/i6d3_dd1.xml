@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dragon3>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="00adef" rollOverColor="DEF1F2" fontColor="223542" />
+		<dropWaterMarks drop0="Kata kerja" drop1="Kata benda" drop2="" />
+		<openingText titleText="Bahasa baku dan bahasa gaul" />
+	</openingSettings>
+
+	<wordsList>
+		<word txtNeeded="letusan" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="ledakan" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="meletus" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="meledak" correctPos0="0" correctPos1="-1"  correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="pengungsi" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="menderita" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="penderita" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="menyumbangkan" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="sukarelawan" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="sumbangan" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="kehancuran" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="dihancurkan" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+	</wordsList>
+
+</dragon3>

@@ -1,0 +1,132 @@
+/* Splash page - CSS Document */
+
+img {
+	border: none;
+	}
+
+p {
+	font-size: 0.8em;
+	color: #666666;
+	line-height: 130%;
+}
+
+h1, h2, h3, h4, h5, p, #footer, .rightBox {font-family: Arial, Helvetica, sans-serif;}
+
+
+h1 {margin: 5px 0 0 0;font-size: 1.2em;}
+h2 {margin: 5px 0 0 0;font-size: 1.1em;}
+h3 {margin: 3px 0 0 0;font-size: 0.9em;}
+h4 {margin: 3px 0 0 0;font-size: 0.8em;}
+h5 {margin: 3px 0 0 0;font-size: 0.7em;}
+
+body {
+	padding:0px;
+	text-align: center;
+}
+
+#container {
+	margin:35px auto;
+	text-align: left;
+	width: 750px;
+}
+html>body #container {
+    height: auto;
+	}
+
+#header, #content, #footer {
+	float: left;
+	width: 100%;
+}
+
+#header {
+	height: 80px;
+}
+.leftBox {
+	width: 199px;
+	float: left;
+}
+.midBox {
+	width: 342px;
+	float: left;
+	color: #999;
+	line-height: 130%;
+}
+.rightBox{
+	text-align: right;
+	width: 120px;
+	float: right;
+	font-size: 14px;
+	color: #999;
+	line-height: 130%;
+}
+
+#content {
+	margin: 10px 0 0 0;
+	height: auto;
+}
+.placeHolder {
+	width: 342px;
+	padding: 0;
+	float: left;
+}
+.footer {
+	clear: both;
+	height: 45px;
+	text-align:center;
+	padding: 10px 0 0 0;
+	font-size: 0.9em;
+	color: #666;
+}
+
+#enterButton
+{
+	background-image:url(../images/careers_enter_arrows.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	height: 50px;
+	padding-right:50px;
+	margin-top:-10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size: 1.1em;
+	float:right;
+	top:50px;
+}
+
+
+#enterButton a{
+	color: #ED2126;
+	text-decoration:underline;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#enterButton a.active{
+	color: #ED2126;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#enterButton a:hover{
+	color: #ED2126;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+	color: #666666;
+}
+a:hover {
+	color: #666666;
+	text-decoration:none;
+}
+a:visited {
+	color: #666666;
+}
+a:active {
+
+}
+.titleText {
+	padding-left:200px;
+	color: #999;
+}
+
+.middlePanel {
+	padding-top:10px;
+}

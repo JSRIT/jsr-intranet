@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Ci piace andare al cinema.</p></question>
+			<feedback><p><b>A noi piace andare al cinema.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Vi piace andare alle feste?</p></question>
+			<feedback><p><b>A voi piace andare alle feste.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Ti piace uscire sabato sera?</p></question>
+			<feedback><p><b>A te piace uscire sabato sera?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Gli (he) piace molto ballare.</p></question>
+			<feedback><p><b>A lei piace molto ballare.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Le piace l%E2%80%99arte da morire. </p></question>
+			<feedback><p><b>A lei piace l%E2%80%99arte da morire.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Gli (they) piace andare in centro.</p></question>
+			<feedback><p><b>A loro piace andare in centro.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

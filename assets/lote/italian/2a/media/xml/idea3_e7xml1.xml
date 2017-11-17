@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Radio Giovanni">
+	<mp3file title="DJ Valentino">../media/audio/3e7_01.mp3</mp3file>
+	<mp3file title="Sara">../media/audio/3e7_02.mp3</mp3file>
+	<mp3file title="Marco">../media/audio/3e7_03.mp3</mp3file>
+	<mp3file title="Chiara">../media/audio/3e7_04.mp3</mp3file>
+</playlist>

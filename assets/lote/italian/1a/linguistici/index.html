@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Elementi Linguistici</title>
+<script language="javascript">
+var fname="mainFrame";     
+window.onload=function(){
+var d=document.location.search;
+if(d!=''){
+loadPage='';
+param=d.substring(d.lastIndexOf('?')+1,d.length);
+switch(param){
+	case 'alfabeto' 	: loadPage='01_alfabeto.html'; break;
+	case 'cometichiami'	: loadPage='02_cometichiami.html'; break;
+	case 'comestai' 	: loadPage='03_comestai.html'; break;
+	case 'are_verbs' 	: loadPage='04_are_verbs.html'; break;
+	case 'ere_verbs'	: loadPage='05_ere_verbs.html'; break;
+	case 'ire_verbs'	: loadPage='06_ire_verbs.html'; break;
+	case 'negatives' 	: loadPage='07_negatives.html'; break;
+	case 'essere'	 	: loadPage='08_essere.html'; break;
+	case 'avere' 		: loadPage='09_avere.html'; break;
+	case 'fare' 		: loadPage='10_fare.html'; break;
+	case 'andare' 		: loadPage='11_andare.html'; break;
+	case 'domande'		: loadPage='12_domande.html'; break;
+	case 'nationality' 	: loadPage='13_nationality.html'; break;
+	case 'mipiace' 		: loadPage='14_mipiace.html'; break;
+	case 'gender_sing' 	: loadPage='15_gender_sing.html'; break;
+	case 'gender_plur' 	: loadPage='16_gender_plur.html'; break;
+	case 'determinativo'	: loadPage='17_determinativo.html'; break;
+	case 'indeterminativo' 	: loadPage='18_indeterminativo.html'; break;
+
+	case 'adj_singular'		: loadPage='19_adj_singular.html'; break;
+	case 'adj_plural' 		: loadPage='20_adj_plural.html'; break;
+	case 'preposizioni_sem'	: loadPage='21_preposizioni_sem.html'; break;
+	case 'preposizioni_artic'	: loadPage='22_preposizioni_artic.html'; break;
+	case 'possessivo_sing'	 	: loadPage='23_possessivo_sing.html'; break;
+}
+	if(loadPage!='') {	top.frames[fname].document.location.href=loadPage; }
+}
+}
+</script>
+</head>
+
+<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0">
+  <frame src="leftnav.html" name="leftFrame" scrollbar="yes" scrolling="auto" noresize="noresize" id="leftFrame" title="leftFrame" />
+  <frame src="intro.html" name="mainFrame" id="mainFrame" scrollbar="yes" scrolling="auto" title="mainFrame" />
+</frameset>
+
+<noframes>
+<body>
+You need a browser which supports frames to view this page.
+</body>
+</noframes>
+</html>

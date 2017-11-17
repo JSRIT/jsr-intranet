@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- we need MOTW on this page so the active content will work -->
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="css/before.css" />
+<title>Before you begin requirements</title>
+<script src="js/checker.js" type="text/javascript" ></script>
+<script src="../../../../../italian/1b/scripts/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function sp2check() {
+	//are we running in IE6 SP2?
+	if(window.navigator.userAgent.indexOf("SV1") != -1) {
+		//if so show the IE warning layer and instructions
+		document.getElementById("blockerlink").style.display = "block";
+		document.getElementById("blockerinst").style.display = "block";
+	}
+}
+// set the version numbers here.
+var whatsTheFlashVersion = 7;
+var whatsTheDirectorVersion = 8;
+var whatsTheAcrobatVersion = 6;
+var whatsTheQuicktimeVersion = 6;
+// is the detection needed for each section.
+var isFlashNeeded = true;
+var isDirectorNeeded = false;
+var isAcrobatNeeded = true;
+var isQuickTimeNeeded = true;
+var haveAllPassed = 0;
+</script>
+</head>
+<body onload="sp2check();">
+<noscript>
+<p align="center" class="noscript">You dont have Javascript enabled, you will need this in order to run the multimedia interactions in this unit.</p>
+</noscript>
+<div id="blockerlink"><a href="#sp2blocker">Click here to read important information regarding your browser and this product.</a></div>
+<table width="90%" cellpadding="5" cellspacing="5" border="0">
+  <tr>
+    <td width="70%"><a name="before" /><h2>Before you begin</h2>
+      <p>Minimum requirements for using this resource:</p>
+      <h3>Hardware</h3>
+      <ul>
+        <li>IBM compatible computer</li>
+        <li>600 MHz Pentium III processor</li>
+        <li>Sound card and speakers/headphones</li>
+        <li>128 Mb available RAM</li>
+        <li>1024 x 768 display (Minimum)</li>
+        <li>16-bit colour display</li>
+        <li>or a Macintosh&reg; equivalent</li>
+      </ul>
+      <p>You will also need a printer if you wish to print any of the information in this resource.</p>
+      <br />
+      <h3>Software</h3>
+      <p>You will also need the following software installed in your computer:</p>
+      <ul>
+        <li> An Internet browser such as:
+          <ul>
+            <li>Microsoft&reg; Internet Explorer 6.0+, or</li>
+            <li>Netscape&reg; 7.x+, or</li>
+            <li>Mozilla&reg; 1.x+, or</li>
+            <li>Firefox&reg; 1.5+</li>
+          </ul>
+        </li>
+		<li>Microsoft&reg; Word '97+</li>
+      </ul>
+      </td>
+	  <td valign="top"><a href="#results">Show test results</a></td>
+  </tr>
+</table>
+<script type="text/javascript">
+
+document.writeln('<table width="90%" cellpadding="5" cellspacing="5" border="0">');
+document.writeln('	<tr>');
+document.writeln('		<td class="headingBackground" colspan="2" valign="top"><h3>Testing your machine now...<\/h3><\/td>');
+document.writeln('	<\/tr>');
+document.writeln('	<tr>');
+document.writeln('		<td><a name="results"><p>Your Operating System<\/p><\/a><\/td>');
+document.writeln('		<td width="35%">'+getOperatingSystem()+'<\/td>');
+document.writeln('	<\/tr>');
+document.writeln('	<tr>');
+document.writeln('		<td><p>Your Browser<\/p><\/td>');
+document.writeln('		<td>'+getBrowser()+'<\/td>');
+document.writeln('	<\/tr>');
+if (isFlashNeeded) {
+	document.writeln('	<tr>');
+	document.writeln('		<td class="headingBackground" colspan="2" valign="top"><h4>Testing your verion of Adobe&reg; Flash&reg; player<\/h4><\/td>');
+	document.writeln('	<\/tr>');
+	document.writeln('	<tr>');
+	document.writeln('		<td>');
+								var requiredVersion = whatsTheFlashVersion;
+								var flashVersion = getFlashVersion();
+								document.writeln('<p>Flash player = <b>'+flashVersion+'<\/b>. Required version = '+requiredVersion+'.<\/p>');
+	document.writeln('		<\/td>');
+	document.writeln('		<td align="center">');
+								if (flashVersion >= 0 && flashVersion >= requiredVersion) {
+									document.writeln('<img src="images/tick.jpg" width="50" height="50" alt="Passed this test" />');
+									haveAllPassed++;
+								} else {
+							     	document.writeln('<p><a href="http://www.adobe.com/go/getflashplayer" target="_blank"><img src="images/get_flash_player.gif" width="88" height="31" alt="Get Flash Player" border="0" /><\/a><\/p>');
+								 }
+	document.writeln('		<\/td>');
+	document.writeln('	<\/tr>');
+}
+if (isAcrobatNeeded) {
+	document.writeln('	<tr>');
+	document.writeln('		<td class="headingBackground" colspan="2" valign="top"><h4>Testing your version of Adobe&reg; Acrobat&reg; Reader&trade;<\/h4><\/td>');
+	document.writeln('	<\/tr>');
+	document.writeln('	<tr>');
+	document.writeln('		<td>');
+								document.writeln("<p>Acrobat version = <b>" + getAcrobatVersion() + "<\/b>. Required version = " + whatsTheAcrobatVersion+".<\/p>");
+	document.writeln('		<\/td>');
+	document.writeln('		<td align="center">');
+								if(getAcrobatVersion() >= whatsTheAcrobatVersion) {
+									document.writeln('<img src="images/tick.jpg" width="50" height="50" alt="Passed this test" />');
+									haveAllPassed++;
+								} else {
+									document.writeln('<a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank"><img src="images/get_adobe_reader.gif" width="88" height="31" alt="Get Adobe&reg; Acrobat&reg; Reader(TM)" border="0" /><\/a>');
+								}
+	document.writeln('		<\/td>');
+	document.writeln('	<\/tr>');
+}
+if (isDirectorNeeded) {
+	document.writeln('	<tr>');
+	document.writeln('		<td class="headingBackground" colspan="2" valign="top"><h4>Testing your version of Adobe&reg; Director&reg;<\/h4><\/td>');
+	document.writeln('	<\/tr>');
+	document.writeln('	<tr>');
+	document.writeln('		<td>');
+								document.writeln("<p>Shockwave version = <b>"+getSWVersion() + "<\/b>. Required version = " +whatsTheDirectorVersion+".<\/p>");
+	document.writeln('		<\/td>');
+	document.writeln('		<td align="center">');
+								var quickTest = getSWVersion().toString();
+								var splitIt = quickTest.split(".");
+								if(splitIt[0] >= whatsTheDirectorVersion) {
+									document.writeln('<img src="images/tick.jpg" width="50" height="50" alt="Passed this test" />');
+									haveAllPassed++;
+								} else {
+									document.writeln('<a href="http://www.Adobe.com/go/getshockwaveplayer/" target="_blank"><img src="images/get_shock_player.gif" width="88" height="31" alt="Get Adobe&reg; Shockwave Player&reg;" border="0" /><\/a>');
+								}
+	document.writeln('		<\/td>');
+	document.writeln('	<\/tr>');
+}
+if (isQuickTimeNeeded) {
+	document.writeln('	<tr>');
+	document.writeln('		<td class="headingBackground" colspan="2" valign="top"><h4>Testing your version of Apple&reg; Quicktime&reg; Player<\/h4><\/td>');
+	document.writeln('	<\/tr>');
+	document.writeln('	<tr>');
+	document.writeln('		<td>');
+								document.writeln("<p>Quicktime&reg; version = <b>"+getQuickTimeVersion() + "<\/b>. Required version = " +whatsTheQuicktimeVersion+".<\/p>");
+	document.writeln('		<\/td>');
+	document.writeln('		<td align="center">');
+								var quickTimeTest = getQuickTimeVersion().toString();
+								var splitQuick = quickTimeTest.split(".");
+								if(splitQuick[0] >= whatsTheQuicktimeVersion) {
+									document.writeln('<img src="images/tick.jpg" width="50" height="50" alt="Passed this test" />');
+									haveAllPassed++;
+								} else {
+									document.writeln('<a href="http://www.apple.com/quicktime/download/standalone.html" target="_blank"><img src="images/getquicktime.gif" width="88" height="31" alt="Get Apple&reg; Quicktime&reg;Player" border="0" /><\/a>');
+								}
+	document.writeln('		<\/td>');	
+	document.writeln('	<\/tr>');
+}
+
+document.writeln('	<tr>');
+document.writeln('		<td colspan="3">');
+document.writeln('			<hr />');	
+
+
+document.writeln("<p class='passed' align='center'>If you don\'t have all green ticks above then you may need to update your plug-ins by clicking on the approprite link above or below.<\/p>");
+
+document.writeln('		<\/td>');
+document.writeln('	<\/tr>	');
+document.writeln('<\/table>');
+</script>
+<table width="90%" cellpadding="5" cellspacing="5" border="0">
+  <tr>
+    <td valign="top" width="30%"><p><a href="http://www.adobe.com/go/getflashplayer/" target="_blank"><img src="images/get_flash_player.gif" width="88" height="31" alt="Get Flash Player" border="0" /></a></p></td>
+    <td colspan="2"><p><a title="This link takes you to the Adobe&reg; web site so you can download the latest player (opens in a new window)" href="http://www.adobe.com/go/getflashplayer/" target="_blank">Adobe&reg; Flash Player&reg;</a></p>
+      <p>If you haven't got this plug-in, you can download the latest free version from the Adobe&reg; website.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="30%"><p><a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank"><img src="images/get_adobe_reader.gif" width="88" height="31" alt="Get Adobe&reg; Acrobat&reg; Reader&trade;" border="0" /></a></p></td>
+    <td colspan="2"><p><a title="This link takes you to the Adobe&reg; web site so you can download the latest player (opens in a new window)" href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Adobe&reg; Acrobat&reg; Reader&trade;</a></p>
+      <p>If you haven't got this plug-in, you can download the latest free version from the Adobe&reg; Acrobat&reg; website.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="30%"><p><a href="http://www.apple.com/quicktime/download/standalone.html" target="_blank"><img src="images/getquicktime.gif" width="88" height="31" alt="Get Apple&reg; Quicktime&reg; Player" border="0" /></a></p></td>
+    <td colspan="2"><p><a title="This link takes you to the Apple&reg; web site so you can download the latest player (opens in a new window)" href="http://www.apple.com/quicktime/download/standalone.html" target="_blank">Apple&reg; Quicktime&reg; Player</a></p>
+      <p>If you haven't got this plug-in, you can download the latest free version from the Apple&reg; website.</p></td>
+  </tr>
+</table>
+<div id="blockerinst">
+<a name="sp2blocker" />
+<h2>IE Content blocker removal</h2>
+<p>To ensure all interactive content in this product functions correctly, you will need to follow the following steps to disable Microsoft&reg; active content blocking. This will temporarily lower your browser's <em>local</em> security settings. <em><strong>This will not affect security for any content viewed from the Internet</strong></em>.</p>
+<p>An alternative to this process is to install and use an alternative browser such as <a href="http://www.getfirefox.com/" target="_blank">Mozilla&reg; Firefox&trade;</a>.</p>
+<br />
+	<ol>
+		<li>In Internet Explorer, select <strong><u>T</u>ools</strong> -> <strong>Internet <u>O</u>ptions...</strong>.<br /><img class="example"src="images/tools_options.jpg" alt="IE Tools menu and Options" width="178" height="215"/></li>
+		<li>Select the <strong>Advanced</strong> Tab.<br /><img class="example" src="images/advanced_tab.jpg" alt="image of options page showing advanced tab" width="405" height="191"/></li>
+		<li>Scroll down to the <strong>Security</strong> heading in the <strong><u>S</u>ettings</strong> window.</li>
+		<li>Place a check next to the two items: '<strong><em>Allow active content from CDs to run on My Computer</em></strong>' and '<strong><em>Allow active content to run in files on My Computer</em></strong>'<br /><img class="example" src="images/options_advanced.jpg" alt="image of advanced options page"  width="404" height="188" /></li>
+		<li>Click <strong>OK</strong> to exit options.</li>
+	</ol>
+<br />
+<p><strong><em>It is advised that you reverse the procedure shown here when you are finished using this product to maintain optimum Internet Explorer security levels.</em></strong></p>
+<p><a href="#before">Return to Top</a></p>
+</div>
+<br clear="all" />
+</body>
+</html>

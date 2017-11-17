@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>It is 6:40pm</p></question>
+			<feedback><p><b>Sono le diciotto e quaranta</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>It is 8:10am</p></question>
+			<feedback><p><b>Sono le otto e dieci</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>It is 11:20pm</p></question>
+			<feedback><p><b>Sono le ventitre e venti</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>It is 10:15am</p></question>
+			<feedback><p><b>Sono le dieci e quindici</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>It is 1:45am</p></question>
+			<feedback><p><b>%C3%88%20l%E2%80%99una e quarantacinque</b></p></feedback>
+		</answer>
+</enterAnswer>

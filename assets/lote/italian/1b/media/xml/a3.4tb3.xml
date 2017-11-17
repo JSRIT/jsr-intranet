@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Marco finishes school on 30 November. He and his friends want to go to a concert to celebrate. </p></question>
+			<feedback><p><b>Robbie Williams, il due dicembre</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Elena's birthday is in June. She is really happy that her favourite singer(s) is in town.</p></question>
+			<feedback><p><b>The Veronicas, il trenta giugno</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Robert will be in Milan in January. Which concert is he able to go to?</p></question>
+			<feedback><p><b>Eskimo Joe, il sette gennaio</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Jessica and her friends wish to go to a morning concert. </p></question>
+			<feedback><p><b>Missy Higgins, il diciotto luglio</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Simon will be in Perugia in February. Which concert can he go to?</p></question>
+			<feedback><p><b>U2, il ventisette febbraio</b></p></feedback>
+		</answer>
+</enterAnswer>

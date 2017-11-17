@@ -1,0 +1,44 @@
+/* CSS Document Italian 2a - Idea 1 */
+.BGBrowser {
+	background: url(../images/brws_bg.gif) repeat-y;
+	padding: 5px 15px;
+}
+* html .BGBrowser {
+	background-position: left top;
+	margin: 0px; padding: 5px 15px;
+}
+
+.chatroom {
+	background: url(../images/brws_bg.gif) repeat-y;
+	padding: 5px 15px;
+}
+* html .chatroom {
+	background-position: left top;
+	margin: 0px; padding: 5px 15px;
+}
+
+.bubble1, .bubble2 {
+	float:left;
+	padding: 25px 0 0 20px;
+	width: 155px;
+	height:135px;
+	background: url(../images/idea1/bubble1.gif) top left no-repeat;
+}
+
+.bubble2 {
+	background: url(../images/idea1/bubble2.gif) top left no-repeat;
+}
+
+.article {
+	background:url(../images/idea1/aw4.jpg) top left no-repeat;
+	padding: 120px 35px 25px 25px;
+	min-height: 347px;
+	margin-bottom: 20px;
+}
+* html .article {
+	height: 347px;
+}
+
+#ideaContent {
+	background:url(../images/idea1/idea1_bott.jpg) bottom right no-repeat;
+}

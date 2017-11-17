@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>What do teenagers prefer to do when they have free time?</p></question>
+			<feedback><p><b>They prefer to be together with friends.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What do they do when they are with friends?</p></question>
+			<feedback><p><b>They go to the city, the cinema or eat out together. The more active ones do sports.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Which activities are nice to do at home with friends?</p></question>
+			<feedback><p><b>It is nice to listen to music or watch a DVD.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Which are popular weekend activities for friends?</p></question>
+			<feedback><p><b>Popular weekend activities are organising parties or going to the disco.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What are the ways of keeping in contact when teenagers are not together?</p></question>
+			<feedback><p><b>They speak on the phone, send text messages or write emails.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

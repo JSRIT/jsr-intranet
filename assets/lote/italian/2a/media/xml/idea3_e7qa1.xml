@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done. You have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Gioco a cricket. <i>(no longer)</i></p></question>
+			<feedback><p><b>Non gioco pi%C3%B9 a cricket.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Mangiamo al fast food. <i>(not at all)</i></p></question>
+			<feedback><p><b>Non mangiamo affatto al fast food.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>I miei amici vanno in motorino e in bicicletta. <i>(neither ... nor)</i> </p></question>
+			<feedback><p><b>I miei amici non vanno n%C3%A9 in motorino né in bicicletta.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Quando viaggio visito i musei. <i>(never)</i></p></question>
+			<feedback><p><b>Quando viaggio non visito mai i musei.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>La domenica la mamma fa colazione a letto. <i>(no longer)</i></p></question>
+			<feedback><p><b>La domenica la mamma non fa più colazione a letto.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Mi piace il nuovo ragazzo. <i>(at all)</i></p></question>
+			<feedback><p><b>Non mi piace affatto il nuovo ragazzo.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Durante le vacanze faccio molte cose. <i>(nothing)</i></p></question>
+			<feedback><p><b>Durante le vacanze non faccio niente.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

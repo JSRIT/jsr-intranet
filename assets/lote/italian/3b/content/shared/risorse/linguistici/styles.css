@@ -1,0 +1,142 @@
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+body {
+	color: #333333;
+	background-color: #ffffff;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 90%
+}
+
+abbr, acronym, .help {
+  	border-bottom: 1px dotted #333;
+ 	cursor: help; 
+  	background-color:#D4FD96;
+	font-style:italic;
+	line-height: 1.3em;
+}
+
+
+h2 {	font-size: medium;
+		font-weight: bold;
+		color: #CC0000;
+}
+
+h3 {	font-size: 14px;
+		font-weight: bold;
+		color: #009900;
+}
+
+.boldItal {
+	font-style:italic;
+	font-weight:bold;
+}
+
+p {	line-height: 135%;
+	font-size: 14px;
+}
+
+.greybg {	background-color: #f0f0f0; 
+			padding: 5px;
+			}
+
+.greybox {
+	background-color:#f0f0f0;
+	border-color: #333333;
+	border-style:dotted;
+	border-width: 1px;
+	padding: 10px;
+}
+.whitebox {
+	background-color:#ffffff;
+	border-color: #999999;
+	border-style:dotted;
+	border-width: 1px;
+	padding: 10px;
+}
+.redtxt { color: #FF3300; }
+.redtxtb { color: #FF3300; 
+		font-weight: bold;}
+		
+.greentxt { color: #00CC00;}	
+.greentxtb { color: #00CC00; 
+		font-weight: bold;}
+
+.greenbg { background-color:#00CC00; }
+.bluebg { background-color:#66CCFF; }		
+		
+.strkout { text-decoration:line-through; }
+
+.tab1 {	margin-left: 25px; }
+.tab2 {	margin-left: 50px; }
+
+.greyheadtbl {
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.greyheadtbl th {
+	background-color: #CCC;
+}
+.greyheadtbl td, .greyheadtbl th {
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	vertical-align: top;
+}
+
+.hlight { background-color:#FF9; }
+td.hlight  { 
+	vertical-align: top;
+}
+
+#avvo_left { background:url(images/bubble_left.gif) center no-repeat; }
+#avvo_right {
+	background:url(images/bubble_right.gif) left no-repeat;
+	padding-left:50px; 
+}
+#cnote {
+	width:300px;
+	margin:auto;
+}
+#cnote ul { padding: 10px; margin: 0 0 0 10px; }
+
+#berti_left { background:url(images/berti_left.gif) 10px 10px no-repeat; }
+#berti_right { background:url(images/berti_right.gif) 10px 10px no-repeat; }
+#berti_left_txt { padding: 10px; display:block; }
+#berti_right_txt { padding: 10px; display:block; }
+
+
+.box {
+	border: 1px solid green;
+	padding: 10px 10px 10px 10px;
+	min-height: 75px;
+}
+* html .box {
+	height: 75px;
+}
+
+.box.att {
+	background: url(../../../../../../../../italian/3b/content/shared/images/icons/icon3.gif) no-repeat;
+	background-position: 15px;
+	padding: 5px 5px 5px 85px;
+}
+
+.ita {
+	font-style:italic;
+	font-weight: bold;
+}
+
+.tab1, a.tab1 {	margin-left: 25px; }
+.tab1_5, a.tab1_5 {	margin-left: 35px; }
+.tab2, a.tab2 {	margin-left: 50px; }
+.tab3, a.tab3 {	margin-left: 75px; }
+
+.ttop {
+	vertical-align: top;
+	text-align:left;
+}

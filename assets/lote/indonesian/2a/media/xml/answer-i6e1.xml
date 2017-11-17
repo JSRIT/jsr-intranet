@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="E9E2B9" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="FFFFFF" />
+		<answewrFontColor reqColor="FFFFFF" />
+		<questBackingColor reqColor="ABA480" />
+		<ansBackingColor reqColor="ABA480" />
+		<feedbackBackingColor reqColor="ABA480" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="FF9900" />
+		<buttonRolloverColor reqColor="FFCA0C" />
+		<buttonFontColor reqColor="635329" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question>
+				<p>What two things does Brendon want to know?</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Bagaimana cara telepon / how to make a phone call.
+Bagaimana titip pesan / how to leave a message.
+</p>			
+				<br />
+				<p></p>			
+				<br />
+				<p></p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>What suggestions are made for speaking to people who you do not know or who are older?</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Pakai bahasa yang baku dan benar (Use formal and correct language)</p>
+                <p>Pakai sapaan Ibu/Bapak/Anda (Use the terms of address Ibu/Bapak/Anda)</p>
+                <p>Sikapnya harus sopan santun (your attitude/demeanour should be polite)</p>
+                <p>Pakai frasa 'boleh saya bicara dengan' atau 'tolong' (use phrases like 'may I' or 'please')
+</p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Why does Rizky say Brendon should use "Boleh saya bicara dengan" instead of "Saya mau berbicara dengan"?</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Kedengaran agak tidak sopan kalau bilang 'Saya mau bicara dengan'. (It sounds rather impolite to say 'I want to talk to').</p>			
+				<br />
+					
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>What does Vita say about talking to your friends?</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Lain kalau ngomong sama teman, bisa pakai bahasa gaul, nggak apa2. (It's different if you are talking to your friends, you can use slang, no worries).</p>
+			</feedback>
+		</answer>
+				<answer>
+			<question>
+				<p>What politeness conventions are demonstrated in the phone conversation Vita and Rizky enact for Brendon?</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Engages in small-talk first (Apa kabar? Kabar baik, bapak sendiri?)</p>
+                <p>Uses 'Pak'</p>
+                <p>She says 'bisa saya bicara dengan', not 'saya mau...' </p>
+                <p>Uses 'boleh'</p>
+                <p>Thanks him</p>
+			</feedback>
+		</answer>
+	</answers>
+</enterAnswer>

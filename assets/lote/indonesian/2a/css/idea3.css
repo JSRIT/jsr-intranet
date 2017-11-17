@@ -1,0 +1,110 @@
+
+/* Box styles */
+.article {
+	border-top: 1px dashed black;
+	border-right: 1px dashed black;
+	border-bottom: none;
+	border-left: 1px dashed black;	
+	padding: 5px;
+}
+
+#e1{
+	padding: 10px 35px 10px 10px;
+	background:url(../images/aw2_aw3.jpg) no-repeat;
+}
+#e2 {
+	padding: 10px 35px 10px 10px;
+	background:url(../images/idea3/aw4_aw5.jpg) no-repeat;
+}
+#e3 {
+	padding: 15px 35px 10px 10px;
+	background:url(../images/idea3/aw7_aw8_new.jpg) no-repeat;
+}
+#e8 {
+	padding: 15px 35px 10px 10px;
+	background:url(../images/aw7_aw8_new.jpg) no-repeat;
+}
+#e9  {
+	padding: 10px 35px 10px 10px;
+	background:url(../images/idea3/aw14_aw15.jpg) no-repeat;
+}
+
+#amore {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: none;
+	border-left: 1px solid black;
+	background-color:#FFFF99;
+	padding: 5px;
+	width:520px;
+}
+#amore_footer {
+	border: 1px solid black;
+	background-color:#FFCC99;	
+	padding: 5px;
+	width:520px;
+}
+
+/*
+#katia { background-color:#0C6; }	
+#giada { background-color:#9FC; }
+#giorgia { background-color:#CCC; }
+#paolo { background-color:#CFF; }
+#roberto { background-color:#FC9; }
+*/
+#stefano { /* background-color:#6CC; */ border-bottom: 1px dashed black; }
+#gruppo { /* background-color:#79C6FF; */ border-bottom: 1px dashed black; }
+
+.hl_blue {
+	padding: 2px;
+	background-color:#CCF;
+}
+
+.doublebdr {
+	padding: 5px;
+	background-color:#FF9;
+	border-top: 3px double green;
+	border-right: 3px double green;
+	border-bottom: none;
+	border-left: 3px double green;
+}
+.doublebdr_footer {
+	padding: 5px;
+	background-color:#C6F;
+	border-top: 1px dotted green;
+	border-right: 3px double green;
+	border-bottom: 3px double green;
+	border-left: 3px double green;
+	font-style:italic;
+	font-weight:bold;
+}
+
+/* other styles */
+#colorchart td { padding: 5px; }
+#violet { background-color: #642165; color: #FFF; }
+#plum { background-color: #9A3366; color: #FFF; }
+#burgundy { background-color: #981B1E; color: #FFF; }
+#dblue { background-color: #362063; color: #FFF; }
+#lilac { background-color: #A94499; color: #FFF; }
+#lavender { background-color: #B89BC9; color: #FFF; }
+#fuchsia { background-color: #C5268F; color: #FFF; }
+#hpink { background-color: #ED2690; color: #FFF; }
+#ppink { background-color: #F499C1; color: #FFF; }
+
+.box.purple { background-color: #B89BC9; }
+td.hidden { padding-top: 12px; }
+#ideaContent {
+	padding: 15px; margin: 0;
+	padding-bottom: 0;
+	min-height: 82px;
+	background:url(../images/border_idea.jpg) no-repeat;
+}
+* html #ideaContent {
+	height: 82px;
+}
+	
+#ideaWrapper {
+	padding:0; margin: 0;
+	width: 603px;
+	background:url(../images/border_bg_idea.jpg) repeat-y;
+}	

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="ffffff" />
+		<fontColor reqColor="223542" />
+		<buttonColors startColor="000000" rollOverColor="999999" fontColor="ffffff" />
+		<startText> </startText>
+		<openingText introText="Instructional text" />
+		<openingText titleText="Interaction Title" />
+	</openingSettings>
+	
+	<questions>
+		
+		<question>
+			<questionText>
+				<p>indo2b_idea2-2-01</p>
+			</questionText>
+			<answerText>
+				<p>Pelanggan seharusnya disambut dengan senyum manis.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>indo2b_idea2-2-02</p>
+			</questionText>
+			<answerText>
+				<p>Pelanggan harus diantarkan ke meja yang bersih di tempat yang paling cocok untuk keperluannya.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>indo2b_idea2-2-03</p>
+			</questionText>
+			<answerText>
+				<p>Pelanggan harus diberi daftar makanan, lalu ditanya apabila ada minuman yang diinginkannya.</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>indo2b_idea2-2-04</p>
+			</questionText>
+			<answerText>
+				<p>Makanan harus disampaikan dengan cepat.</p>
+				</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>indo2b_idea2-2-05</p>
+			</questionText>
+			<answerText>
+				<p>Pelanggan harus ditanya apabila makanan enak dan pelayanan memuaskan.</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>indo2b_idea2-2-06</p>
+			</questionText>
+			<answerText>
+				<p>Tangan harus dicuci sebelum shift mulai.</p>
+			</answerText>
+		</question>
+
+	</questions>
+</enterAnswer>

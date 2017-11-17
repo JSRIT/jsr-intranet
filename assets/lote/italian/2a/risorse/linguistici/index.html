@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Elementi Linguistici</title>
+<script language="javascript">
+var fname="mainFrame";     
+window.onload=function(){
+var d=document.location.search;
+if(d!=''){
+loadPage='';
+param=d.substring(d.lastIndexOf('?')+1,d.length);
+switch(param){
+	case'alfabeto'		:loadPage='01_alfabeto.html'; break;
+	case'cometichiami'  :loadPage='02_cometichiami.html'; break;
+	case'comestai'   	:loadPage='03_comestai.html'; break;
+	case'regolari'  	:loadPage='04_regolari.html'; break;
+	case'irregolari'  	:loadPage='08_irregolari.html'; break;
+	case'servili'  		:loadPage='08_irregolari.html#servili'; break;
+	case'impersonali'  	:loadPage='09_esp_impersonali.html'; break;
+	case'p_irregolari'	:loadPage='10_p_irregolari.html'; break;	
+	case'esp_negative'	:loadPage='11_esp_negative.html'; break;	
+	case'interrogativi' :loadPage='12_interrogativi.html'; break;
+	case'nationality'	:loadPage='13_nationality.html'; break;
+	case'piacere'  		:loadPage='14_piacere.html'; break;
+	case'gender' 		:loadPage='15_gender_dei.html'; break;
+	case'determinativo'	:loadPage='17_determinativo.html'; break;
+	case'indeterminativo'	:loadPage='18_indeterminativo.html'; break;
+	case'aggettivi'			:loadPage='19_aggettivi.html'; break;
+	case'assoluto'			:loadPage='20_assoluto.html'; break;
+	case'preposizioni_sem'	:loadPage='21_preposizioni_sem.html'; break;
+	case'preposizioni_artic':loadPage='22_preposizioni_artic.html'; break;
+	case'possessivo'		:loadPage='23_possessivo.html'; break;
+	case'ore'				:loadPage='24_ore.html'; break;
+	case'ladata'			:loadPage='25_ladata.html'; break;
+	case'prossimo_avere'	:loadPage='26_prossimo_avere.html'; break;
+	case'prossimo_essere'	:loadPage='27_prossimo_essere.html'; break;
+	case'riflessivi'		:loadPage='28_riflessivi.html'; break;
+	case'molto' 			:loadPage='29_molto.html'; break;
+	case'pronomi' 			:loadPage='30_pronomi.html'; break;
+	case'relativi' 			:loadPage='31_relativi.html'; break;
+	case'inefomali' 		:loadPage='32_inefomali.html'; break;
+}
+	if(loadPage!='') {	top.frames[fname].document.location.href=loadPage; }
+}
+}
+</script>
+</head>
+
+<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0">
+  <frame src="leftnav.html" name="leftFrame" scrollbar="yes" scrolling="auto" noresize="noresize" id="leftFrame" title="leftFrame" />
+  <frame src="intro.html" name="mainFrame" id="mainFrame" scrollbar="yes" scrolling="auto" title="mainFrame" />
+</frameset>
+
+<noframes>
+<body>
+You need a browser which supports frames to view this page.
+</body>
+</noframes>
+</html>

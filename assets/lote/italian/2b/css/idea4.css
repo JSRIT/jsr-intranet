@@ -1,0 +1,54 @@
+
+.browser { 
+	background:url(../images/brws_bg.gif) repeat-y;
+	padding: 0 15px;
+	margin: 0; 	
+}
+
+.browser_header {
+	margin-bottom: 5px;
+}
+
+.browser_title {
+	background:url(../images/brws_header.gif) top left no-repeat;	
+	margin-bottom: 0px;
+	padding: 12px 0 0 150px;
+	height: 27px;
+}
+
+.browser_header, .browser_footer { 
+	margin-left: -15px;
+	margin-bottom: -3px;
+}
+
+.stdA { background-color: #CCC; }
+.stdB { background-color: #3CC; }
+
+.article {
+	background: url(../images/idea4/aw1_2.jpg) top left no-repeat;
+	margin:0;
+	padding: 80px 40px 120px 20px;
+}
+.article_blank {
+	background: url(../images/idea4/article_blank.jpg) top left no-repeat;
+	margin:0;
+	padding: 40px 40px 40px 20px;
+}
+
+.adbanner {
+	border: 1px solid purple;
+	background-color:#CCCCFF;
+	padding: 5px;
+}
+.btnSend {
+	border: 1px solid #999;
+	background-color:#FFCCCC;
+	margin: 5px;
+	padding: 5px;
+	width: 75px;
+	text-align:center;
+}
+
+#ideaContent {
+	background:url(../images/idea4/idea4_bott.jpg) bottom right no-repeat;
+}

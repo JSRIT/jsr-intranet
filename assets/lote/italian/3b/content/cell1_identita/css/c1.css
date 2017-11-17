@@ -1,0 +1,87 @@
+
+#cc1_pcdzero {
+	background-color: #C6FF58;
+	border: 1px solid #666;
+	padding: 5px;	
+}
+
+#pcd_banner { 
+	text-align:center; 
+	border-bottom: 1px solid #666;
+	padding: 5px 0 10px 0;
+	margin: 0 -5px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+}
+#pcd_banner span {
+	font-size: 1.7em;
+	font-weight:bold;
+	letter-spacing: 0.3em;
+}
+
+#cc1_film {
+	background: #fff url(../images/aw4.jpg) top left no-repeat;
+	padding: 145px 80px 20px 30px;
+	width: 495px;
+}
+#cc1_film h1 {
+	padding: 0;
+	margin: 0 0 10px 0;
+	font-size: 1.2em;
+}
+
+#cc1_dani {
+	background: #023B35 url(../images/aw5_6.jpg) top left no-repeat;
+	padding: 149px 0 0 0;
+	margin: 0;
+	min-height: 455px;
+}
+* html #cc1_dani {
+	height: 455px;
+}
+
+#cc1_dani h2 {
+	color: #FFF;
+	margin-bottom: 15px;
+}
+#cc1_dani img {
+	border: 3px solid #FFF;
+}
+
+#cc1_dani div {
+	padding: 10px;
+	margin: 0 30px 0 300px;
+	color: #FFF;
+}
+div#dani_nav {
+	float: left;
+	background:none;
+	margin: 25px 0 0 0;
+	padding: 0;
+	list-style-type:none;
+	background-color: #FFF;
+}
+div#dani_nav img {
+	border: none;
+}
+#dani_nav li {
+	margin: 0;
+	padding: 0;
+}
+#dani_nav li a {
+	margin: 0;
+	padding: 0;
+}
+
+#cc1_et {
+	background: #FFF url(../images/aw11.jpg) top left no-repeat;
+	width: 410px;
+	min-height: 125px;
+	padding: 170px 10px 0 160px;
+}
+* html #cc1_et { 
+	height: 115px;
+	padding: 180px 10px 0 160px;
+}
+
+

@@ -1,0 +1,176 @@
+/*
+before.css
+
+Copyright © 2007 WestOne Services All WestOne materials, regardless of format are protected by copyright law. No part may be reproduced or re-used for any commercial purposes whatsoever without written permission from WestOne Services (IPUnit@westone.wa.gov.au)
+
+@author Paul Haimes (paul.haimes@westone.wa.gov.au), WestOne Services
+
+$CreatedDate: 2007/07/04 $
+
+$LastChangedDate: yyyy/mm/dd $
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+============================================
+REQUIRES:
+    * Internet Explorer 6.0+, or
+    * Netscape 7.x+, or
+    * Mozilla 1.x+, or
+    * Firefox 1.5+
+
+DESCRIPTION:
+Styling for checker.html 
+=============================================
+*/
+
+body {
+	padding: 0; 
+	margin: 0; 
+	background: #eee; 
+	border: 0;	
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/*====================== div areas below ===========================*/
+
+#no_js {
+	background: url(../images/nojs.jpg) 10px 10px no-repeat #fff;
+	border: 2px dashed #b22020;
+	margin: 20px auto;
+	padding: 7px 7px 7px 70px;
+	width: 593px;
+	height: 50px;
+	text-align: left;
+}
+
+#blockerlink {
+	padding: 0 5px;
+	display: none;
+}
+
+#container {
+	background: #fff;
+	border: 1px solid #999;
+	margin: 20px auto;
+	width: 650px;
+	text-align: left;
+	padding: 0 10px 10px 10px;
+	min-height: 700px;
+}
+#header
+{
+	background-color:#19BEED;
+	width:100%;
+}
+
+.content {
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	background: #efefef;
+}
+
+#system_test
+{
+	padding:0px;
+}
+
+#ieblocker {
+	display: none;
+}
+
+/*====================== text/image styles below ===========================*/
+
+p, td, li {	font-size: 0.75em;
+	color: #333;
+}
+
+a {
+	color : #4984aa;
+	font-weight: bold;
+	text-decoration : underline;
+}
+
+a:hover  {
+	text-decoration : none;
+}
+
+ul {
+	margin: 1ex 0;
+	padding: 0 20px;
+}
+
+li ul li {
+	font-size: 1em;
+}
+
+h1 {
+	margin: 1ex 0;
+	letter-spacing : 1.5pt;
+	color: #222;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+h2 {
+	margin: 1ex 0;
+	padding-top: 11px;
+	color: #333;
+	font-size: 1em;
+	letter-spacing: 0.04em; 
+}
+.heading2gfx
+{
+	margin-top:1em;
+}
+
+h3 {
+	margin: 1ex 0;
+	color: #444;
+	font-size: 0.8em;
+	letter-spacing: 0.04em; 
+}
+
+h4, h5, h6 {
+	margin: 1ex 0;
+	color: #555;
+	font-size: 0.75em;
+	letter-spacing: 0.01em; 
+}
+
+p {	
+	margin: 1ex 0;
+}
+
+img {
+	border: 0;
+}
+
+hr {
+	background: #fff;
+	border: 0;
+	border-top: 1px dashed #ccc;
+	padding: 0;
+	margin: 1ex 5px;
+	height: 0;
+	clear: both;
+}
+
+/* ========================= useful classes ============================== */
+
+.tick {
+	float: right;
+}
+
+.leftpic {
+	float: left;
+	margin: 0 9px 7px 0;
+}
+
+.rightpic {
+	float: right;
+	margin: 0 0 7px 9px;
+}
+
+.clear {
+	clear: both;
+}

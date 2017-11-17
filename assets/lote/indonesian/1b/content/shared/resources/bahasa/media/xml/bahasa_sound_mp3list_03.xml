@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="Januari">media/audio/a1_06_01.mp3</mp3file>
+	<mp3file title="Februari">media/audio/a1_06_02.mp3</mp3file>
+	<mp3file title="Maret">media/audio/a1_06_03.mp3</mp3file>
+	<mp3file title="April">media/audio/a1_06_04.mp3</mp3file>
+	<mp3file title="Mei">media/audio/a1_06_05.mp3</mp3file>
+	<mp3file title="Juni">media/audio/a1_06_06.mp3</mp3file>
+	<mp3file title="Juli">media/audio/a1_06_07.mp3</mp3file>
+	<mp3file title="Agustus">media/audio/a1_06_08.mp3</mp3file>
+	<mp3file title="September">media/audio/a1_06_09.mp3</mp3file>
+	<mp3file title="Oktober">media/audio/a1_06_10.mp3</mp3file>
+	<mp3file title="November">media/audio/a1_06_11.mp3</mp3file>
+	<mp3file title="Desember">media/audio/a1_06_12.mp3</mp3file>
+</playlist>

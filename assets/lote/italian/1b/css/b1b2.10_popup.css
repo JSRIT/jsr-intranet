@@ -1,0 +1,19 @@
+.pizzaMenu {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid black;
+	vertical-align: top;
+	background-color:#FC9;
+}
+
+.pizzaMenu th, .pizzaMenu td {
+	padding-bottom: 5px;
+}
+
+.pizzaMenu th {
+	text-align:left;
+}
+
+.pizzaMenu th#head {
+	text-align:center;
+}

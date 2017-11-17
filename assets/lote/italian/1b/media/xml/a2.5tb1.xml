@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Alcuni ragazzi <b>hanno suonato</b> la chitarra e <b>hanno cantato</b></p></question>
+			<feedback><p><b>Some guys played the guitar and sang</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Abbiamo invitato</b> alcuni ragazzi nuovi</p></question>
+			<feedback><p><b>We invited some new 'guys'</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Avete fatto</b> qualche incontro interessante?</p></question>
+			<feedback><p><b>Did you meet anyone interesting?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Sarah <b>ha conosciuto</b> un ragazzo simpaticissimo</p></question>
+			<feedback><p><b>(Io) posso spedire le foto.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Hai visto</b> Jack durante le vacanze?</p></question>
+			<feedback><p><b>Did you see Robert during the holidays?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Abbiamo fatto</b> un sacco di cose</p></question>
+			<feedback><p><b>We did lots/heaps of things</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Abbiamo mangiato</b> fuori</p></question>
+			<feedback><p><b>We ate out</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Abbiamo visto</b> un film favoloso</p></question>
+			<feedback><p><b>We saw a fabulous film</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Abbiamo fatto</b> una passeggiata sulla spiaggia</p></question>
+			<feedback><p><b>We went for a walk on the beach</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Non mi <b>avete spedito</b> nemmeno una foto!</p></question>
+			<feedback><p><b>You didn't even send me a photo</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

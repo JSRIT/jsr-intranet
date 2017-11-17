@@ -1,0 +1,97 @@
+
+body#female {	
+	margin: 0;
+	padding: 0;
+	background: #DB6971 url(../images/mini_site_f/f_page_bg.gif) 5px 5px no-repeat; 
+}
+
+body#male {	
+	margin: 0;
+	padding: 0;
+	background: #558CB2 url(../images/mini_site_m/m_page_bg.gif) 5px 5px no-repeat; 
+}
+
+h3 { 
+	margin:0;
+	padding:0;
+}
+
+#content_wrapper {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 38px;
+	left: 18px;
+}
+
+#photo {
+	position: relative;
+	top: -30px;
+	left: 0;
+	padding:0;
+	margin:0;
+	
+	width: 370px;
+	height: 378px;
+}
+#photo img { margin: 11px 0 0 16px; }
+
+body#female #photo { background: url(../images/mini_site_f/f_photo_bg.png) no-repeat; }
+body#male #photo { background: url(../images/mini_site_m/m_photo_bg.png) no-repeat; }
+
+* html #female #photo
+{
+background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/mini_site_f/f_photo_bg.png", sizingMethod="crop");
+}
+
+* html #male #photo
+{
+background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/mini_site_m/m_photo_bg.png", sizingMethod="crop");
+}
+
+#thumbnails {
+	margin: 0 0 0 6px;
+	padding: 0;
+}
+#thumbnails img { 
+	margin:18px 0 0 0;
+	padding:0;
+}
+
+#content {
+	position: absolute;
+	top:25px;
+	left: 330px;
+	width: 268px;
+	height: 380px;
+	overflow:auto;
+	background-color:#FFF;
+	margin: 0;
+}
+
+#content table { margin-bottom: 15px; }
+#content td { vertical-align:top; }
+
+#thumbnails a { 
+	display:block; 
+	float: left;
+}
+#female a#biodata { background:url(../images/mini_site_f/f_biodata.jpg) 0px 18px no-repeat; }
+#female a#biodata:hover { background:url(../images/mini_site_f/f_biodata_a.jpg) 0px 18px no-repeat; }
+
+#female a#berita { background:url(../images/mini_site_f/f_berita.jpg) 0px 18px no-repeat; }
+#female a#berita:hover { background:url(../images/mini_site_f/f_berita_a.jpg) 0px 18px no-repeat; }
+
+#female a#karir { background:url(../images/mini_site_f/f_karir.jpg) 0px 18px no-repeat; }
+#female a#karir:hover { background:url(../images/mini_site_f/f_karir_a.jpg) 0px 18px no-repeat; }
+
+#male a#biodata { background:url(../images/mini_site_m/m_biodata.jpg) 0px 18px no-repeat; }
+#male a#biodata:hover { background:url(../images/mini_site_m/m_biodata_a.jpg) 0px 18px no-repeat; }
+
+#male a#berita { background:url(../images/mini_site_m/m_berita.jpg) 0px 18px no-repeat; }
+#male a#berita:hover { background:url(../images/mini_site_m/m_berita_a.jpg) 0px 18px no-repeat; }
+
+#male a#karir { background:url(../images/mini_site_m/m_karir.jpg) 0px 18px no-repeat; }
+#male a#karir:hover { background:url(../images/mini_site_m/m_karir_a.jpg) 0px 18px no-repeat; } 

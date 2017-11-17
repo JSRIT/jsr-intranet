@@ -1,0 +1,90 @@
+/*
+	@author e4023932, WestOne Services
+	@created for Indonesian 2a
+	WUPI: 1101K1208
+	@modified [Date], [Name], [Reason] $Rev: 01 $
+*/
+
+/* Layout styles */
+body {
+	background-image: none;
+	background-color: #FFF;
+	padding:0;
+	margin:0;
+}
+* html body { width: 100%; }
+
+h1 { 
+	color: #000;
+	padding-bottom: 15px;
+}
+
+#content_wrapper {
+	background-image: none;
+	background-color: #FFF;
+	padding: 10px;
+	margin: 0 0 0 180px;
+}
+
+.dep_var { color: #390; }
+.ind_var { color: #C00; }
+
+#tk_nav {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 10px 0 0 5px;
+	width: 170px;
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+#tk_nav ul {
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+	background-color:#177E00;
+}
+#tk_nav ul li {	
+	background-color:#177E00;
+	padding: 0;
+	margin: 0;
+	min-height:24px;
+	border-bottom: 1px solid #FFF;
+}
+#tk_nav ul li a, #tk_nav ul li a:link, #tk_nav ul li a:visited { 
+	display: block;
+	padding: 3px;
+	margin: 0;
+	text-decoration:none;
+	color:#FFF;
+	font-size: 0.8em;
+}
+
+#tk_nav ul li a:hover, #tk_nav ul li a:active, #tk_nav ul li a.active {
+	background-color:#8C8C8C;
+	color: #FFF;
+}
+
+
+.tab_box.sml_box {
+	width: 100px;
+}
+
+
+
+
+table.greyth {line-height:150%; }
+
+table.greyth td {
+border:1px solid #333333;
+}
+
+table.greyth th {
+background-color:#EEE;
+text-align:left;
+border:1px solid #333333;
+}
+
+table th {text-align:left;}
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Passatempi, passioni e insofferenze">
+	<mp3file title="Cosa ti piace?">../media/audio/2e7_06.mp3</mp3file>
+	<mp3file title="Qual è la tua passione?">../media/audio/2e7_07.mp3</mp3file>
+	<mp3file title="Cosa non ti piace?">../media/audio/2e7_08.mp3</mp3file>
+	<mp3file title="Cosa non sopporti?">../media/audio/2e7_09.mp3</mp3file>
+	<mp3file title="Quale sport ti piace?">../media/audio/2e7_10.mp3</mp3file>
+	<mp3file title="Qual è il tuo passatempo preferito?">../media/audio/2e7_11.mp3</mp3file>
+	<mp3file title="Cosa ti piace fare il fine settimana/weekend?">../media/audio/2e7_12.mp3</mp3file>
+	<mp3file title="Hai una spiaggia preferita?">../media/audio/2e7_13.mp3</mp3file>
+	<mp3file title="Che tipo di musica ascolti?">../media/audio/2e7_14.mp3</mp3file>
+</playlist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="000000" dropBackingColor="FF9175" dropCorrectBackingColor="BFFFA8" dropRollOverFontColor="FFFFFF" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="Le domande%09%09%09%09%09%20%20%20%20%20%20Le risposte" finalFeedback="Molto bene!">
+	
+	<dropNeeded>
+		<dropZone startDrop="Ti piace il fast food?" stopDrop="Ti piace il fast food? S%C3%AC, ma cerco di evitar lo perch%C3%A9 non %C3%A8 sano." />
+		<dropZone startDrop="Mangi molta frutta?" stopDrop="Mangi molta frutta? S%C3%AC, la mangio tutti i giorni perch%C3%A9 fa bene." />
+		<dropZone startDrop="Ti piacciono le patatine fritte?" stopDrop="Ti piacciono le patatine fritte? S%C3%AC, molto. Le mangio spesso per%C3%B2 ci sono molti grassi." />
+		<dropZone startDrop="Mangi molti dolci?" stopDrop="Mangi molti dolci? No. Li mangio ogni tanto. Non mi attirano molto." />
+		<dropZone startDrop="Bevi molto caff%C3%A8?" stopDrop="Bevi molto caff%C3%A8? S%C3%AC, lo bevo ogni giorno." />
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="FF9175" dragFontColor="000000" rollOverBackingColor="BFFFA8" rollOverFontColor="000000">
+		<dragZone drag="S%C3%AC, la mangio tutti i giorni perch%C3%A9 fa bene." correct="1" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="No. Li mangio ogni tanto. Non mi attirano molto." correct="3" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="S%C3%AC, molto. Le mangio spesso per%C3%B2 ci sono molti grassi." correct="2" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="S%C3%AC, lo bevo ogni giorno." correct="4" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="S%C3%AC, ma cerco di evitarlo perch%C3%A9 non %C3%A8 sano." correct="0" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+	</dragNeeded>
+</sentenceStart>
+
+

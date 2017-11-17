@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <model>
+       <config ared_id="sequence">
+            <swf_dim width="600" height="600" />
+            <txt_alt url="media/text_alternative.doc" />
+       </config>
+  <title><![CDATA[]]></title>
+       <introduction>
+       <title><![CDATA[Introduction]]></title>
+            <text><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#0B333C">In this activity you will be required to order these sentences about the conversation.</FONT></P></TEXTFORMAT>]]></text>
+       <instruction><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000">Click the &apos;More info&apos; button to find out more about a step in the sequence.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000">To swap the position of two steps, click and drag one step to the other (a &apos;swap&apos; icon will appear) and release.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000">To insert a step at a point in the sequence, click and drag the step to the appropriate arrow (an &apos;insert&apos; icon will appear) and release.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#000000">Click the &apos;Check Answer&apos; button to see how many steps you have correct.</FONT></P></TEXTFORMAT>]]></instruction>
+       </introduction>
+       <conclusion>
+  <title><![CDATA[Activity completed]]></title>
+            <text><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="_sans" SIZE="12" COLOR="#0B333C">Well done! You have successfully created the process of making a film.</FONT></P></TEXTFORMAT>]]></text>
+       </conclusion>
+       <sequence orientation="vertical">
+            <step>
+                           <title><![CDATA[Vita asks to speak with Lestari. ]]></title>
+            </step>
+            <step>
+                           <title><![CDATA[Lestari’s dad says she is not home.]]></title>
+            </step>
+            <step>
+                           <title><![CDATA[They each ask ‘how are you’.]]></title>
+            </step>
+            <step>
+                           <title><![CDATA[He asks if she wants to leave a message.]]></title>
+            </step>
+ 	    <step>
+                           <title><![CDATA[She says she’ll email Lestari.]]></title>
+            </step>
+	    <step>
+                           <title><![CDATA[He asks her to pass his regards to her parents.]]></title>
+            </step>
+
+       </sequence>
+  </model>

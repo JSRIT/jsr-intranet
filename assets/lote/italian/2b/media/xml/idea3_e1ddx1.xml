@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="ffffff" dropBackingColor="9692B3" dropCorrectBackingColor="B6B5DF" dropRollOverFontColor="ffffff" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="All'aeroporto%09%09%09%09%09%20%20%20%20%20%20Answers" finalFeedback="Molto bene !">
+	
+	<dropNeeded>
+		<dropZone startDrop="1. arrivi" stopDrop="1. arrivi%09%09%09%09%09%09%09%09%09%09%20%20arrivals" />
+		<dropZone startDrop="2. partenze" stopDrop="2. partenze%09%09%09%09%09%09%09%09%09%20%20departures" />
+		<dropZone startDrop="3. sala" stopDrop="3. sala%09%09%09%09%09%09%09%09%09%09%20%20lounge" />
+		<dropZone startDrop="4. voli" stopDrop="4. voli%09%09%09%09%09%09%09%09%09%09%20%20flights" />
+		<dropZone startDrop="5. internazionali" stopDrop="5. internazionali%09%09%09%09%09%09%09%09%20%20international" />
+		<dropZone startDrop="6. nazionali" stopDrop="6. nazionali%09%09%09%09%09%09%09%09%09%20%20domestic" />
+		<dropZone startDrop="7. controllo passaporti" stopDrop="7. controllo passaporti%09%09%09%09%09%09%20%20passport control" />
+		<dropZone startDrop="8. passaporti paesi CEE" stopDrop="8. passaporti paesi CEE%09%09%09%09%09%20%20EC passport holders" />
+		<dropZone startDrop="9. altri passaporti" stopDrop="9. altri passaporti%09%09%09%09%09%09%09%20%20other passports" />
+		<dropZone startDrop="10. ritiro bagagli" stopDrop="10. ritiro bagagli%09%09%09%09%09%09%09%09%20%20baggage reclaim" />
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="9692B3" dragFontColor="ffffff" rollOverBackingColor="EEB8C5" rollOverFontColor="ffffff">
+		<dragZone drag="flights" correct="3" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="international" correct="4" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="domestic" correct="5" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="passport control" correct="6" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="arrivals" correct="0" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="other passports" correct="8" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="EC passport holders" correct="7" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="baggage reclaim" correct="9" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="departures" correct="1" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="lounge" correct="2" goodFeedback="Correct!" badFeedback="Incorrect." />
+	</dragNeeded>
+</sentenceStart>
+
+

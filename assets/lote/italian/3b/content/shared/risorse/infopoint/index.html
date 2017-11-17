@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>InfoPoint</title>
+<script language="javascript">
+var fname="mainFrame";     
+window.onload=function(){
+var d=document.location.search;
+if(d!=''){
+loadPage='';
+param=d.substring(d.lastIndexOf('?')+1,d.length);
+switch(param){
+	case 'reading' 		: loadPage='1_reading.html'; break;
+	case 'listening' 	: loadPage='2_listening.html'; break;
+	case 'viewing' 		: loadPage='3_viewing.html'; break;		
+	case 'writing' 		: loadPage='4_writing.html'; break;
+	case 'dizionario' 	: loadPage='5_dizionario.html'; break;
+	case 'speaking' 	: loadPage='6_speaking.html'; break;
+
+	case 'translators' 	: loadPage='7_translators.html'; break;
+	case 'email_formali': loadPage='8_email_formali.html'; break;
+	case 'text_types'	: loadPage='9_text_types.html'; break;
+	case 'stimulus'	    : loadPage='10_stimulus.html'; break;
+	case 'meaning'	    : loadPage='11_meaning.html'; break;
+	case 'conversation'	: loadPage='12_conversation.html'; break;
+}
+	if(loadPage!='') {	top.frames[fname].document.location.href=loadPage; }
+}
+}
+</script>
+</head>
+<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0">
+  <frame src="leftnav.html" name="leftFrame" id="leftFrame" title="leftFrame" />
+  <frame src="intro.html" name="mainFrame" id="mainFrame" title="mainFrame" />
+</frameset>
+<noframes>
+<body>
+You need a browser which supports frames to view this page.
+</body>
+</noframes>
+</html>

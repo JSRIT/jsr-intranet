@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Come si dice</title>
+<script language="javascript">
+var fname="mainFrame";     
+window.onload=function(){
+var d=document.location.search;
+if(d!=''){
+loadPage='';
+param=d.substring(d.lastIndexOf('?')+1,d.length);
+switch(param){
+	case 'greetings' 	: loadPage='1_incontri.html#greetings'; break;
+	case 'introductions': loadPage='1_incontri.html#introductions'; break;
+	case 'message' 		: loadPage='1_incontri.html#message'; break;
+	case 'comestai' 	: loadPage='1_incontri.html#comestai'; break;
+	case 'nationalities': loadPage='1_incontri.html#nationalities'; break;
+	case 'numbers'	 	: loadPage='1_incontri.html#numbers'; break;
+	case 'doveabiti' 	: loadPage='1_incontri.html#doveabiti'; break;
+	case 'months'	 	: loadPage='1_incontri.html#months'; break;
+
+	case 'clubamici' 	: loadPage='2_conosciamoci.html#club'; break;
+	case 'comesei' 		: loadPage='2_conosciamoci.html#comesei'; break;
+	case 'ideale' 		: loadPage='2_conosciamoci.html#ideale'; break;
+	case 'unatelefonata': loadPage='2_conosciamoci.html#unatelefonata'; break;
+	case 'unclic' 		: loadPage='2_conosciamoci.html#unclic'; break;
+	case 'segno' 		: loadPage='2_conosciamoci.html#segno'; break;
+	case 'professioni' 	: loadPage='2_conosciamoci.html#professioni'; break;
+	case 'cartolina' 	: loadPage='2_conosciamoci.html#cartolina'; break;
+	case 'epal' 		: loadPage='2_conosciamoci.html#epal'; break;
+	case 'intervista' 	: loadPage='2_conosciamoci.html#intervista'; break;
+
+	case 'tipiace'	 	: loadPage='3_amori.html#tipiace'; break;
+	case 'musicforum' 	: loadPage='3_amori.html#musicforum'; break;
+	case 'il_lunedì'	: loadPage='3_amori.html#il_lunedì'; break;
+	case 'radio_giovani': loadPage='3_amori.html#radio_giovani'; break;
+	case 'piccolo'	 	: loadPage='3_amori.html#piccolo'; break;
+	case 'almare'	 	: loadPage='3_amori.html#al_mare'; break;
+
+	case 'tuacasa'	 	: loadPage='4_abito.html#tua_casa'; break;
+	
+	case 'camera'	 	: loadPage='5_personale.html#La_camera'; break;
+	case 'zona'	 		: loadPage='5_personale.html#zona'; break;
+	case 'diario'	 	: loadPage='5_personale.html#diario'; break;
+	
+	case 'lacitta'	 	: loadPage='6_cosa.html#la_città'; break;
+	case 'tuacitta'	 	: loadPage='6_cosa.html#tua_città'; break;
+	case 'dove_vai'	 	: loadPage='6_cosa.html#dove_vai'; break;
+	case 'cosa_fai'	 	: loadPage='6_cosa.html#cosa_fai'; break;
+	case 'sondaggio'	: loadPage='6_cosa.html#sondaggio'; break;
+		
+}
+	if(loadPage!='') {	top.frames[fname].document.location.href=loadPage; }
+}
+}
+</script>
+</head>
+<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0">
+  <frame src="leftnav.html" name="leftFrame" scrollbar="yes" scrolling="auto" noresize="noresize" id="leftFrame" title="leftFrame" />
+  <frame src="intro.html" name="mainFrame" id="mainFrame" scrollbar="yes" scrolling="auto" title="mainFrame" />
+</frameset>
+<noframes>
+<body>
+You need a browser which supports frames to view this page.
+</body>
+</noframes>
+</html>

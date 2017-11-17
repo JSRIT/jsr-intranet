@@ -1,0 +1,31 @@
+/* CSS Document */
+
+body {
+	background-color: #8a8a8a;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Tahoma, Trebuchet MS;
+	font-size: medium;
+	color: #ffffff;	
+}
+
+a:link {
+	color: #CCFF33;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #CCFF33;
+}
+a:hover {
+	text-decoration: underline;
+	background-color: #ffffff;
+	color: #FF3300;
+}
+a:active {
+	text-decoration: underline;
+	color: #ff3300;
+}
+

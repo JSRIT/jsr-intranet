@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>What is changing in the relationship between parents and children?</p></question>
+			<feedback><p><b>the parents' approach towards children and the quality of family relationships</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What is one of the main problems that many Italian parents face in their relationship with children?</p></question>
+			<feedback><p><b>It's the difficulty of being listened to. The result is a lack of respect for their role and the parent figure loses authority.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>During which period is the generational conflict very intense? </p></question>
+			<feedback><p><b>the 11–14 age group – a critical age for children</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What don’t parents have time to do with their children?</p></question>
+			<feedback><p><b>to speak to their children and spend time with them</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What factors contribute to this situation?</p></question>
+			<feedback><p><b>the fact that both parents work and the sporting and extracurricular activities of the children</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

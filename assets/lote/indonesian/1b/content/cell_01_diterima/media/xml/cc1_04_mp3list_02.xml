@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="Siapa nama lengkap Anda?">../media/audio/a01_02_01.mp3</mp3file>
+	<mp3file title="Di mana tempat lahir Anda?">../media/audio/a01_02_02.mp3</mp3file>
+	<mp3file title="Kapan tanggal lahir Anda?">../media/audio/a01_02_03.mp3</mp3file>
+	<mp3file title="Berapa nomor paspor Anda?">../media/audio/a01_02_04.mp3</mp3file>
+	<mp3file title="Apa kebangsaan Anda?">../media/audio/a01_02_05.mp3</mp3file>
+	<mp3file title="Apa pekerjaan Anda?">../media/audio/a01_02_06.mp3</mp3file>
+	<mp3file title="Di mana alamat Anda?">../media/audio/a01_02_07.mp3</mp3file>
+	<mp3file title="Apa maksud perjalanan Anda ke Indonesia?">../media/audio/a01_02_08.mp3</mp3file>
+
+</playlist>

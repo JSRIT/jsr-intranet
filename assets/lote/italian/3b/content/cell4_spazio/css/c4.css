@@ -1,0 +1,72 @@
+#cc4_mag {
+	background-color: #FFFBF0;
+	border: 1px solid #F1F4ED;
+	padding: 0px 10px 10px 10px;
+	margin-top: 25px;
+}
+#cc4_mag_header {
+	margin-left: -10px;
+}
+
+table.grid.thg th { 
+	vertical-align: top;
+	background-color:#CCC;	
+}
+
+.tab ul { 
+	float: left;
+	width: 400px; 
+}
+* html .tab ul { float: none; }
+.tab ul li { 
+	clear:both;
+	margin-bottom: 12px;
+}
+.tab ul li input {
+	float: right;
+	margin-top: -1.3em;
+}
+* html .tab ul li input { margin-top: -1.2em; }
+
+#cc4_audio { margin-left: 40px; }
+#cc4_audio li {	padding-bottom: 10px; }
+
+span.flash {
+	float: left;
+	margin-left: -40px;
+}
+
+
+#fb_hdr {
+	border: 5px solid #333;
+	padding: 5px;
+	margin-bottom: 15px;
+	text-align: center; 
+	background-color: #FFBC6C;
+}
+#fb_box {
+	border: 5px solid #333;
+	background-color: #FFFF99;
+}
+
+#cc4_lblholder { 
+	position: relative; 
+	width: 575px;
+	height: 200px;
+}
+
+#cc4_lblholder div {
+	position: absolute;
+	padding: 3px;
+	border: 1px solid #333;
+}
+#lbl_1 { top: 30px; left: 30px; }
+#lbl_2 { top: 15px; left: 250px; }
+#lbl_3 { top: 0; 	left: 380px; }
+#lbl_4 { top: 80px; left: 50px; }
+#lbl_5 { top: 60px; left: 320px; font-weight: bold; background-color:#FFEF24; }
+#lbl_6 { top: 60px; left: 470px; }
+#lbl_7 { top: 90px; left: 190px; }
+#lbl_8 { top: 110px; left: 290px; }
+#lbl_9 { top: 115px; left: 390px; }
+

@@ -1,0 +1,78 @@
+/*cc1_01.html CSS file */ 
+
+
+.bed {
+position:relative;
+}
+
+.bed span {
+background-color:#FFF;
+padding:3px;
+display:none;
+}
+
+
+#bra_txt  {
+position:absolute; top:365px; left:100px; 
+}
+
+#underpants_txt  {
+position:absolute; top:420px; left:100px; 
+
+}
+#miniskirt_txt  {
+position:absolute; top:250px; left:430px; 
+}
+
+#long_skirt_txt  {
+position:absolute; top:350px; left:385px; 
+}
+
+#sandals_txt  {
+position:absolute; top:460px; left:160px; 
+}
+
+#thongs_txt  {
+position:absolute; top:295px; left:220px; 
+}
+
+#shoes_txt  {
+position:absolute; top:295px; left:100px; 
+}
+
+#jeans_txt  { position:absolute; top:90px; left:315px; }
+
+#shorts_txt  {
+ position:absolute; top:205px; left:225px;
+}
+
+#sunglasses_txt  {
+ position:absolute; top:445px; left:350px;
+}
+#t_shirt_txt  {
+ position:absolute; top:350px; left:250px;
+}
+#sweater_txt {
+ position:absolute; top:105px; left:125px;
+}
+#sleeveless_txt  {
+position:absolute; top:230px; left:300px;
+}
+#formal_txt  {
+position:absolute; top:205px; left:140px;
+}
+#jacket_txt  {
+ position:absolute; top:485px; left:305px;
+}
+
+#long_trousers_txt {
+ position:absolute; top:205px; left:375px;
+}
+
+
+area#long_skirt_txt {
+width:50px; height:50px; background:#000000; 
+}
+
+
+.bed span.showa {display:block;}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="77CCCE" />
+		<fontColor reqColor="223542" />
+		<buttonColors startColor="000000" rollOverColor="999999" fontColor="ffffff" />
+		<startText> </startText>
+		<openingText introText="Instructional text" />
+		<openingText titleText="Interaction Title" />
+	</openingSettings>
+	
+	<questions>
+		<question>
+			<questionText>
+				<p>Orang yang dicari harus bersifat disiplin.</p>
+			</questionText>
+			<answerText>
+				<p>The person who is sought (by an unnamed person/company) must have a disciplined nature.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Saya seorang yang dapat diandalkan</p>
+			</questionText>
+			<answerText>
+				<p>I am a person who can be relied on (by others - this is why it is third person).</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Pelanggan yang dilayani kebanyakannya orang asing.</p>
+			</questionText>
+			<answerText>
+				<p>The customers who are served are mostly foreigners.</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Biasanya, Anda harus diwawancarai sebelum mendapat pekerjaan.</p>
+			</questionText>
+			<answerText>
+				<p>Usually, you have to be interviewed (by someone) before getting a job.</p>
+				</answerText>
+		</question>
+		
+		
+
+	</questions>
+</enterAnswer>

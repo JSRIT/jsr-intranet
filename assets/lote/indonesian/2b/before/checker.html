@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 
+checker.html
+
+Copyright © 2007 WestOne Services All WestOne materials, regardless of format are protected by copyright law. No part may be reproduced or re-used for any commercial purposes whatsoever without written permission from WestOne Services (IPUnit@westone.wa.gov.au)
+
+@author Paul Haimes (paul.haimes@westone.wa.gov.au), WestOne Services
+@author Ben Kroll (ben.kroll@westone.wa.gov.au), WestOne Services
+
+$CreatedDate: 2007/07/04 $
+
+$LastChangedDate: yyyy/mm/dd $
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+============================================
+REQUIRES:
+    * Internet Explorer 6.0+, or
+    * Netscape 7.x+, or
+    * Mozilla 1.x+, or
+    * Firefox 1.5+
+
+DESCRIPTION:
+HTML document that tests the user's OS and browser for compatible plug-ins
+=============================================
+-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="css/before.css" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="all" />
+<![endif]-->
+<title>Before you begin requirements</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/check.js"></script>
+</head>
+<body>
+<div id="no_js">
+  <p>You don&rsquo;t have Javascript enabled, you will need this in order to run the multimedia interactions in this unit.</p>
+</div>
+<div id="container">
+  <h1>Before you Begin</h1>
+  <div id="blockerlink">
+    <p><a href="#ieblocker">Click here to read important information</a> regarding your browser and this product.</p>
+  </div>
+  
+    <h2>Minimum requirements for using this resource</h2>
+  <div class="content">
+    <h3>Software</h3>
+    <p>You will need the following software installed on your computer:</p>
+    <ul>
+      <li> An Internet browser such as:
+        <ul>
+          <li>Microsoft&reg; Internet Explorer 6.0+, or</li>
+          <li>Netscape&reg; 7.x+, or</li>
+          <li>Mozilla&reg; 1.x+, or</li>
+          <li>Firefox&reg; 1.5+</li>
+        </ul>
+      </li>
+      <li>Microsoft&reg; Word '97+</li>
+    </ul>
+  </div>
+  <div id="system_test">
+  <h2>Testing your machine now...</h2>
+  <div class="content">
+  	<div id="os_test"><h3>Your Operating System</h3>
+  	<p><em id="os_details"></em></p></div>
+  	
+	<div id="bw_test"><h3>Your Browser</h3>
+  	<p><em id="bw_details"></em></p></div>
+  
+  <div id="fl_test"><h4>Testing your verion of Adobe&reg; Flash&reg; Player</h4>
+  <p id="flash"><img src="images/tick.jpg" alt="Version acceptable" class="tick" id="fl_icon" /><em id="fl_details">Adobe&reg; Flash&reg; Player Version : <strong id="fl_cur"></strong>&nbsp;Required Version: <span id="fl_req"></span></em><br /><a href="http://www.adobe.com/go/getflashplayer" target="_blank" id="fl_upgrade"><img src="images/get_flash_player.gif" alt="Get Flash Player" /></a></p>
+  <hr /></div>
+  <div id="ar_test"><h4>Testing your version of Adobe&reg; Acrobat&reg; Reader&trade;</h4>
+  <p id="acrobat"><img src="images/tick.jpg" alt="Version acceptable" class="tick" id="ar_icon" /><em id="ar_details">Adobe&reg; Acrobat&reg; Reader&trade; Version: <strong id="ar_cur"></strong>&nbsp;Required Version: <span id="ar_req"></span></em><br /><a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank" id="ar_upgrade"><img src="images/get_adobe_reader.gif" alt="Get Adobe&reg; Acrobat&reg; Reader(TM)" /></a></p>
+  <hr /></div>
+  <div id="qt_test"><h4>Testing your version of Apple&reg; Quicktime&reg; Player</h4>
+  <p id="quicktime"><img src="images/tick.jpg" alt="Version acceptable" class="tick" id="qt_icon" /><em id="qt_details">Apple&reg; QuickTime&reg; Version: <strong id="qt_cur"></strong>&nbsp;Required Version: <span id="qt_req"></span></em><br /><a href="http://www.apple.com/quicktime/download/standalone.html" target="_blank" id="qt_upgrade"><img src="images/get_quicktime.gif" alt="Get Apple&reg; Quicktime&reg;Player" /></a></p>
+  <hr /></div>
+  <div id="wm_test"><h4>Testing for Windows&reg; Media Player</h4>
+  <p id="wmediaplayer"><img src="images/tick.jpg" alt="Version acceptable" class="tick" id="wm_icon" /><em id="wm_details">Windows Media Player is: <strong id="wm_cur"></strong></em><br /><a href="http://www.microsoft.com/windows/windowsmedia/player/download/" target="_blank" id="wm_upgrade"><img src="images/get_mediaplayer.gif" alt="Get Windows&reg; Media Player" /></a></p></div>
+  <br class="clear" />
+  </div>
+  
+  <h2>Download updates</h2>
+  <p>If you don't have all green ticks above then you may need to update your plug-ins by clicking on the approprite link above or below.</p>
+  
+  <div class="content" id="updates">
+  <p><a href="http://www.adobe.com/go/getflashplayer/" target="_blank" class="leftpic"><img src="images/get_flash_player.gif" alt="Get Flash Player" /></a><a title="This link takes you to the Adobe&reg; web site so you can download the latest player (opens in a new window)" href="http://www.adobe.com/go/getflashplayer/" target="_blank">Adobe&reg; Flash Player&reg;</a><br />
+If you haven't got this plug-in, you can download the latest free version from the Adobe&reg; website.</p>
+<hr />
+  <p><a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank" class="leftpic"><img src="images/get_adobe_reader.gif" alt="Get Adobe&reg; Acrobat&reg; Reader&trade;" /></a><a title="This link takes you to the Adobe&reg; web site so you can download the latest player (opens in a new window)" href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Adobe&reg; Acrobat&reg; Reader&trade;</a><br />
+If you haven't got this plug-in, you can download the latest free version from the Adobe&reg; Acrobat&reg; website.</p>
+<hr />
+  <p><a href="http://www.apple.com/quicktime/download/standalone.html" target="_blank" class="leftpic"><img src="images/get_quicktime.gif" alt="Get Apple&reg; Quicktime&reg; Player" /></a><a title="This link takes you to the Apple&reg; web site so you can download the latest player (opens in a new window)" href="http://www.apple.com/quicktime/download/standalone.html" target="_blank">Apple&reg; Quicktime&reg; Player</a><br />
+If you haven't got this plug-in, you can download the latest free version from the Apple&reg; website.</p>
+<hr />
+<p><a href="http://www.microsoft.com/windows/windowsmedia/player/download/" target="_blank" class="leftpic"><img src="images/get_mediaplayer.gif" alt="Get Windows&reg; Media Player" /></a><a title="This link takes you to the Microsoft&reg; web site so you can download the latest player (opens in a new window)" href="http://www.microsoft.com/windows/windowsmedia/player/download/" target="_blank">Windows&reg; Media Player</a><br />
+If you haven't got this plug-in, you can download the latest free version from the Mircosoft&reg; website.</p>
+  </div>
+  </div>
+  <div id="ieblocker">
+<h2>IE Content blocker removal</h2>
+<p>To ensure all interactive content in this product functions correctly, you will need to follow the following steps to disable Microsoft&reg; active content blocking. This will temporarily lower your browser's <em>local</em> security settings. <strong>This will not affect security for any content viewed from the Internet</strong>.</p>
+<p>An alternative to this process is to install and use an alternative browser such as <a href="http://www.getfirefox.com/" target="_blank">Mozilla&reg; Firefox&trade;</a>.</p>
+<div class="content">
+	<ol>
+		<li>In Internet Explorer, select <strong><u>T</u>ools</strong> -&gt; <strong>Internet <u>O</u>ptions...</strong>.<br /><a href="images/ac_1.jpg" target="_blank" class="popup_sm"><img class="example"src="images/ac_1_thb.jpg" alt="IE Tools menu and Options" /></a></li>
+		<li>Select the <strong>Advanced</strong> Tab.<br /><a href="images/ac_2.jpg" target="_blank" class="popup"><img class="example" src="images/ac_2_thb.jpg" alt="image of options page showing advanced tab" /></a></li>
+		<li>Scroll down to the <strong>Security</strong> heading in the <strong><u>S</u>ettings</strong> window.</li>
+		<li>Place a check next to the two items: '<strong><em>Allow active content from CDs to run on My Computer</em></strong>' and '<strong><em>Allow active content to run in files on My Computer</em></strong>'<br /><a href="images/ac_3.jpg" target="_blank" class="popup"><img class="example" src="images/ac_3_thb.jpg" alt="image of advanced options page" /></a></li>
+		<li>Click <strong>OK</strong> to exit options.</li>
+	</ol>
+</div>
+<p><strong>It is advised that you reverse the procedure shown here when you are finished using this product to maintain optimum Internet Explorer security levels.</strong></p>
+<p><a href="#container">Return to Top</a></p>
+</div>
+</div>
+</body>
+</html>

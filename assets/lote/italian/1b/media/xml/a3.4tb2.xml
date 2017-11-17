@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>When is the party?</p></question>
+			<feedback><p><b>Quando %C3%A8 la festa?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Where is the party?</p></question>
+			<feedback><p><b>Dov%E2%80%99%C3%A8 la festa?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What time does it start?</p></question>
+			<feedback><p><b>A che ora incomincia?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Who's invited?</p></question>
+			<feedback><p><b>Chi %C3%A8 invitato?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Do you want to sleep over after the party?</p></question>
+			<feedback><p><b>Vuoi dormire da me dopo la festa?</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

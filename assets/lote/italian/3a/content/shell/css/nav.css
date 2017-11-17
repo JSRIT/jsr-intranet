@@ -1,0 +1,93 @@
+/*
+@author [initials], WestOne Services
+@created for [enter product code or specific project name]
+WUPI: [WUPI Code]
+@modified [Date], [Name], [Reason] $Rev: 01 $
+*/ 
+		
+body { 
+	margin: 0;
+	padding: 0;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background:#514124 url(../images/nav_bg.gif) top left;
+}
+
+#menu {
+	padding: 0;
+	width: 180px;
+	margin: 25px auto;
+	border-top: 2px solid #514124;
+	border-left: 2px solid #514124;
+	border-right: 2px solid #514124;
+}
+		
+#menu li { 
+	font-size: 0.75em;
+	width: 180px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+#menu li a { 
+	text-decoration: none;
+	color: #514124;
+	display:block; 
+	border-bottom: 2px solid #514124;
+	background: #E7C4A3; 
+	padding: 3px 6px;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+
+#menu li a:hover { 
+	background: #514124;
+	color:#fff;
+}
+
+#menu li a.selected { 
+	background: #514124;
+	color:#fff;
+}
+
+#menu li a.selected:hover { 
+	background: #E7C4A3; 
+	color: #fff;
+}
+
+#menu ul {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 179px; 
+}
+
+#menu ul li { 
+	font-size: 1.0em;
+	border-left: 15px solid #514124; 
+	width: 165px; 
+}
+
+#menu ul li a { 
+	color: #514124;
+	 
+}
+
+#menu ul li a:hover {
+	color: #fff; 
+	background: #514124; 
+}
+	
+.picture_frame {
+	margin: 0 auto;
+	background: url(../images/nav_img_bg.png);
+	width: 111px;
+}
+* html .picture_frame {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/nav_img_bg.png', sizingMethod='scale');
+}
+
+.picture_frame img {
+	padding: 10px 0 25px 11px;
+}

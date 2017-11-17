@@ -1,0 +1,152 @@
+.ghighlight {
+	background-color:#CCC;
+}
+
+.quizTable {
+	width: 600px;
+	padding: 0;
+	margin: 2px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.quizTable th {
+	background-color:#f0f0f0;
+	padding: 5px;
+	text-align:left;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.quizTable td {
+	padding: 5px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.altRowTable {
+	width: 600px;
+	background-color:#f0f0f0;
+	padding: 0;
+	margin: 2px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.altRowTable td {
+	padding: 10px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+tr.altRow {
+	background-color:#FFF;
+}
+
+.aNote {
+	padding-left: 200px;
+}
+.tab {
+	padding-left: 50px;
+}
+
+textarea.medTA {
+	width: 490px;
+}
+textarea.smallTA {
+	width: 290px;
+}
+textarea.tinyTA {
+	width: 240px;
+}
+
+.qTable {
+	padding: 0;
+	margin: 5px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.qTable td {
+	padding: 5px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.qTable th {
+	padding: 5px;
+	background-color:#f0f0f0;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+#blogwrapper {
+	width:600px;
+	height:400px;
+	overflow:auto;
+	overflow:scroll;
+}
+#blog {
+	border:3px double #000;
+	background-color:#FFFFCC;
+	width:580px;
+}
+#blog td {
+	padding: 5px;
+}
+
+#blog #imgCol {
+	border-left: 1px solid #000;
+	text-align:center;
+	vertical-align: top;
+	width: 175px;
+}
+
+.dBorderTable {
+	background-color:#CCFFFF;
+	border-top: 3px double #000;
+	border-left: 3px double #000;
+}
+.dBorderTable td {
+	vertical-align: top;
+	padding: 5px;
+	border-right: 3px double #000;
+	border-bottom: 3px double #000;
+}
+
+.dBorderTable.noGrid {
+	border: 3px double #000;
+}
+.dBorderTable.noGrid td {
+	border: none;
+}
+
+.grid {
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.grid td {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.dBorderTable td.tdMiddle {
+	vertical-align:middle;
+}
+
+.clearBG {
+	background-color:#FFF;
+}
+
+.grooveNote {
+	background-color:#FFFFCC;
+	padding: 15px;
+	border: 4px groove #CCC;
+	width:580px;
+}
+
+.grooveNote#ripTop {
+	background-color:#f0f0f0;
+	border-top: 2px dashed #CCC;
+}
+
+.grooveNote#ripBottom {
+	background-color:#f0f0f0;
+	border-bottom: 2px dashed #CCC;
+}
+
+

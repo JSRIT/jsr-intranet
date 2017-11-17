@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="E9E2B9" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="FFFFFF" />
+		<answewrFontColor reqColor="FFFFFF" />
+		<questBackingColor reqColor="ABA480" />
+		<ansBackingColor reqColor="ABA480" />
+		<feedbackBackingColor reqColor="ABA480" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="FF9900" />
+		<buttonRolloverColor reqColor="FFCA0C" />
+		<buttonFontColor reqColor="635329" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question>
+				<p>Anak yang biasanya (usually) saya jaga (supervise) berumur tiga sampai duabelas tahun.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The children whom I usually baby sit are aged between three and twelve years.</p>			
+				<br />
+				<p></p>			
+				<br />
+				<p></p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Pekerjaan yang ingin saya dapatkan adalah pekerjaan di bidang seni (art) karena saya orang yang kreatif.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The work that I wish to obtain is work in the field/area of art because I am a creative person.</p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Pekerjaan yang pernah (ever) saya dapatkan termasuk pekerjaan di warung, di kantor bapak saya, dan di wartel.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>Work/jobs which I have obtained include work in a warung, my dad’s office, and in a wartel.</p>			
+				<br />
+					
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Orang yang kami cari harus bersifat disiplin.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The person whom we seek must have a disciplined nature.</p>
+			</feedback>
+		</answer>
+				<answer>
+			<question>
+				<p>Tugas yang harus Anda kerjakan termasuk mencuci piring dan membersihkan WC.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The jobs that you must do include washing the dishes and cleaning the toilets.</p>
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>Lamaran yang Anda serahkan tidak lengkap.</p>
+				<br />
+				<p></p>
+			</question>
+			<feedback>
+				<p>The application which you submitted was incomplete.</p>
+			</feedback>
+		</answer>
+	</answers>
+</enterAnswer>

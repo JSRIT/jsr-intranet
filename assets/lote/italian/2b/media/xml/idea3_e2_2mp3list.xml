@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="Impiegata:%09Buongiorno, mi dica.">../media/audio/3e2b_01.mp3</mp3file>
+	<mp3file title="Impiegata:%09A che ora vuole partire?">../media/audio/3e2b_02.mp3</mp3file>
+	<mp3file title="Impiegata:%09Vediamo, c’è ne uno che parte alle 9.59.">../media/audio/3e2b_03.mp3</mp3file>
+	<mp3file title="Impiegata:%09Bisogna cambiare a Viareggio.">../media/audio/3e2b_04.mp3</mp3file>
+	<mp3file title="Impiegata:%09Arriva a Viareggio alle 10.59 e poi si prende il rapido delle 11.40 che arriva a Lucca alle 11.57.">../media/audio/3e2b_05.mp3</mp3file>
+	<mp3file title="Impiegata:%09C’è il diretto delle 8.57 che arriva a Viareggio alle 9.33. C’è subito la coincidenza ...">../media/audio/3e2b_06.mp3</mp3file>
+	<mp3file title="Impiegata:%09Va bene. Allora vediamo il numero di chilometri. Solo andata o andata e ritorno?">../media/audio/3e2b_07.mp3</mp3file>
+	<mp3file title="Impiegata:%09No, con questo treno no. Solo andata ... sono sessantadue chilometri. Mi dia il biglietto per cortesia così scrivo i dettagli.">../media/audio/3e2b_08.mp3</mp3file>
+	<mp3file title="Impiegata:%09A proposito, quando pensa di ritornare? ">../media/audio/3e2b_09.mp3</mp3file>
+	<mp3file title="Impiegata:%09Allora, conviene fare il biglietto adesso. Evita di fare la coda in biglietteria di nuovo. ">../media/audio/3e2b_10.mp3</mp3file>
+	<mp3file title="Impiegata:%09Sì certo. Allora vediamo l’orario. C’è un treno da Lucca alle sedici e trenta, oppure il prossimo è alle diciassette e trenta.">../media/audio/3e2b_11.mp3</mp3file>
+	<mp3file title="Impiegata:%09È lo stesso dell’andata. Bisogna cambiare a Viareggio, ma c’è subito la coincidenza. ">../media/audio/3e2b_12.mp3</mp3file>
+	<mp3file title="Impiegata:%09Prego. Ecco il Suo biglietto. È tutto a posto sia per l’andata sia per il ritorno.">../media/audio/3e2b_13.mp3</mp3file>
+</playlist>

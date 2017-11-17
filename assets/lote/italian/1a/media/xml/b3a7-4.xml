@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<question1>
+		<sentence>What is the city of Napoli like?</sentence>
+		<example>an extraordinary city</example> 		
+	</question1>
+	<question2>
+		<sentence>What can be found in Napoli?</sentence>
+		<example>many beautiful buildings, churches, museums and art galleries</example> 			
+	</question2>
+	<question3>
+		<sentence>What is said about the streets?</sentence>
+		<example>They are very typical/characteristic.</example> 	
+	</question3>
+	<question4>
+		<sentence>What are the markets like?</sentence>
+		<example>They are very lively and crowded.</example> 			
+	</question4>
+	<question5>
+		<sentence>Of what is there a spectacular view?</sentence>
+		<example>the gulf of Naples</example> 		
+	</question5>	
+	<question6>
+		<sentence>What is Naples famous for?</sentence>
+		<example>pizza, songs and the theatre</example> 	
+	</question6>
+</strings>

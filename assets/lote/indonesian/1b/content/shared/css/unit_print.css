@@ -1,0 +1,227 @@
+/*
+@author [insert initials here], WestOne Services
+@created for [enter specific project details]
+WUPI: [insert WUPI code]
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+*/
+
+/* Reset styles
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 			0;
+	padding: 			0;
+	border: 			0;
+	outline: 			0;
+	font-size: 			100%;
+}
+
+body {	
+	background: 		#fff;
+	color: 				#000;
+	font-family: 		Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			80%;	/*at 75% and lower, opera is smaller, but moz & ie pc hardly change. 
+						76% is the smallest size that will stay the same across browsers.*/
+	line-height: 		1.2em;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote,
+form, ul, ol, dl, address, table {
+	margin: 			10px 0px;
+}
+
+li, dd, blockquote {
+	margin-left: 		5%;
+}
+fieldset, form, legend {
+	padding: 			.5em;
+}
+
+ul ul {
+	margin: 			1em 0;
+}
+ol ol {
+	margin: 			1em 0; 
+	list-style-type: 	lower-alpha;
+}
+
+/* Standard elements
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+	font-size: 			2.0em;
+}
+h2 {
+	font-size: 			1.7em;
+	color:				#575757;
+}
+h3 {
+	font-size: 			1.4em;
+	color:				#575757;
+}
+h4, h5, h6 {
+	font-size: 			1.2em;
+	color:				#575757;
+}
+
+p  {
+	font-size: 			1.0em;
+}
+
+table {
+	border-collapse:	collapse;
+}
+th, td {
+	padding: 			5px; 
+	border: 			1px solid #000000; 
+}
+caption {
+	caption-side:		top;
+}
+
+a:link {
+	text-decoration:	underline;
+}
+a:visited {}
+a:active {}
+a:hover {
+	text-decoration:	none;
+}
+
+#content a:link {
+	color:				#00ABD0;
+}
+#content a:visited {
+	color:				#00ABD0;
+}
+#content a:active {
+	color:				#00ABD0;
+}
+#content a:hover {
+	color:				#8CA600;
+}
+
+#header h1 { 
+	margin:				0px;
+	padding:			0px;
+	text-align:			right;
+	color: 				#00ff00; 
+	background:			#CCCC66;
+}
+
+
+
+/* General purpose classes
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+		
+}
+
+#cellHolder{
+
+}
+
+#header {
+	margin: 			0;
+	padding: 			0;
+	height: 			105px;
+	color:				#000000;
+	background: 		#B5D605;
+}
+
+#content {
+	margin:				30px 0px 0px 0px;
+	padding: 			10px;
+	clear:				both;
+}
+
+#footer{
+
+}
+
+
+body.visa {margin:5px;}
+body.visa table {margin:5px;}
+body.visa acronym {
+border-bottom:1px #ccc dashed;
+}
+
+
+
+/* Layout
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Navigation
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+#subNavigationPositionJS, #subNavigationPosition, #subNavigationNOJS, subNavigationJS
+{
+	display:			none;
+}
+
+/* Text alternative
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+.textalt { 
+	display:			block;
+}
+.ta_toggle { 
+	display:			none;
+}
+.ta_content { 
+	display:			block;
+}
+
+/* TODO: Hide flash content
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+#flashcontent {
+	display:			none;
+}
+#flashcontent_1 {
+	display:			none;
+}
+
+
+/*  accordion styles
+----------------------------------------------- */
+.accordion_content {
+	display:			block;
+}
+.rightAccordion {
+	display:			none;
+}
+.accordion h3 {
+  margin: 				0;
+  padding: 				5px;
+  border-top: 			2px solid #fffff7;
+  border-bottom: 		2px solid #fffff7;
+  width: 				98%;
+  text-indent: 			15px;
+  cursor: 				pointer;
+  font-size: 			0.9em;
+  color: 				#575757;
+  background: 			#E0E0E0;
+}
+.accordion h4 {
+	  margin: 			0;
+	  padding: 			5px;
+	  width: 			98%;
+	  border-top: 		2px solid #fffff7;
+	  border-bottom: 	2px solid #fffff7;
+	  cursor: 			pointer;
+	  text-indent: 		15px;
+	  font-size: 		0.9em;
+	  color: 			#575757;
+	  background: 		#E0E0E0;
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Radio Giovanni">
+	<mp3file title="DJ - Question 1">../media/audio/5e7_dj1.mp3</mp3file>
+	<mp3file title="Student 1 - Fabio">../media/audio/5e7_a1.mp3</mp3file>
+	<mp3file title="DJ - Question 2">../media/audio/5e7_dj2.mp3</mp3file>
+	<mp3file title="Student 2 - Sofia">../media/audio/5e7_a2.mp3</mp3file>
+	<mp3file title="DJ - Question 3">../media/audio/5e7_dj3.mp3</mp3file>
+	<mp3file title="Student 3 - Martina">../media/audio/5e7_a3.mp3</mp3file>
+	<mp3file title="DJ - Closing">../media/audio/5e7_dj4.mp3</mp3file>
+</playlist>

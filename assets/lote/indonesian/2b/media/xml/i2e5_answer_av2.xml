@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="ffffff" />
+		<fontColor reqColor="223542" />
+		<buttonColors startColor="000000" rollOverColor="999999" fontColor="ffffff" />
+		<startText> </startText>
+		<openingText introText="Instructional text" />
+		<openingText titleText="Interaction Title" />
+	</openingSettings>
+	
+	<questions>
+		<question>
+			<questionText>
+				<p>Kamu harus mengantarkan pelanggan ke meja yang bersih di tempat yang paling cocok untuk keperluannya.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-02</p>
+			</answerText>
+		</question>
+
+		
+
+		<question>
+			<questionText>
+				<p>Kamu harus menyampaikan makanan dengan cepat.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-04</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Kamu harus memberikan daftar makanan kepada pelanggan, lalu tanya apabila ada minuman yang diinginkannya. Hint: This one is tricky. You must remove the '-kan' and the 'kepada'.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-03</p>
+			</answerText>
+		</question>		
+		
+		<question>
+			<questionText>
+				<p>Kamu harus mencuci tangan sebelum shiftnya mulai.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-05</p>
+				</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Kamu harus menghidangkan makanan selagi panas.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-06</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Kamu harus menyapa pelanggan dengan sapaan Bapak atau Ibu.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-07</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Kalau ada masalah, kamu seharusnya memberitahu pengawas shift.</p>
+			</questionText>
+			<answerText>
+				<p>indo2b_idea2-3-08</p>
+			</answerText>
+		</question>		
+
+	</questions>
+</enterAnswer>

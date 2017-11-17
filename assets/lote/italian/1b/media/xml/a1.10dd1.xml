@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="000000" dropBackingColor="FF9175" dropCorrectBackingColor="BFFFA8" dropRollOverFontColor="FFFFFF" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="" finalFeedback="Molto bene !">
+	
+	<dropNeeded>
+		<dropZone startDrop="Gli amici" stopDrop="Gli amici sono molto importanti nel mondo dei teenager." />
+		<dropZone startDrop="Quando hanno tempo libero" stopDrop="Quando hanno tempo libero preferiscono stare insieme." />
+		<dropZone startDrop="Cosa fanno i teenager" stopDrop="Cosa fanno i teenager quando sono con gli amici?" />
+		<dropZone startDrop="Vanno in citt%C3%A0, al cinema" stopDrop="Vanno in citt%C3%A0, al cinema o a mangiare fuori insieme." />
+		<dropZone startDrop="Quelli pi%C3%B9 attivi" stopDrop="Quelli pi%C3%B9 attivi fanno sport." />
+		<dropZone startDrop="%C3%88 sempre bello" stopDrop="%C3%88 sempre bello ascoltare la musica o guardare un DVD a casa." />
+		<dropZone startDrop="Il fine settimana" stopDrop="Il fine settimana organizzano feste o vanno in discoteca." />
+		<dropZone startDrop="Quando non sono insieme" stopDrop="Quando non sono insieme ci sono tanti modi per stare in contatto." />	
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="FF9175" dragFontColor="000000" rollOverBackingColor="BFFFA8" rollOverFontColor="000000">
+		<dragZone drag="... ascoltare la musica o guardare un DVD a casa." correct="5" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... ci sono tanti modi per stare in contatto." correct="7" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... fanno sport." correct="4" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... o a mangiare fuori insieme." correct="3" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... organizzano feste o vanno in discoteca." correct="6" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... preferiscono stare insieme." correct="1" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... quando sono con gli amici?" correct="2" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="... sono molto importanti nel mondo dei teenager." correct="0" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+	</dragNeeded>
+</sentenceStart>
+
+

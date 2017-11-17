@@ -1,0 +1,19 @@
+﻿
+<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Audio CD – Track ?">
+	<mp3file title="Quando è il ballo?">../media/audio/a01_03_01.mp3</mp3file>
+	<mp3file title="Dove è il ballo/ dove si terrà?">../media/audio/a01_03_02.mp3</mp3file>
+	<mp3file title="Ci sarà musica dal vivo?">../media/audio/a01_03_03.mp3</mp3file>
+	<mp3file title="Cosa indosserai? ">../media/audio/a01_03_04.mp3</mp3file>
+	<mp3file title="Hai già comprato il tuo abito/vestito/gli accessori?">../media/audio/a01_03_05.mp3</mp3file>
+	<mp3file title="Quanto pagherai per il biglietto d'ingresso?">../media/audio/a01_03_06.mp3</mp3file>
+	<mp3file title="Chi inviterai al ballo? Con chi andrai al ballo?">../media/audio/a01_03_07.mp3</mp3file>
+	<mp3file title="Andrai al ballo in limousine con gli amici?">../media/audio/a01_03_08.mp3</mp3file>
+	<mp3file title="Ci sarà una festa dopo il ballo? Dove sarà la festa?">../media/audio/a01_03_09.mp3</mp3file>
+	<mp3file title="Quanto spenderai in tutto per partecipare al ballo?">../media/audio/a01_03_10.mp3</mp3file>
+	<mp3file title="Potresti spendere di meno?">../media/audio/a01_03_11.mp3</mp3file>
+	<mp3file title="Qual aspetto del ballo è il più interessante/divertente per te?">../media/audio/a01_03_12.mp3</mp3file>
+	<mp3file title="Sei eccitato/a/emozionato/a?">../media/audio/a01_03_13.mp3</mp3file>
+	<mp3file title="Ti piace la tradizione del ballo scolastico?">../media/audio/a01_03_14.mp3</mp3file>
+	<mp3file title="Secondo te, perché questa tradizione scolastica è diventata così importante?">../media/audio/a01_03_15.mp3</mp3file>
+</playlist>

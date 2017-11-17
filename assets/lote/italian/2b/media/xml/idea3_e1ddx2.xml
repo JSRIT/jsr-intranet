@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="ffffff" dropBackingColor="9692B3" dropCorrectBackingColor="B6B5DF" dropRollOverFontColor="ffffff" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="All'aeroporto%09%09%09%09%09%20%20%20%20%20%20Answers" finalFeedback="Molto bene !">
+	
+	<dropNeeded>
+		<dropZone startDrop="11. assistenza bagagli" stopDrop="11. assistenza bagagli%09%09%09%09%09%09%20%20lost luggage/baggage" />
+		<dropZone startDrop="12. deposito bagagli" stopDrop="12. deposito bagagli%09%09%09%09%09%09%20%20left luggage" />
+		<dropZone startDrop="13. dogana" stopDrop="13. dogana%09%09%09%09%09%09%09%09%09%20%20customs control" />
+		<dropZone startDrop="14. zona verde (niente da dichiarare)" stopDrop="14. zona verde (niente da dichiarare)%09%09%20%20nothing to declare" />
+		<dropZone startDrop="15. zona rossa (articoli da dichiarare)" stopDrop="15. zona rossa (articoli da dichiarare)%09%09%20%20articles to declare" />
+		<dropZone startDrop="16. informazioni" stopDrop="16. informazioni%09%09%09%09%09%09%09%09%20%20information desk" />
+		<dropZone startDrop="17. collegamenti" stopDrop="17. collegamenti%09%09%09%09%09%09%09%20%20connections" />
+		<dropZone startDrop="18. uscita" stopDrop="18. uscita%09%09%09%09%09%09%09%09%09%20%20exit" />
+		<dropZone startDrop="19. uscita" stopDrop="19. uscita%09%09%09%09%09%09%09%09%09%20%20departure gate" />		
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="9692B3" dragFontColor="ffffff" rollOverBackingColor="EEB8C5" rollOverFontColor="ffffff">
+		<dragZone drag="nothing to declare" correct="3" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="customs control" correct="2" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="lost luggage/baggage" correct="0" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="exit" correct="7" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="connections" correct="6" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="left luggage" correct="1" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="articles to declare" correct="4" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="information desk" correct="5" goodFeedback="Correct!" badFeedback="Incorrect." />
+		<dragZone drag="departure gate" correct="8" goodFeedback="Correct!" badFeedback="Incorrect." />
+	</dragNeeded>
+</sentenceStart>
+
+

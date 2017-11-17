@@ -1,0 +1,42 @@
+#cc3_mag {
+	background: #FFFBF0 url(../images/aw2_bg.jpg) top left repeat-x;
+	border: 1px solid #F1F4ED;
+	padding: 0px 10px 10px 10px;
+	margin-top: 25px;
+}
+#cc3_mag_header {
+	margin-left: -10px;
+}
+
+ul#cc3_quiz li {
+	clear: both;	
+}
+ul#cc3_quiz li input, #cc3_quiz_sol input {
+	text-align:center;
+}
+
+#cc3_quiz ol li {
+	clear: none;
+	padding-bottom: 10px;
+}
+
+.cc3_quiz_hl { color: #F00; }
+
+#cc3_quiz_sol th { background-color: #CCC; }
+
+.aw_box {
+	padding-left: 260px;
+	min-height: 157px;
+}
+* html .aw_box { height: 157px; }
+
+.strp { 
+	width:580px; 
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+	border-left: 1px solid #333;
+}
+.strp p { 
+	border-bottom: 1px solid #333; 
+	padding-left: 10px;
+}

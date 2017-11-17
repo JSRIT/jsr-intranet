@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="Introduzione">../media/audio/a4_02_01.mp3</mp3file>
+	<mp3file title="Come ti trovi qui?">../media/audio/a4_02_02.mp3</mp3file>
+	<mp3file title="Perché l’Australia?">../media/audio/a4_02_03.mp3</mp3file>
+	<mp3file title="Costo della vita">../media/audio/a4_02_04.mp3</mp3file>
+	<mp3file title="Aspettative">../media/audio/a4_02_05.mp3</mp3file>
+	<mp3file title="Aspetto sociale">../media/audio/a4_02_06.mp3</mp3file>
+	<mp3file title="Viaggi in Australia">../media/audio/a4_02_07.mp3</mp3file>
+	<mp3file title="Consigli">../media/audio/a4_02_08.mp3</mp3file>
+</playlist>

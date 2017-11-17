@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>Loro vanno in Italia per due mesi. (andare)</p></question>
+			<feedback><p><b>Loro sono andati in Italia per due mesi.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Luisa esce con gli amici. (uscire)</p></question>
+			<feedback><p><b>Luisa %C3%A8 uscita con gli amici.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Ti piace il gelato? (piacere)</p></question>
+			<feedback><p><b>Ti %C3%A8 piaciuto il gelato?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Voi andate alla festa sabato sera? (andare)</p></question>
+			<feedback><p><b>(Voi) siete andati alla festa sabato?</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

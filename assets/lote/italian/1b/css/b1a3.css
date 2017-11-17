@@ -1,0 +1,64 @@
+.txtArticle {
+	width: 600px;
+	padding: 5px 5px 0 5px;
+	margin: 2px;
+	border: 1px solid black;
+	background-color:#CFF;
+	text-align:center;
+}
+.txtArticle p {
+	text-align:left;
+}
+.txtArticle #footer {
+	width: 585px;
+	padding: 0 5px;
+	margin: 0px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid #FF9;
+	background-color:#FF9;
+}
+
+.qTable {
+	margin: 2px;
+	padding: 0px;
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	width:600px;
+}
+.qTable td {
+	padding: 5px;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+.yellowNote {
+	padding:5px;
+	width: 600px;
+	border: 1px solid black;
+	background-color: #FFFF87;
+}
+
+#perfinTable {
+	width: 600px;
+	padding: 0;
+	margin: 2px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+#perfinTable th {
+	background-color:#f0f0f0;
+	padding: 5px;
+	text-align:left;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+#perfinTable td {
+	padding: 5px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.perfinInput {
+	width: 570px;
+}

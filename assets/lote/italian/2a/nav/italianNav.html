@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Italian 2A Navigation Menu</title>
+<style type="text/css">
+p{
+	margin: 0;
+	padding: 0px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+#wrapper{
+	width: 180px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: left;
+}
+.box{
+	background: #fff;
+}
+.boxholder{
+	clear: both;
+	padding: 2px;
+	background-image: url(navGreen.gif);
+	background-position:top left;
+	background-repeat:repeat-y;
+	border-bottom: 1px solid #ffffff;
+}
+.lightboxholder{
+	clear: both;
+	padding: 2px;
+	background-image: url(navRed.gif);
+	background-position:top left;
+	background-repeat:repeat-y;
+	border-bottom: 1px solid #ffffff;
+}
+.tab{
+	font-weight: normal;
+	padding: 2px 0px 5px 2px;	
+}
+.lighttab{
+	font-weight: normal;
+	padding: 2px 0px 5px 2px;	
+}
+.lighttabtxt{
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 2px 0 0 0;
+}
+.tabtxt{
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 2px 0 0 0;
+}
+.tabtxt a { color: #ffffff; }
+
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.button {
+	width: 95%;
+	padding: 0 0 1em 0;
+	margin-bottom: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Grande',
+	  Verdana, Lucida, Geneva, Helvetica, 
+	  Arial, sans-serif;
+	background-color: #ffffff;
+	color: #333;
+	}
+.button ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+		
+.button li {
+		border-bottom: 1px solid #cccccc;
+		margin: 0;
+	}	
+.button li a {
+		display: block;
+		padding: 5px 5px 5px 0.5em;
+		background-color: #ffffff;
+		color: #666666;
+		text-decoration: none;
+		width: 96%;
+	}
+
+	html>body .button li a {
+		width: auto;
+	}
+
+	.button li a:hover {
+		background-color: #f5f5f5;
+		color: #333333;
+	}	
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+</style>
+<script type="text/javascript">
+
+	function switchActiveTab(tabElemId){
+			var sIdName = tabElemId.substr(0,tabElemId.indexOf('_')+1);
+		
+			// set all others to green
+			for (var i=1; i<=6; i++) {
+				var sTabId = sIdName + '' + i;
+				document.getElementById(sTabId).style.backgroundImage = "url('navGreen.gif')";
+			}
+			
+			// set our current one to red
+			document.getElementById(tabElemId).style.backgroundImage = "url('navRed.gif')";
+	}
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+<a href="../index.html" target="_parent"><img src="../images/header_nav.jpg" alt="Italian 2A logo" width="180" height="131" hspace="0" vspace="5" border="0" /></a>
+<div class="lightboxholder" id="menu_1">
+	<div class="lighttab">
+		<h3 class="tabtxt" title="Benvenuti"><a href="../intro.html" target="mainFrame" onclick="switchActiveTab('menu_1');">Benvenuti</a></h3>
+	</div>
+</div>
+<div class="boxholder" id="menu_2">
+	<div class="tab">
+	  <h3 class="tabtxt" title="Buoni propositi"><a href="../idea1/i.html" target="mainFrame" onclick="switchActiveTab('menu_2');">Buoni propositi</a></h3>
+	</div>
+  </div>
+
+<div class="boxholder" id="menu_3">
+	<div class="tab">
+	  <h3 class="tabtxt" title="Amici.net"><a href="../idea2/i.html" target="mainFrame" onclick="switchActiveTab('menu_3');">Amici.net</a></h3>
+	</div>
+ </div>
+
+<div class="boxholder" id="menu_4">
+	<div class="tab">
+	  <h3 class="tabtxt" title="Noi giovani"><a href="../idea3/i.html" target="mainFrame" onclick="switchActiveTab('menu_4');">Noi giovani</a></h3>
+	</div>
+ </div>
+
+<div class="boxholder" id="menu_5">
+	<div class="tab">
+	  <h3 class="tabtxt" title="I miel"><a href="../idea4/i.html" target="mainFrame" onclick="switchActiveTab('menu_5');">I miei</a></h3>
+	</div>
+</div>
+
+<div class="boxholder" id="menu_6">
+	<div class="tab">
+	  <h3 class="tabtxt" title="Spazio scuola"><a href="../idea5/i.html" target="mainFrame" onclick="switchActiveTab('menu_6');">Spazio scuola</a></h3>
+	</div>
+  	</div>
+</div>
+</body>
+</html>

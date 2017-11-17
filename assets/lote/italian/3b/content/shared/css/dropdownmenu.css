@@ -1,0 +1,123 @@
+/* ---------------------------------------------------------------------------------------------------------------------------------------------
+	START Drop down menu css.
+	Notes: subNavigationNOJS is changed to subNavigationJS using javascript for accessibility	*/
+	
+#subNavigationPositionJS {
+	position: 			absolute;
+	padding:			0 2em 0 0;
+	top: 				195px;
+	right:				0px;
+	font-weight:		bold;
+	font-size: 			0.8em;
+}
+
+#subNavigationJS {
+	list-style: 		none;
+	float: 				right;
+	margin: 			0;
+	padding: 			0;
+}
+
+#subNavigationJS li {
+	float: 				left;
+	margin: 			0 -2px 0 0;
+	position: 			relative;
+}
+
+#subNavigationJS li a:link,
+#subNavigationJS li a:visited {
+	background: 		#FFB000;
+	display: 			block;
+	padding:			0.6em;
+	border: 			2px solid #FF7D00;
+	color:				#8F0000;
+	text-decoration: 	none;
+}
+#subNavigationJS li a:hover {
+	color:				#FFF;
+	background: 		#8F0000;
+}
+#subNavigationJS li #selected {
+	border-bottom:		2px solid #8F0000;
+}
+
+#subNavigationJS li ul {
+	list-style: 		none;
+	position: 			absolute;
+	margin: 			0;
+	padding:			0.2em;
+	/* border: 			2px solid #000; */
+	color:				#000;
+	background:			#FFF;
+}
+
+#subNavigationJS li ul li {
+	float: 				none;
+	margin: 			0;
+	padding: 			0;
+}
+
+#subNavigationJS li ul li a:link,
+#subNavigationJS li ul li a:visited {
+	width: 				12em;
+	margin: 			0 0 2px 0;
+	padding:			0.3em!important;
+}
+
+.mActive {
+	border-bottom:		2px solid #8F0000!important;
+	color:				#FFF!important;
+	background: 		#8F0000!important;
+}
+
+/* NOJS version
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+#subNavigationNOJS {
+	padding: 			0.5em;
+	margin: 			0;
+	list-style: 		none;
+	font-weight: 		bold;
+}
+
+#subNavigationNOJS li {
+	margin: 			0 0 -1px 0;
+	border:				2px solid #FF7D00;
+}
+
+#subNavigationNOJS li a:link,
+#subNavigationNOJS li a:visited {
+	color:				#8F0000;
+	text-decoration: 	none;
+	display: 			block;
+	padding: 			0.5em;
+	background: 		#FFB000;
+}
+
+#subNavigationNOJS li a:hover {
+	color:				#FFF;
+	background:			#8F0000;
+}
+
+#subNavigationNOJS li ul {
+	list-style: 		none;
+	margin: 			0;
+	border-left: 		8px solid #A9A28D;
+	border-top: 		1px solid #A9A28D;
+}
+
+#subNavigationNOJS li ul li {
+	border: 			none;
+}
+
+/* END Drop down menu css.
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------
+	START css detection
+	Notes: Dropdown navigation and Nyromodal popup use this to check if they have css enabled		*/
+#isCSSEnabled {
+	color: #4984aa;	/*W1 blue, it CANNOT be white! */
+}
+/* END css detection
+--------------------------------------------------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist>
+	<mp3file title="Teacher: Question 1" belongsTo="1">../media/audio/5e2_q1.mp3</mp3file>
+	<mp3file title="Giorgia: Answer 1" belongsTo="2">../media/audio/5e2_a1.mp3</mp3file>
+	<mp3file title="Teacher: Question 2" belongsTo="1">../media/audio/5e2_q2.mp3</mp3file>
+	<mp3file title="Giorgia: Answer 2" belongsTo="2">../media/audio/5e2_a2.mp3</mp3file>
+	<mp3file title="Teacher: Question 3" belongsTo="1">../media/audio/5e2_q3.mp3</mp3file>
+	<mp3file title="Giorgia: Answer 3" belongsTo="2">../media/audio/5e2_a3.mp3</mp3file>
+	<mp3file title="Teacher: Question 4" belongsTo="1">../media/audio/5e2_q4.mp3</mp3file>
+	<mp3file title="Giorgia: Answer 4" belongsTo="2">../media/audio/5e2_a4.mp3</mp3file>
+	<mp3file title="Teacher: Question 5" belongsTo="1">../media/audio/5e2_q5.mp3</mp3file>
+	<mp3file title="Giorgia: Answer 5" belongsTo="2">../media/audio/5e2_a5.mp3</mp3file>
+	<mp3file title="Teacher: Question 6" belongsTo="1">../media/audio/5e2_q6.mp3</mp3file>
+	<mp3file title="Giorgia: Answer 6" belongsTo="2">../media/audio/5e2_a6.mp3</mp3file>
+</playlist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dragon3>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="00adef" rollOverColor="DEF1F2" fontColor="223542" />
+		<dropWaterMarks drop0="Dewi" drop1="Heru" drop2="" />
+		<openingText titleText="Bahasa baku dan bahasa gaul" />
+	</openingSettings>
+
+	<wordsList>
+		<word txtNeeded="udara bersih" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="boneka kanguru" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="bumerang" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="keteraturan kota" correctPos0="0" correctPos1="-1"  correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="cerita" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="keramahan orang" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		
+	</wordsList>
+</dragon3>

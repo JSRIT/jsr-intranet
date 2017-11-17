@@ -1,0 +1,25 @@
+/* CSS Document */
+
+a.cl_left {
+width:227px; height:450px; float:left; background-image:url(../images/clock_left.jpg); 
+display: block;
+ text-decoration:none;
+}
+a.cl_right {width:223px; height:450px; float:left; background-image:url(../images/clock_right.jpg);
+display: block;
+text-decoration:none;
+}
+
+
+a.cl_left:hover {
+background-image:url(../images/clock_left_hover.jpg);
+background-repeat:no-repeat;
+width:223px; height:450px;
+padding-right:4px;
+}
+
+a.cl_right:hover {
+background-image:url(../images/clock_right_hover.jpg);
+background-repeat:no-repeat;
+width:223px; height:450px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Indonesian 2A</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="../js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/swfobject.js"></script>
+<script type="text/javascript">
+<!--
+	var thisSection = "e";
+	addLoadEvent(initIdea);
+	addLoadEvent(doHides);
+
+function doHides(){
+	toggle('notes1');
+	toggle('notes2');
+}
+
+function doEx(iElem,iElemCount){
+	var filled = true;
+	iElemCount = (!iElemCount || iElemCount == 1)? 1 : iElemCount;
+	//alert(iElem);
+	for (i=0;i<iElemCount;i++){
+		if (!document.getElementById('ex' + iElem).elements[i].value){ filled = false; }
+	}
+	if (!filled){
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		show('notes' + iElem);
+					
+	}
+}
+//--> 
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header4">
+<div id="idea"><a href="i.html"><img src="../images/i.jpg" alt="Introduce" name="inav" width="24" height="58" hspace="0" vspace="0" border="0" id="inav" onmouseover="javascript:doRoll(0);" onmouseout="javascript:initIdea();" /></a><a href="d0.html"><img src="../images/d.jpg" alt="Discover" name="dnav" width="34" height="58" hspace="0" vspace="0" border="0" id="dnav" onmouseover="javascript:doRoll(1);" onmouseout="javascript:initIdea();" /></a><a href="e0.html"><img src="../images/e.jpg" alt="Engage" name="enav" width="29" height="58" hspace="0" vspace="0" border="0" id="enav" onmouseover="javascript:doRoll(2);" onmouseout="javascript:initIdea();" /></a><a href="a0.html"><img src="../images/a.jpg" alt="Apply" name="anav" width="48" height="58" hspace="0" vspace="0" border="0" id="anav" onmouseover="javascript:doRoll(3);" onmouseout="javascript:initIdea();" /></a><br />
+	  <img src="../images/E_text.jpg" name="ideatitle" width="135" height="40"hspace="0" vspace="0" border="0" id="ideatitle" /></div>
+	</div>
+	<div id="content">
+	<!-- START CONTENT -->
+	
+	<h2>Tugas 2</h2>
+	<p>Listen to the '<i><strong>Resensi film</strong></i>' radio excerpt between the noted '<i><strong>kritikus film</strong></i>&rsquo; Lukman Effendi and Maria Wardhani.</p>
+	  <p class="audioBox"><strong>Audio CD &ndash; Track 19 </strong></p>
+
+	  <div  id="audio">++ Load Audio</div>
+
+	  <p> 1.	Fill in the following table with the number of stars and a key comment about the film.</p>
+	<div class="yellowBox" id="flash1">Flash need plug-in</div>
+	<p><a href="docs/txt_alt10.doc" target="_blank">Text alternative</a></p>
+	 <form name="ex1" id="ex1" action="#">  
+	<p> 2. <span class="highlight"><acronym title="Who is the harsher critic?  Lukman Effendi or Maria Wardhani?">Siapa kritikus film yang lebih ketus?</acronym></span>  <span class="highlight"><acronym title="Justify your answers. ">Terangkan jawaban Anda</acronym></span>. </p>
+	<textarea cols="50" rows="3" name="Question2"></textarea>
+	<br /><br />
+	<p><input name="Cek Jawaban" value="Cek Jawaban" type="button" onclick="javascript:doEx(1);" /> </p>
+	</form>
+	<div class="yellowBox" id="notes1">Lukman Effendi - he gives 2, 2 and 4. He describes two of the films as jelek. He says he was bored and almost fell asleep. He had less positive things to say about the films.</div>
+	 <form name="ex2" id="ex2" action="#">
+	<p>3. <span class="highlight"><acronym title="In Indonesian, explain which of the three films you would choose to watch and why. ">Dalam bahasa Indonesia, terangkan film apa yang ingin Anda tonton, dan mengapa</acronym></span>. </p>
+	<textarea cols="50" rows="3" name="question3"></textarea>
+	<br /><br />
+	<p><input name="Cek Jawaban" value="Cek Jawaban" type="button" onclick="javascript:doEx(2);" /> </p>
+	<div class="yellowBox" id="notes2">This is a personal opinion so there is not a correct answer. Make sure you have justified your answer, then send it to your teacher for checking.</div>
+	</form>
+	<table width="100%" border="0" cellspacing="2" cellpadding="2">
+        <tr>
+          <td width="50%" class="yellowBox"><div align="left"><a href="e1.html"><img src="../images/arrowl.gif" alt="Previous" border="0" /></a></div></td>
+          <td width="50%" class="yellowBox"><div align="right"><a href="e3.html"><img src="../images/arrow.gif" alt="Next" border="0" /></a></div></td>
+        </tr>
+      </table>
+	<!-- END CONTENT -->
+	</div>
+  <div id="footer">
+	</div>
+</div>
+<br />&nbsp;
+<script type="text/javascript">
+   var so = new SWFObject("../media/i4e2-combo1.swf", "mymovie", "570", "400", "8", "#fef2d0");
+   so.addVariable("flv", "video/aadc1");
+   so.write("flash1");
+   
+      var so = new SWFObject("../media/radio_g.swf?mp3list=idea4_e2xml1", "mymovie", "385", "155", "8", "#fef2d0");
+   so.addVariable("flv", "video/aadc1");
+   so.write("audio");
+       
+</script>
+</body>
+</html>

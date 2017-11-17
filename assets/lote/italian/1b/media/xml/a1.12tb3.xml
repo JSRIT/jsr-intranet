@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>My boyfriend plays the guitar every day.</p></question>
+			<feedback><p><b>Il mio ragazzo suona la chitarra ogni giorno.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>I listen to music.</p></question>
+			<feedback><p><b>Io ascolto la musica.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>The boys play football once a week.</p></question>
+			<feedback><p><b>I ragazzi giocano a football una volta alla settimana.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>We talk on the phone for hours.</p></question>
+			<feedback><p><b>Noi parliamo al telefono per ore.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Teenagers dance at parties.</p></question>
+			<feedback><p><b>I teenager ballano alle feste.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

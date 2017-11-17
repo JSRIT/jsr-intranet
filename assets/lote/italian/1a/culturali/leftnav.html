@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Elementi Culturali Navigation</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url(images/left.JPG);
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: no-repeat;	
+	color: #333333;
+}
+a:link {
+	color: #339900;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #339900;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #339900;
+}
+-->
+</style>
+<script language="JavaScript" type="text/javascript">
+function toggleLayer(whichLayer) {
+	if (document.getElementById){
+		var style2 = document.getElementById(whichLayer).style;
+		style2.display = style2.display? "":"block";
+	} else if (document.all){
+		var style2 = document.all[whichLayer].style;
+		style2.display = style2.display? "":"block";
+	} else if (document.layers){
+		var style2 = document.layers[whichLayer].style;
+		style2.display = style2.display? "":"block";
+	}
+}
+</script>
+</head>
+<body>
+<p><a href="intro.html" target="mainFrame"><img src="images/culturali.gif" alt="Elementi Culturali icon" width="162" height="62" border="0" /></a></p>
+<p>
+	<a href="01_sms.html" target="mainFrame">Gli SMS</a><br />
+	<a href="02_carnevale.html" target="mainFrame">Carnevale in Italia</a><br />
+	<a href="03_aspetti.html" target="mainFrame">Aspetti di vita italiana </a><br />
+<br />
+</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist>
+	<mp3file title="1" belongsTo="1">../media/audio/indo2b_idea4-2-01.mp3</mp3file>
+	<mp3file title="2" belongsTo="2">../media/audio/indo2b_idea4-2-02.mp3</mp3file>
+	<mp3file title="3" belongsTo="3">../media/audio/indo2b_idea4-2-03.mp3</mp3file>
+	<mp3file title="4" belongsTo="4">../media/audio/indo2b_idea4-2-04.mp3</mp3file>
+	<mp3file title="5" belongsTo="5">../media/audio/indo2b_idea4-2-05.mp3</mp3file>
+	<mp3file title="6" belongsTo="6">../media/audio/indo2b_idea4-2-06.mp3</mp3file>
+	<mp3file title="7" belongsTo="7">../media/audio/indo2b_idea4-2-07.mp3</mp3file>
+	<mp3file title="8" belongsTo="8">../media/audio/indo2b_idea4-2-08.mp3</mp3file>
+	<mp3file title="9" belongsTo="9">../media/audio/indo2b_idea4-2-09.mp3</mp3file>
+	<mp3file title="10" belongsTo="10">../media/audio/indo2b_idea4-2-10.mp3</mp3file>
+	
+</playlist>

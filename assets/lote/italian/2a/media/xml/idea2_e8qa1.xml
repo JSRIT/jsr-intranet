@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>What is a possible risk for young people of spending too much time on the computer?</p></question>
+			<feedback><p><b>They can become dependent on the Internet.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What effect does being involved in chat have on their study?</p></question>
+			<feedback><p><b>They neglect their study.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What do parents find disturbing about their children being involved in chat?</p></question>
+			<feedback><p><b>They place/give too much importance on chat. They spend more time in contact with virtual (online) friends than with real friends.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What mood changes do parents observe in their children as a result of chatting?</p></question>
+			<feedback><p><b>They are often in a bad mood when they are not chatting but their mood changes and they become happy again as soon as they begin to chat.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>How is the lifestyle of young people changing as a result of online chat?</p></question>
+			<feedback><p><b>They are not interested in hobbies or sport. Their lifestyle is becoming sedentary (inactive).</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lineDragDrop>
+	<openingSettings>
+		<startText textNeeded="Pertanyann" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<openingText titleText="Jawbanayan" />
+	</openingSettings>
+
+	<drags>
+		<drag dragName="explode" correctSpot="2" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="eruption" correctSpot="1" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="erupt" correctSpot="0" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+	    <drag dragName="earthquake" correctSpot="4" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="explosion" correctSpot="3" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+
+		<drag dragName="volcano" correctSpot="14" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="a volunteer" correctSpot="11" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="donate" correctSpot="12" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="donation" correctSpot="13" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+	    <drag dragName="a flood" correctSpot="5" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="evacuee" correctSpot="7" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="sufferer/victim" correctSpot="9" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="evacuate" correctSpot="6" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="suffer" correctSpot="8" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+	    <drag dragName="voluntary" correctSpot="10" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		
+
+	</drags>
+	
+	<drops>
+		<drop dropNeeded="meletus" />
+		<drop dropNeeded="letusan" />
+		<drop dropNeeded="meledak" />
+		<drop dropNeeded="ledakan" />
+		<drop dropNeeded="gempa bumi" />
+		<drop dropNeeded="banjir" />
+		<drop dropNeeded="mengungsi" />
+		<drop dropNeeded="pengungsi" />
+		<drop dropNeeded="menderita" />
+		<drop dropNeeded="penderita" />
+		<drop dropNeeded="sukarela" />
+		<drop dropNeeded="sukarelawan" />
+		<drop dropNeeded="menyumbangkan" />
+		<drop dropNeeded="sumbangan" />
+		<drop dropNeeded="gunung api/berapi" />
+
+	</drops>
+	
+</lineDragDrop>

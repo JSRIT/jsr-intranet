@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>What is la Notte Bianca?</p></question>
+			<feedback><p><b>It is a big party when the city stays awake all night.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>When did it begin/originate?</p></question>
+			<feedback><p><b>The first event was in 2003.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>When does it take place?</p></question>
+			<feedback><p><b>It takes place in the month of September</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>At what time does it begin?</p></question>
+			<feedback><p><b>It begins at 21:00, ie 9pm.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>At what time does it finish?</p></question>
+			<feedback><p><b>It finishes the following morning.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Name the venues or where the events take place.</p></question>
+			<feedback><p><b>roads, piazzas, monuments, villas, museums, places of art, theatres and shops</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>In which general areas do events take place?</p></question>
+			<feedback><p><b>art, music, theatre, cinema, children's activities, sport, shopping</b></p></feedback>
+		</answer>
+</enterAnswer>

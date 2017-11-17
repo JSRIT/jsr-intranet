@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done. You have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>According to the article, why are companies very interested in the teenage world? </p></question>
+			<feedback><p><b>They represent a special/particular target %E2%80%93 they are the trend and the market.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What is the most important item for teenagers in the survey? What aspects interest them?</p></question>
+			<feedback><p><b>The mobile phone %E2%80%93 they are very interested in all the accessories, from covers to ringtones.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What are the two main areas in which teenagers spend their money? </p></question>
+			<feedback><p><b>clothing and entertainment</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What do young people want to express through their dress/look?</p></question>
+			<feedback><p><b>their uniqueness and originality</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Why do teenagers like shopping?  </p></question>
+			<feedback><p><b>because it's fun/entertaining</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>In shopping colour appeal plays an important role. What colour was in during the nineties?</p></question>
+			<feedback><p><b>black</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>How does this compare to this decade?</p></question>
+			<feedback><p><b>There is a rebirth of the fascination with colour.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What do young people like to wear on dark coats?</p></question>
+			<feedback><p><b>They like to wear coloured scarves and accessories.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

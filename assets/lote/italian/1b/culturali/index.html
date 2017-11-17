@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Elementi Culturali</title>
+<script language="javascript">
+var fname="mainFrame";     
+window.onload=function(){
+var d=document.location.search;
+if(d!=''){
+loadPage='';
+param=d.substring(d.lastIndexOf('?')+1,d.length);
+switch(param){
+	case 'sms' 				: loadPage='01_sms.html'; 		break;
+	case 'carnevale' 		: loadPage='02_carnevale.html'; break;
+	case 'aspetti' 			: loadPage='03_aspetti.html'; 	break;
+	case 'tempo'	 		: loadPage='04_tempo.html'; 	break;
+	case 'giovani' 			: loadPage='05_giovani.html'; 	break;
+	case 'piazza' 			: loadPage='06_piazza.html'; 	break;
+	case 'vacanze' 			: loadPage='07_vacanze.html'; 	break;
+	case 'notte'	 		: loadPage='08_notte.html'; 	break;
+	case 'sport' 			: loadPage='09_sport.html'; 	break;
+	case 'diet' 			: loadPage='10_diet.html'; 		break;
+	case 'cambia' 			: loadPage='11_cambia.html'; 	break;
+	case 'rimini' 			: loadPage='12_rimini.html'; 	break;
+}
+	if(loadPage!='') {	top.frames[fname].document.location.href=loadPage; }
+}
+}
+</script>
+</head>
+
+<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0">
+  <frame src="leftnav.html" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+  <frame src="intro.html" name="mainFrame" id="mainFrame" scrollbar="yes" scrolling="auto" title="mainFrame" />
+</frameset>
+
+<noframes>
+<body>
+You need a browser which supports frames to view this page.
+</body>
+</noframes>
+</html>

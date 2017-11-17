@@ -1,0 +1,111 @@
+/*
+@author [insert initials here], WestOne Services
+@created for [enter specific project details]
+WUPI: [insert WUPI code]
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+*/
+
+/* Reset styles
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 			0;
+	padding: 			0;
+	border: 			0;
+	outline: 			0;
+	font-size: 			100%;
+}
+
+body {	
+
+	color: 				#000;
+	font-family: 		Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			100%;	/*at 75% and lower, opera is smaller, but moz & ie pc hardly change. 
+						76% is the smallest size that will stay the same across browsers.*/
+	line-height: 		1.2em;
+	background-image:	url(../images/nav_bg.jpg);
+
+}
+
+
+
+#navCont {
+	padding-top:		100px;
+	
+
+}
+
+#menu {
+	margin: 			53px 0 30px 0;
+	padding: 			0;
+	border-top: 		1px solid #ffffff;
+
+	width: 				150px;
+	background: 		transparent;
+	
+}
+	
+#menu li { 
+	margin: 			0;
+	>margin: 0 0 -2px 0 ;
+	padding: 			0;
+	width: 				150px;
+	list-style: 		none;
+	font-size: 			0.75em;
+}
+	
+#menu li a { 
+	display:			block; 
+	margin:				0;
+	padding: 			3px 6px;
+
+	border-bottom: 		1px solid #FFF;
+	text-decoration: 	none;
+	line-height: 		1.5em;
+	color: 				#FFF;
+	background: 		#177E00; 
+}
+
+#menu li a:hover { 
+	color:				#FFF;
+	background: 		#1E9900;
+}
+
+#menu li a.selected { 
+	color: 				#fff;
+	background: 		#8C8C8C; 
+}
+
+#menu li a.selected:hover { 
+	background: 		#8C8C8C; 
+	color: 				#fff;
+}
+
+#menu ul {
+	margin: 			0;
+	padding: 			0;
+	border: 			0;
+
+}
+
+#menu ul li { 
+	
+}
+
+#menu ul li a { 
+	color: 				#eee; 
+}
+
+#menu ul li a:hover {
+	color: 				#888; 
+	background: 		#eee; 
+}
+	

@@ -1,0 +1,76 @@
+dt {
+	font-weight:		bold;
+}
+
+  
+.clearAll {
+  	clear: 				both;
+}
+
+.glossaryBlock {
+	clear: left;
+}
+
+.glossaryBlock h3 {
+	color: 				#fff;
+	background:		 	#B5D605;
+	text-indent:		20px;
+	margin: 			15px 15px 4px 0;
+	padding: 			5px 0;
+	height: 			1em;
+}
+
+#glossaryNavButtons ul {
+	list-style: 		none;
+	margin: 			0;
+	padding: 			0;
+}
+
+#glossaryNavButtons ul li {
+	float: 				left;
+	margin: 			0 4px 4px 0;
+	padding: 			0;
+	width: 				1.8em;
+	height: 			2em;
+	text-align: 		center;
+	line-height: 		2em;
+	font-weight: 		bold;
+	color:				#000;
+	background: 		#fff;
+}
+
+#glossaryNavButtons ul li a, #glossaryNavButtons ul li a:active, #glossaryNavButtons ul li a:visited {	
+	display: 			block;
+	width: 				1.8em;
+	height: 			2em;
+	text-decoration: 	none;
+	color:				#00ABD0;
+	background:			#EEEEEE;
+}
+#glossaryNavButtons ul li a:hover {	
+	display: 			block;
+	width: 				1.8em;
+	height: 			2em;
+	text-decoration: 	none;
+	color:				#000000;
+	background:			#00ABD0;
+}
+
+.showAllBtn,
+#showAllGlossary_btn {
+	width: 				7em!important;
+}
+
+#glossaryNavButtons a:hover {
+	color:				#ffffff;
+	background: 		#00ABD0;
+}
+
+.activeGloss {
+	color:				#000!important;
+	background: 		#C5C5C5!important;
+}
+
+#glossaryDefinitions {
+	clear: 				both;
+}

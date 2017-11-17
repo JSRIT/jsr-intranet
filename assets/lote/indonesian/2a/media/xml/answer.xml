@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="E9E2B9" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="FFFFFF" />
+		<answewrFontColor reqColor="FFFFFF" />
+		<questBackingColor reqColor="ABA480" />
+		<ansBackingColor reqColor="ABA480" />
+		<feedbackBackingColor reqColor="ABA480" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="FF9900" />
+		<buttonRolloverColor reqColor="FFCA0C" />
+		<buttonFontColor reqColor="635329" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question>
+				<p>Joko Anwar created the film entitled Janji Joni.</p>
+
+			</question>
+			<feedback>
+				<p>Joko Anwar created the film entitled Janji Joni.</p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Film Janji Joni diciptakan oleh Joko Anwar.</p>
+			</question>
+			<feedback>
+				<p>The film Janji Joni was created by Joko Anwar.</p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Banyak orang menonton film itu.</p>
+			</question>
+			<feedback>
+				<p>Many people watched the film.</p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Film itu ditonton banyak orang.</p>
+			</question>
+			<feedback>
+				<p>The film was watched by many people.</p>
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Pada hari Senin, kamu harus menyerahkan PR.</p>
+
+			</question>
+			<feedback>
+				<p>On Monday, you must hand in your homework.</p>			
+			</feedback>
+		</answer>
+		<answer>
+			<question>
+				<p>Pada hari Senin, PR harus diserahkan. </p>
+
+			</question>
+			<feedback>
+				<p>On Monday, your homework must be handed in.</p>			
+			</feedback>
+		</answer>		
+	</answers>
+</enterAnswer>

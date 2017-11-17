@@ -1,0 +1,162 @@
+
+.hidden {
+	display:none;
+}
+
+.visible {
+	display:block;
+}
+
+.aNote {
+	padding-left: 200px;
+}
+.tab {
+	padding-left: 50px;
+}
+
+textarea.medTA {
+	width: 490px;
+}
+textarea.smallTA {
+	width: 290px;
+}
+textarea.tinyTA {
+	width: 180px;
+}
+textarea.col4TA {
+	width: 135px;
+}
+
+.qTable {
+	padding: 0;
+	margin: 5px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.qTable td {
+	padding: 5px;
+	vertical-align:top;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.qTable th {
+	padding: 5px;
+	background-color:#f0f0f0;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.qTable.clearTH th {
+	padding: 5px;
+	background-color:#FFF;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	text-align:center;
+}
+
+.qTable.altTHTD th {
+	padding: 5px;
+	background-color:#fff;
+	text-align: left;
+}
+
+.qTable.altTHTD td {
+	padding: 5px;
+	background-color:#fff;
+	text-align: left;
+}
+.qTable.altTHTD td.singular {
+	padding: 5px;
+	background-color:#fff;
+	text-align: left;
+	font-weight:normal;
+}
+
+#ripTop {
+	border-top: 2px dashed #CCC;
+}
+
+#ripBottom {
+	border-bottom: 2px dashed #CCC;
+}
+
+.grid {
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.grid td {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+#magPage {
+	width: 600px;
+	margin: 5px;
+	padding: 60px 0 0 50px;
+	background:url(../images/ITAL1B_BK2_AW24.gif) top left no-repeat;
+}
+
+#magGrad {
+	width: 450px;
+	margin: 0;
+	padding: 5px;
+	background:url(../images/gy_grad.gif) top left repeat-x;
+}
+
+.box {
+	margin: 5px;
+	padding: 10px;
+	width: 580px;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+.yBG {
+	background-color:#FF9;
+}
+.bBG {
+	background-color:#E6F9F5;
+}
+.gBG {
+	background-color:#f0f0f0;
+}
+
+#tickBG {
+	padding: 65px 5px 5px 15px;
+	background: url(../images/bg_tick.jpg) top left no-repeat;
+	vertical-align: top;
+}
+
+#crossBG {
+	padding: 25px 5px 5px 15px;
+	background: url(../images/bg_cross.jpg) top left no-repeat;
+	vertical-align: top;
+}
+
+
+
+#blogwrapper {
+	width:600px;
+	height:400px;
+	overflow:auto;
+	overflow:scroll;
+}
+#blog {
+	border:3px double #000;
+	background-color:#FFFFCC;
+	width:580px;
+}
+#blog td {
+	padding: 5px;
+}
+
+#blog #imgCol {
+	border-left: 1px solid #000;
+	text-align:center;
+	vertical-align: top;
+	width: 175px;
+}
+
+.dblBorder {
+	border-left: 3px double #000;
+}

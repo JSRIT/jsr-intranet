@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="152759" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="FFFFFF" />
+		<answewrFontColor reqColor="FFFFFF" />
+		<questBackingColor reqColor="152759" />
+		<ansBackingColor reqColor="152759" />
+		<feedbackBackingColor reqColor="9692B3" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="FBE800" />
+		<buttonRolloverColor reqColor="FBE800" />
+		<buttonFontColor reqColor="000000" />
+		<buttonFontRollOverColor reqColor="000000" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question>
+				<p>How will he get  <b>from</b> the airport to Rome?</p><br />
+				<p>Search for <i>treni</i> from the airport.</p><br />
+				<p>Is there a direct link? What do you think is the best option? </p><br />
+				<p>A good starting point to find this information is on the official website of <i>Aeroporti di Roma</i> which can be accessed at <u>http://www.adr.it</u></p><br />
+				<p>Select Fiumicino.</p><br />
+				<p>Select collegamenti.</p>
+			</question>
+			<feedback>
+				<p>The <b>Leonardo Express</b> leaves every 30 minutes and connects the airport to <b>la Stazione Termini</b>, which is the main train station in Rome.</p>
+			</feedback>
+		</answer>
+
+		<answer>
+			<question>
+				<p>Search for autobus.</p>
+				<p>Is there a bus that links the airport to the city?</p>
+			</question>
+			<feedback>
+				<p>Yes. The bus goes from the airport to <b><i>la Stazione Termini</i></b>, the main train station in Rome.</p>
+			</feedback>
+		</answer>
+
+		<answer>
+			<question>
+				<p>If you were in this situation, which means of transport would you choose? Explain why?</p>
+			</question>
+			<feedback>
+			
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>Once in Rome, how will Christian get from la Stazione Termini to his pensione?</p>
+				<p>A good option will be la <i>metropolitana</i> (underground).</p>
+			</question>
+			<feedback>
+			
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>To find transport information on la metropolitana di Roma, go to: <u>http://www.metroroma.it</u></p>
+				<p>Select <i>info turistiche</i>.</p>
+				<p>Select <i>muoversi a Roma for una mappa</i>.</p>
+				<p>Christian will be at <i>la Stazione Termini</i>.</p>
+				<p>Is there a metro stop near San Pietro, the area where his pensione is located? If so, explain how he can get there.</p>
+			</question>
+			<feedback>
+				<p>Yes there is.</p>
+				<p>He needs to catch Linea A (the A line) in the direction of Battistini. He needs to get off at Ottaviano San Pietro stop.</p>
+			</feedback>
+		</answer>
+
+		<answer>
+			<question>
+				<p>Where is the accommodation that you have chosen for your stay in Rome?</p>
+				<p>Check la mappa della metro. Explain how you can get there if you are using the underground.</p>
+			</question>
+			<feedback>
+			
+			</feedback>
+		</answer>
+
+	</answers>
+</enterAnswer>
+		
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lineDragDrop>
+	<openingSettings>
+		<startText textNeeded="Pertanyann" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<openingText titleText="Jawbanayan" />
+	</openingSettings>
+
+	<drags>	    
+	     <drag dragName="pada tanggal 26 Desember 2004." correctSpot="3" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah. This is additional information." />
+		<drag dragName="tsunami" correctSpot="1" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah. This is something which can perform an action." />
+		<drag dragName="melanda" correctSpot="0" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah. This is an action." />
+		<drag dragName="Banda Aceh" correctSpot="2" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah. This is a place." />
+
+
+		
+
+	</drags>
+	
+	<drops>
+		<drop dropNeeded="verb" />
+		<drop dropNeeded="subject" />
+		<drop dropNeeded="object" />
+		<drop dropNeeded="extra phrase" />
+
+
+	</drops>
+	
+</lineDragDrop>

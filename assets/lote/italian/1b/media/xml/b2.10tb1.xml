@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>You are tempted to have <i>la pizza Rustica</i> which is the <i>pizzeria's</i> speciality. Check what it has as its topping. There may be some ingredients that you don't like. List the ingredients.</p></question>
+			<feedback><p><b>tomato, mozzarella (cheese), smoked ham, artichokes, sausage, capers and egg</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You can't make up your mind! You would like to sample a variety of toppings. Which pizza should you choose?</p></question>
+			<feedback><p><b>Quattro stagioni</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You are a vegetarian and don't eat fish. What are your choices?</p></question>
+			<feedback><p><b>Verdura alla griglia, Margherita or Marinara</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You are not very hungry and want something light to eat. Which pizza should you choose?</p></question>
+			<feedback><p><b>Margherita</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You hate fish. <i>Attenzione!</i> Which pizzas should you avoid?</p></question>
+			<feedback><p><b>Frutti di mare, salmone affumicato, Napoli and Siciliana</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You are allergic to dairy products. Is there a pizza that you can have?</p></question>
+			<feedback><p><b>Marinara</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You love bacon and eggs. Which pizza will you be sure to enjoy?</p></question>
+			<feedback><p><b>Bismarck</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You like a particular pizza but it is missing an ingredient that you would like to add. Where do you look to make a selection? What are some of the more common extras you can add?</p></question>
+			<feedback><p><b>Aggiunte su pizza</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>You are on a budget and don't want to spend too much money. Which options would you choose? </p></question>
+			<feedback><p><b>Marinara or Margherita</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Which pizzas are named after an Italian region or city?</p></question>
+			<feedback><p><b>Romana, Napoli, Siciliana</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>What is a <i>calzone</i>? Find out what it is. What is in the <i>calzone</i> on the menu?</p></question>
+			<feedback><p><b>A <i>calzone</i> is a folded pizza shaped like a semi-circle. The filling is in the centre. It contains tomato,mozzarella cheese, mushrooms, smoked ham and artichokes.</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>Why would <i>la pizza Wurstel</i> appeal especially to young children?</p></question>
+			<feedback><p><b>Because it has sausage as its main topping.</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

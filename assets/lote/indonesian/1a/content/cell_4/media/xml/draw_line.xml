@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lineDragDrop>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Benar! Pintar!" />
+		<buttonColors startColor="CC0000" rollOverColor="FF0000" fontColor="FFFFFF" />
+		<openingText titleText="" />
+	</openingSettings>
+
+	<drags>
+		<drag dragName="Audio 1" correctSpot="7" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'siapa' is for a name answer?" />
+		<drag dragName="Audio 2" correctSpot="1" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'berapa' is for a number answer?" />
+		<drag dragName="Audio 3" correctSpot="5" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'berapa' is for a number answer?" />
+		<drag dragName="Audio 4" correctSpot="0" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'di mana' is for a place answer?" />
+		<drag dragName="Audio 5" correctSpot="2" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'berapa' is for a number answer?" />
+		<drag dragName="Audio 6" correctSpot="3" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'dari mana' is for a place answer?" />
+		<drag dragName="Audio 7" correctSpot="8" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'siapa' is for a name answer?" />
+		<drag dragName="Audio 8" correctSpot="4" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'di mana' is for a place answer?" />
+		<drag dragName="Audio 9" correctSpot="6" colorNeeded="CC0000" correctFeed="Benar! Pintar!" badFeed="Salah. Did you remember 'berapa lama' is 'how long'?" />
+	</drags>
+	
+	<drops>
+		<drop dropNeeded="Where were you born?" />
+		<drop dropNeeded="What is your/his/her age?" />
+		<drop dropNeeded="How many siblings do you have?" />
+		<drop dropNeeded="Where do you come from?" />
+		<drop dropNeeded="Where do you live?" />
+		<drop dropNeeded="What is your date of birth?" />
+		<drop dropNeeded="How long have you studied Indonesian?" />
+		<drop dropNeeded="What is your/his/her name?" />
+		<drop dropNeeded="What is your friend's name?" />
+	</drops>
+	
+</lineDragDrop>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="152759" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="FFFFFF" />
+		<answewrFontColor reqColor="FFFFFF" />
+		<questBackingColor reqColor="336699" />
+		<ansBackingColor reqColor="336699" />
+		<feedbackBackingColor reqColor="9692B3" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="FBE800" />
+		<buttonRolloverColor reqColor="FBE800" />
+		<buttonFontColor reqColor="000000" />
+		<buttonFontRollOverColor reqColor="000000" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question>
+				<p>Period</p>
+			</question>
+			<feedback>
+				<p>summer</p>
+				<p>average of 17 days</p>
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>Holiday destinations</p>
+			</question>
+			<feedback>
+				<p>majority choose Italian beach, mountain, countryside locations</p>
+				<p>beach remains the preferred location for Italians</p>
+				<p>cities of art</p>
+				<p>farm holidays and wellbeing/health farms are in fashion</p>
+				<p>holidays abroad %E2%80%93 Europe and the United States are the preferred</p> destinations
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>Holiday activities</p>
+			</question>
+			<feedback>
+				<p>visit to museums and cultural treasures</p>
+				<p>good food</p>
+				<p>reading a book</p>
+				<p>nice walks</p>
+				<p>curiosity for other cultures and cuisine</p>
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>Transport</p>
+			</question>
+			<feedback>
+				<p>car preferred means of transport</p>
+				<p>plane travel</p>
+				<p>train</p>
+			</feedback>
+		</answer>
+		
+		<answer>
+			<question>
+				<p>Accommodation</p>
+			</question>
+			<feedback>
+				<p>increase in number who go to own holiday home</p>
+				<p>increase in popularity of bed and breakfast accommodation</p>
+				<p>decline in number who go to hotels, pensioni (boarding houses) and rental properties</p>
+			</feedback>
+		</answer>
+
+	</answers>
+</enterAnswer>
+		
+
+
+
+
+
+
+
+
+
+
+

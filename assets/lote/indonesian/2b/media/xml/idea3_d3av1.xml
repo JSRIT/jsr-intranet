@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist>
+	<mp3file title="1" belongsTo="2">../media/audio/indo2b_idea3-01-01.mp3</mp3file>
+	<mp3file title="2" belongsTo="1">../media/audio/indo2b_idea3-01-02.mp3</mp3file>
+	<mp3file title="3" belongsTo="2">../media/audio/indo2b_idea3-01-03.mp3</mp3file>
+	<mp3file title="4" belongsTo="1">../media/audio/indo2b_idea3-01-04.mp3</mp3file>
+	<mp3file title="5" belongsTo="2">../media/audio/indo2b_idea3-01-05.mp3</mp3file>
+	<mp3file title="6" belongsTo="1">../media/audio/indo2b_idea3-01-06.mp3</mp3file>
+	<mp3file title="7" belongsTo="2">../media/audio/indo2b_idea3-01-07.mp3</mp3file>
+	<mp3file title="8" belongsTo="1">../media/audio/indo2b_idea3-01-08.mp3</mp3file>
+	<mp3file title="9" belongsTo="2">../media/audio/indo2b_idea3-01-09.mp3</mp3file>
+	<mp3file title="10" belongsTo="1">../media/audio/indo2b_idea3-01-10.mp3</mp3file>
+	<mp3file title="11" belongsTo="2">../media/audio/indo2b_idea3-01-11.mp3</mp3file>
+	<mp3file title="12" belongsTo="1">../media/audio/indo2b_idea3-01-12.mp3</mp3file>
+	<mp3file title="13" belongsTo="2">../media/audio/indo2b_idea3-01-13.mp3</mp3file>
+	<mp3file title="14" belongsTo="1">../media/audio/indo2b_idea3-01-14.mp3</mp3file>
+	<mp3file title="15" belongsTo="2">../media/audio/indo2b_idea3-01-15.mp3</mp3file>
+	<mp3file title="16" belongsTo="1">../media/audio/indo2b_idea3-01-16.mp3</mp3file>
+	<mp3file title="17" belongsTo="2">../media/audio/indo2b_idea3-01-17.mp3</mp3file>
+	<mp3file title="18" belongsTo="1">../media/audio/indo2b_idea3-01-18.mp3</mp3file>	
+	<mp3file title="19" belongsTo="2">../media/audio/indo2b_idea3-01-19.mp3</mp3file>		
+
+</playlist>

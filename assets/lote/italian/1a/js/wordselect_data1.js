@@ -1,0 +1,161 @@
+/* q1  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q2  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q3  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q4  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q5  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q6  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q7  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+
+/* q8  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q9  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+/* q10  */
+newSelectFbk()
+addSelectFbkOption("abito")
+addSelectFbkOption("abita")
+addSelectFbkOption("abitiamo")
+addSelectFbkOption("abitano")
+addSelectFbkOption("abiti")
+addSelectFbkOption("abitate")
+
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"greentxtb\">Molto bene!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+addSelectFbkFeedback("<span class=\"redtxtb\">Prova di nuovo!</span>")
+
+

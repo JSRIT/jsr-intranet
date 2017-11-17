@@ -1,0 +1,84 @@
+.browser_senti {
+	background: url(../images/idea4/browser_senti.gif) no-repeat;
+	padding: 50px 20px 5px 15px;
+}
+.browser_senti_y {
+	background: url(../images/idea4/browser_senti_y.gif) no-repeat;
+	padding: 70px 60px 5px 60px;
+}
+.browser_senti_b {
+	background: url(../images/idea4/browser_senti_b.gif) no-repeat;
+	padding: 70px 60px 5px 60px;
+}
+.browser_senti textarea { 
+	width: 530px;
+}
+.browser_senti_b textarea { 
+	width: 440px;
+}	
+
+.browser_senti.sm {
+	background: url(../images/idea4/browser_senti_sm.gif) no-repeat;
+}
+.browser_senti.sm textarea { 
+	width: 490px;
+}
+.browser_senti_y.sm textarea, .browser_senti_b.sm textarea { 
+	width: 400px;
+}
+.browser_senti_y.sm {
+	background: url(../images/idea4/browser_senti_sm_y.gif) no-repeat;
+	padding: 80px 60px 5px 60px;
+}
+.browser_senti_b.sm {
+	background: url(../images/idea4/browser_senti_sm_b.gif) no-repeat;
+	padding: 80px 60px 5px 60px;
+}
+
+li {
+	padding: 5px 0;
+}
+
+table {
+	padding: 0; margin:0;
+}
+th { padding: 5px; background-color: #CCC; }
+td { padding: 10px; }
+
+.tlb_table {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.tlb_table th {
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.tlb_table td {
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	vertical-align: top;
+}
+.tlb_table td.ita { font-style:italic; }
+
+
+
+#leulei th {
+	background-color:#939;
+	color:#FFF;
+}
+
+input.ita_perc {
+	width: 97%;
+}
+
+#consigliati {
+	background: url(../images/idea4/aw13.jpg) top left no-repeat;
+}
+#evitare {
+	background: url(../images/idea4/aw14.jpg) top left no-repeat;
+}
+
+
+/* style colours */
+.flesh { background-color:#FC9; }

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Audio CD – Track 12">
+	<mp3file title="Cosa cerchi in una macchina?">../media/audio/a03_03_01.mp3</mp3file>
+	<mp3file title="Qual è la macchina dei tuoi sogni?">../media/audio/a03_03_02.mp3</mp3file>
+	<mp3file title="Quale macchina ti piacerebbe comprare?">../media/audio/a03_03_03.mp3</mp3file>
+	<mp3file title="Perché? Spiega i motivi della tua scelta.">../media/audio/a03_03_04.mp3</mp3file>
+	<mp3file title="Quale macchina ti puoi permettere? Qual è il tuo budget?">../media/audio/a03_03_05.mp3</mp3file>
+</playlist>

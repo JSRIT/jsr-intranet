@@ -1,0 +1,15 @@
+/* CSS Document Italian 2a - Idea 1 */
+.BGBrowser {
+	background: url(../images/browser.gif) no-repeat;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+* html .BGBrowser {
+	background-position: left top;
+	margin: 0px; padding-left: 15px;
+}
+
+.BGBrowser p.altrow {
+	padding: 5px;
+}
+

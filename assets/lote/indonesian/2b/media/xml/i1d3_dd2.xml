@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<dragon3>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<dropWaterMarks drop0="Sifat" drop1="Ketrampilan, kepandaian dan kesenangan" drop2="Jenis pekerjaan yang menarik" />
+		<openingText titleText="Bahasa baku dan bahasa gaul" />
+	</openingSettings>
+
+	<wordsList>
+		<word txtNeeded="diplomasi/diplomat" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah, ini jenis pekerjaan." />
+		<word txtNeeded="berdansa / bernyanyi" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini ketrampilan." />
+		<word txtNeeded="kreatif" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini sifat" />
+		<word txtNeeded="main komputer / playstation" correctPos0="-1" correctPos1="1"  correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini ketrampilan." />
+		<word txtNeeded="lancar bahasa Inggris" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini ketrampilan." />
+		<word txtNeeded="senang bergaul" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini sifat." />
+		<word txtNeeded="ramah" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Correct" badFeed="Salah, ini sifat." />
+		<word txtNeeded="bekerja dengan orang (misalnya industri perhotelan/pelayanan)" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah, ini jenis pekerjaan." />
+		<word txtNeeded="pintar bahasa Indonesia" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini ketrampilan." />
+		<word txtNeeded="baik hati" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini sifat" />
+		<word txtNeeded="ketik 55 kata/menit" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah, ini ketrampilan." />
+		<word txtNeeded="IT/komunikasi" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah, ini jenis pekerjaan." />
+		
+	</wordsList>
+</dragon3>

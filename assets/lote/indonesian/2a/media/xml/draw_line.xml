@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lineDragDrop>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Selamat! Pintar!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<openingText titleText="TATA TERTIB MASUK KARATON" />
+	</openingSettings>
+
+	<drags>
+		<drag dragName="" correctSpot="3" colorNeeded="31BEBE" correctFeed="Benar! Terus!" badFeed="Sala, coba lagi" />
+		<drag dragName="" correctSpot="0" colorNeeded="31BEBE" correctFeed="Benar! Terus!" badFeed="Sala, coba lagi" />
+		<drag dragName="" correctSpot="1" colorNeeded="31BEBE" correctFeed="Benar! Terus!" badFeed="Sala, coba lagi" />
+		<drag dragName="" correctSpot="2" colorNeeded="31BEBE" correctFeed="Benar! Terus!" badFeed="Sala, coba lagi" />
+	</drags>
+	
+	<drops>
+		<drop dropNeeded="DILARANG MEMBAWA MAKANAN" />
+		<drop dropNeeded="MOHON BERPAKAIAN PANTES SOPAN" />
+		<drop dropNeeded="MOHON TIDAK MEMAKAI ALAS KAKI KECUALI SEPATU" />
+        <drop dropNeeded="DILARANG MEROKOK" />
+	</drops>
+	
+</lineDragDrop>

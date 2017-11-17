@@ -1,0 +1,15 @@
+
+#airport {
+	font-size: 1.3em;
+	font-weight: bold;
+	background: #FBE800 url(../images/idea3/baggage.gif) top right no-repeat;
+	border: 2px solid #000;
+	min-height: 1em;
+}
+* html #airport {
+	height: 1em;
+}
+
+#ideaContent {
+	background:url(../images/idea3/idea3_bott.jpg) bottom right no-repeat;
+}

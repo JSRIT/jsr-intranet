@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dragon3>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="00adef" rollOverColor="DEF1F2" fontColor="223542" />
+		<dropWaterMarks drop0="ter- = the most (superlative)" drop1="ter- = can be ..." drop2="ter- = is ... in a state of being" />
+		<openingText titleText="Bahasa baku dan bahasa gaul" />
+	</openingSettings>
+
+	<wordsList>
+		<word txtNeeded="terbaik" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="terbaik artinya 'best'." />
+		<word txtNeeded="terdapat" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="terdapat artinya 'can be found'." />
+		<word txtNeeded="terlihat" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="terlihat artinya 'visible'." />
+		<word txtNeeded="terkenal" correctPos0="0" correctPos1="-1"  correctPos2="-1" correctFeed="Benar! Pintar." badFeed="terkenal artinya 'well-known'." />
+		<word txtNeeded="terletak" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="terletak artinya 'is located'." />
+		<word txtNeeded="terasa" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="terasa artinya 'is felt'" />
+		<word txtNeeded="terbuka" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="terbuka artinya 'is open'" />
+	</wordsList>
+</dragon3>

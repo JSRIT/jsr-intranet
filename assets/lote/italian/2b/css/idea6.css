@@ -1,0 +1,44 @@
+
+.ita_ent { 
+	background:url(../images/idea6/aw2.jpg) top right no-repeat;
+	min-height: 300px;
+}
+* html .ita_ent { 
+	height: 300px;
+}
+
+.ita_opera { 
+	background:url(../images/idea6/aw5.jpg) bottom left no-repeat;
+	min-height: 300px;
+	padding: 15px 30px 15px 15px;
+}
+
+.article {
+	padding: 25px 50px 30px 40px;
+	background: #FFF url(../images/idea6/article.jpg) top left no-repeat;
+	min-height: 610px;
+}
+.article strong {
+	font-size: 1.5em;
+}
+.article p {
+	padding-top: 25px;
+}
+* html .article {
+	height: 600px;
+}
+
+#ideaContent {
+	background:url(../images/idea6/aw2.jpg) bottom right no-repeat;
+}
+
+#outerImageContainer {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+#imageDataContainer {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}

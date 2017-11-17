@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Come si dice left navigation</title>
+<style type="text/css">
+<!--
+div#menu1,div#menu2,div#menu3,div#menu4,div#menu5,div#menu6 {
+	margin: 0px 0px 0px 0px;
+	display: none;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+a:link {
+	color: #339900;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #339900;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #339900;
+}
+-->
+</style>
+<script language="JavaScript" type="text/javascript">
+function toggleLayer(whichLayer) {
+	if (document.getElementById){
+		var style2 = document.getElementById(whichLayer).style;
+		style2.display = style2.display? "":"block";
+	} else if (document.all){
+		var style2 = document.all[whichLayer].style;
+		style2.display = style2.display? "":"block";
+	} else if (document.layers){
+		var style2 = document.layers[whichLayer].style;
+		style2.display = style2.display? "":"block";
+	}
+}
+</script>
+</head>
+
+<body>
+<p><a href="intro.html" target="mainFrame"><img src="images/comesidice.gif" alt="Come si dice" width="162" height="62" border="0" /></a></p>
+<b>Mondo da vivere</b>
+<p><a href="javascript:toggleLayer('menu1');">+ Un po'di relax</a><br />
+<div id="menu1">
+  	<a href="1_relax.html#tempo" target="mainFrame">Come passi il tuo tempo libero?</a><br />
+  	<a href="1_relax.html#libero" target="mainFrame">Giovani e tempo libero</a><br />
+</div>
+</p>
+<p><a href="javascript:toggleLayer('menu2');">+ Un mare di divertimenti</a><br />
+<div id="menu2">
+	<a href="2_mare.html#invitare" target="mainFrame">Invitare</a><br />
+	<a href="2_mare.html#guida" target="mainFrame">Una guida: Dove si trovano i giovani?</a><br />
+	<a href="2_mare.html#vacanza" target="mainFrame">Andiamo in vacanza</a><br />
+	<a href="2_mare.html#iltempo" target="mainFrame">Il tempo</a><br />
+</div>
+</p>
+<p><a href="javascript:toggleLayer('menu3');">+ Musica e cinema</a><br />
+<div id="menu3">
+	<a href="3_musica.html#concert" target="mainFrame">Andiamo ad un concerto</a><br />
+	<a href="3_musica.html#mesi" target="mainFrame">I mesi dell'anno</a><br />
+	<a href="3_musica.html#cinema" target="mainFrame">Vuoi andare al cinema?</a><br />
+	<a href="3_musica.html#musicforum" target="mainFrame">Forum musica</a><br />
+</div>
+</p>
+<b>Vivere bene</b>
+<p><a href="javascript:toggleLayer('menu4');">+ Il fitness</a><br />
+<div id="menu4">
+	<a href="4_fitness.html#sei" target="mainFrame">Una guida: Sei in forma?</a><br />
+	<a href="4_fitness.html#mantenersi" target="mainFrame">Mantenersi in forma</a><br />
+</div>
+</p>
+<p><a href="javascript:toggleLayer('menu5');">+ Una dieta sana</a><br />
+<div id="menu5">
+	<a href="5_dieta.html#dieta" target="mainFrame">La dieta</a><br />
+</div>
+</p>
+<p>&nbsp; </p>
+</body>
+</html>

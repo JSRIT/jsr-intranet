@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="» Musica «"></mp3file>
+		<mp3file title="Ti piace ascoltare la musica italiana?">../media/audio/a04_a2_01.mp3</mp3file>
+		<mp3file title="Ascolti la radio italiana?">../media/audio/a04_a2_02.mp3</mp3file>
+		<mp3file title="Che genere di musica preferisci?">../media/audio/a04_a2_03.mp3</mp3file>
+		<mp3file title="Come e dove ti piace ascoltare la musica?">../media/audio/a04_a2_04.mp3</mp3file>
+	<mp3file title=""></mp3file>
+	<mp3file title="» Cinema «"></mp3file>
+		<mp3file title="Hai visto un film italiano?">../media/audio/a04_a2_05.mp3</mp3file>
+		<mp3file title="Arrivano alcuni film italiani al cinema della tua città?">../media/audio/a04_a2_06.mp3</mp3file>
+		<mp3file title="Puoi vedere film italiani sul tuo PC?">../media/audio/a04_a2_07.mp3</mp3file>
+		<mp3file title="Che genere di film ti piacciono?">../media/audio/a04_a2_08.mp3</mp3file>
+		<mp3file title="Ti piace andare al cinema?">../media/audio/a04_a2_09.mp3</mp3file>
+		<mp3file title="Pensi che i cinema siano ormai obsoleti?">../media/audio/a04_a2_10.mp3</mp3file>
+		<mp3file title="Hai l'opportunità di vedere il telegiornale o altri programmi italiani in televisione?">../media/audio/a04_a2_11.mp3</mp3file>
+	<mp3file title=""></mp3file>	
+	<mp3file title="» Pubblicità «"></mp3file>
+		<mp3file title="Secondo te, la pubblicità influisce molto sulla vita dei giovani?">../media/audio/a04_a2_12.mp3</mp3file>
+		<mp3file title="Quale effetto negativo può avere la pubblicità sui giovani?">../media/audio/a04_a2_13.mp3</mp3file>
+		<mp3file title="Pensi che la pubblicità sia invadente?">../media/audio/a04_a2_14.mp3</mp3file>
+	<mp3file title=""></mp3file>	
+	<mp3file title="» Tecnologia «"></mp3file>
+		<mp3file title="La tecnologia è una componente importante della tua vita?">../media/audio/a04_a2_15.mp3</mp3file>
+		<mp3file title="Qual è il gadget tecnologico più prezioso per te?">../media/audio/a04_a2_16.mp3</mp3file>
+		<mp3file title="Riusciresti a vivere una settimana senza i tuoi gadget?">../media/audio/a04_a2_17.mp3</mp3file>
+		<mp3file title="Le forme tradizionali dei mass media hanno un futuro? Cosa ne pensi?">../media/audio/a04_a2_18.mp3</mp3file>		
+</playlist>

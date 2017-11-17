@@ -1,0 +1,109 @@
+/*
+@author [insert initials here], WestOne Services
+@created for [enter specific project details]
+WUPI: [insert WUPI code]
+
+@modified [Date], [Name], [Reason] $Rev: 01 $
+*/
+
+/* Reset styles
+--------------------------------------------------------------------------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 			0;
+	padding: 			0;
+	border: 			0;
+	outline: 			0;
+	font-size: 			100%;
+}
+
+body {	
+	background: 		#B5D605;
+	color: 				#000;
+	font-family: 		Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			100%;	/*at 75% and lower, opera is smaller, but moz & ie pc hardly change. 
+						76% is the smallest size that will stay the same across browsers.*/
+	line-height: 		1.2em;
+	background-image:	url(../images/nav_bg.jpg);
+}
+
+
+
+#navCont { }
+
+#menu {
+	margin: 			53px 0 30px 0;
+	padding: 			0;
+	width: 				190px;
+}
+	
+#menu li { 
+	margin: 			0 0 3px 5px;
+	padding: 			0;
+	width: 				190px;
+	list-style: 		none;
+	font-size: 			0.75em;
+	background: 		#C00000;
+	text-align: 		center;
+	border-top: 		2px solid #000;
+	border-right: 		3px solid #000;
+	border-bottom: 		2px solid #000;
+	border-left: 		3px solid #000;
+}
+	
+#menu li a { 
+	display:			block; 
+	margin:				0;
+	padding: 			3px 6px;
+	border: 			2px solid #FFBF00;
+	text-decoration: 	none;
+	line-height: 		1.5em;
+	color: 				#FFF;
+	background: 		#4DA300; 
+}
+
+#menu li a:hover { 
+	color:				#FFF;
+	background: 		#007000;
+}
+
+#menu li a.selected { 
+	color: 				#FFF;
+	background: 		#007000; 
+}
+
+#menu li a.selected:hover { 
+	background: 		#007000; 
+	color: 				#FFF;
+}
+
+#menu ul {
+	margin: 			10px 0 10px 5px;
+	padding: 			0;
+	border: 			0;
+	background-color:	none;
+	border: 			none;
+}
+
+#menu ul li { 
+	font-size: 1.0em;
+	border: none;
+	width: 165px;
+}
+
+#menu ul li a { 
+	color: 				#eee; 
+}
+
+#menu ul li a:hover {
+	color: 				#FFF; 
+	background: 		#007000; 
+}
+	

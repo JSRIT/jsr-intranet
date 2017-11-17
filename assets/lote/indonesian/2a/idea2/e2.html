@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Indonesian 2A</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="../js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/swfobject.js"></script>
+<script type="text/javascript">
+<!--
+	var thisSection = "e";
+	addLoadEvent(initIdea);
+	addLoadEvent(doHides);
+	
+function doHides(){
+	toggle('extra');
+	toggle('hide1');
+}
+
+function doEx1(){
+	var filled = true;
+	for (i=0;i<1;i++){
+		if (!document.ex1.elements[i].value) filled = false;
+	}
+	if (!filled){
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		show('hide1');
+	}
+}
+//--> 
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header2">
+<div id="idea"><a href="i.html"><img src="../images/i.jpg" alt="Introduce" name="inav" width="24" height="58" hspace="0" vspace="0" border="0" id="inav" onmouseover="javascript:doRoll(0);" onmouseout="javascript:initIdea();" /></a><a href="d0.html"><img src="../images/d.jpg" alt="Discover" name="dnav" width="34" height="58" hspace="0" vspace="0" border="0" id="dnav" onmouseover="javascript:doRoll(1);" onmouseout="javascript:initIdea();" /></a><a href="e0.html"><img src="../images/e.jpg" alt="Engage" name="enav" width="29" height="58" hspace="0" vspace="0" border="0" id="enav" onmouseover="javascript:doRoll(2);" onmouseout="javascript:initIdea();" /></a><a href="a0.html"><img src="../images/a.jpg" alt="Apply" name="anav" width="48" height="58" hspace="0" vspace="0" border="0" id="anav" onmouseover="javascript:doRoll(3);" onmouseout="javascript:initIdea();" /></a><br />
+	  <img src="../images/E_text.jpg" name="ideatitle" width="134"  height="40" hspace="0" vspace="0" border="0" id="ideatitle" /></div>
+	</div>
+  <div id="content">
+	<!-- START CONTENT -->
+	
+	<h2>Tugas 2</h2>
+	<p>Listen to the text twice. The first time, don&rsquo;t worry about  understanding it, just get a feel for the speaker&rsquo;s voice, pace and pronunciation.</p>
+<p class="audioBox"><strong>Audio CD &ndash; Track 10-11</strong></p>
+	<div id="audio1">Loading audio player.</div>
+	<p>The second time, type into the box any key words you  hear or recognise.<br />
+	  <input name="textfield" type="text" class="yTextInput" size="80" />
+	    <br />
+	What do you think the article is about? (Take a guess!  It doesn&rsquo;t matter if you are wrong.)<br />
+	<input name="textfield2" type="text" class="yTextInput" size="80" />
+	<br />
+	<a href="javascript:toggle('extra');">More</a></p>
+	<div class="yellowBox" id="extra">
+	  <p>Now <a href="e2popup.html" target="_blank">open the article</a>  and print  it out. <br />
+	    Highlight the words you heard and typed into the box.<br />
+      Read either Ramalan #1 or #2 from the article without  referring to your dictionary. </p>
+      <p>Write  down what you think the passage is about. <br />
+        (It won&rsquo;t be marked. You don&rsquo;t have  to be right.)<br />
+        <textarea name="textfield22" cols="70" rows="3" class="yTextInput"></textarea>
+      </p>
+      <p>Now underline all the words which you don&rsquo;t know. <br />
+Choose no more than five of these words. Which do you think  are most important to understanding the passage? (You may look them up now.) <br />
+Read the section again. Were the five words useful in  working out more of the meaning? <br />
+Look up some of the other words. Were any of them more  important? </p>
+	  <p>You  probably found that you don&rsquo;t need to know every word to get the gist of a  passage and that some words are more important than others, such as verbs or  words that are repeated often in one passage. </p>
+	</div>
+	<p>Write a few sentences in English or Indonesian reflecting on  how you went with this article. For example, was your initial impression of  what the article was about correct? How did your understanding increase?</p>
+	<form id="ex1" name="ex1" action="#">
+	<p>What  intercultural elements did you note in this article?</p> 
+      <textarea name="textfield222" cols="70" rows="4" class="yTextInput"></textarea> 
+      <div class="answers" id="hide1">
+	Answers:
+      <ul>
+        <li>skin-whitening lotion</li>
+        <li>advice about listening to your parents</li>
+        <li>commercial sponsorship in the media</li>
+        <li>rujak sauce.</li>
+      </ul>
+	  </div>
+      <p><input type="button" name="button" id="button" value="Tunjukkan jawaban" onclick="javascript:doEx1();" /></p>
+	</form>
+		<br />
+	<table width="100%" border="0" cellspacing="2" cellpadding="2">
+      <tr>
+        <td width="50%" class="yellowBox"><div align="left"><a href="e1.html"><img src="../images/arrowl.gif" alt="Previous" border="0" /></a></div></td>
+        <td width="50%" class="yellowBox"><div align="right"><a href="e3.html"><img src="../images/arrow.gif" alt="Next" border="0" /></a></div></td>
+      </tr>
+    </table>
+<!-- END CONTENT -->
+  </div>
+  	<div id="footer">
+  </div>
+	</div>
+<br />&nbsp;
+<script type="text/javascript">
+   var so1 = new SWFObject("../media/mp3player.swf", "aud1", "83", "32", "7","#ffffff");
+   so1.addVariable("fileName", "../media/audio/track1011.mp3");
+   so1.write("audio1");
+   
+   var so5 = new SWFObject("../media/mp3player.swf", "aud4", "83", "32", "8", "#ffffff");
+   so5.addVariable("fileName", "../media/audio/3-1-04.mp3");
+   so5.write("audio4");
+   
+   
+</script>
+</body>
+</html>

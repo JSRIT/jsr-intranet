@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Come si dice</title>
+<script language="javascript">
+var fname="mainFrame";     
+window.onload=function(){
+var d=document.location.search;
+if(d!=''){
+loadPage='';
+param=d.substring(d.lastIndexOf('?')+1,d.length);
+switch(param){
+	case 'tempo' 		: loadPage='1_relax.html#tempo'; break;
+	case 'libero' 		: loadPage='1_relax.html#libero'; break;
+	case 'invitare' 	: loadPage='2_mare.html#invitare'; break;
+	case 'guida' 		: loadPage='2_mare.html#guida'; break;
+	case 'vacanza' 		: loadPage='2_mare.html#vacanza'; break;
+	case 'iltempo' 		: loadPage='2_mare.html#iltempo'; break;
+	case 'concert'	 	: loadPage='3_musica.html#concert'; break;
+	case 'mesi'		 	: loadPage='3_musica.html#mesi'; break;
+	case 'cinema'	 	: loadPage='3_musica.html#cinema'; break;
+	case 'musicf'	 	: loadPage='3_musica.html#musicforum'; break;
+	case 'sei'	 		: loadPage='4_fitness.html#sei'; break;
+	case 'mantenersi'	: loadPage='4_fitness.html#mantenersi'; break;
+	case 'dieta'	 	: loadPage='5_dieta.html#sei'; break;
+}
+	if(loadPage!='') {	top.frames[fname].document.location.href=loadPage; }
+}
+}
+</script>
+</head>
+<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0">
+  <frame src="leftnav.html" name="leftFrame" scrollbar="yes" scrolling="auto" noresize="noresize" id="leftFrame" title="leftFrame" />
+  <frame src="intro.html" name="mainFrame" id="mainFrame" scrollbar="yes" scrolling="auto" title="mainFrame" />
+</frameset>
+<noframes>
+<body>
+You need a browser which supports frames to view this page.
+</body>
+</noframes>
+</html>

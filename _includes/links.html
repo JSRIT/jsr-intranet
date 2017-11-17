@@ -1,8 +1,18 @@
-<ul class="link-container" id="general-links">
-	{% for link in site.data.links %}
-		<li class="col-xs-6 col-md-4 col-lg-3">
-			<a href="{{ link.url }}"><img src="{{ site.baseurl }}/images/links/{{ link.image }}" alt="{{ link.title }}" class="img-responsive img-rounded" /></a>
-		</li>
-	{% endfor %}
-</ul>
-
+<div class="row">
+        {% for type in site.data.links %}
+        <div class="col">
+                <div class="display-4">{{ type[0] | capitalize }}</div>
+                <hr class="my-4">
+                {% for item in type[1] %}
+                <ul class="link-container">
+			<li class="col">
+                        	<a href="{{ item.url }}">
+					<p class="lead">{{ item.title }}</p>
+                        		<img src="{{ site.baseurl }}/images/{{ type[0] }}/{{ item.image }}" alt="{{ item.title }}" class="img-responsive img-rounded" />
+				</a>
+                        </li>
+                </ul>
+                {% endfor %}
+        </div>
+        {% endfor %}
+</div>

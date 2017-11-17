@@ -1,0 +1,118 @@
+/* CSS Document */
+body { 	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+	margin: 0px
+}
+
+body.homepage { 
+	margin: 0px;
+	background-color: #000; }
+
+h2 {
+	color: #6B92B3;
+	font-size: 1.5em;
+}
+
+h3 {
+	color: #6B92B3;
+	font-size: 1.2em;
+}
+
+h4 {
+	color: #6B92B3;
+	font-size: 1em;
+}
+
+hr {
+	color: #6B92B3;
+}
+
+p.menu {margin: 10px 10px 10px 50px}
+h4.menu {margin: 10px 10px 10px 40px }
+
+a:link {
+	color : #6B92B3;
+	font-weight : bold;
+	text-decoration : underline;
+}
+
+a:visited {
+	color : #6B92B3;
+	font-weight : bold;	
+	text-decoration : underline;
+}
+
+a:active {
+	color : #6B92B3;
+	font-weight : bold;	
+	text-decoration : underline;
+}
+
+a:hover {
+	color : #000000;
+	font-weight : bold;	
+	text-decoration : none;
+	background-color: #C0DCF4;
+}			
+
+.headingBackground {
+	background-color: #BEDCF5;
+}
+
+.noscript {
+	color: Red;
+	font-size: 2em;
+}	
+
+.passed {
+	color: Green;
+	font-size: 1.2em;
+}	
+				
+.copyright {
+	color: #FFFFFF;
+}
+
+
+#blockerinst {
+	display: none;
+	margin: 40px 0px 20px 30px;
+	width: 600px;
+}
+
+#blockerinst h2 {
+	color: #B22222;
+	font-size: 1.5em;
+	
+}
+
+#blockerlink {
+	background-image: url("../images/warning.jpg");
+	background-repeat: no-repeat;
+	display: none;
+	margin: 10px 10px 10px 10px;
+	padding-left: 55px;
+	padding-top: 12px;
+	padding-bottom: 25px;
+}
+
+#blockerlink a {
+	background-color: #FFF;
+	color: #B22222;
+}
+
+#blockerlink a:hover {
+	background-color: #B22222;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+img.example {
+	padding: 10px 10px 10px 10px; 
+}
+
+table {
+	margin-left: 30px;
+	width: 600px;
+	display: table;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="000000" dropBackingColor="FF9175" dropCorrectBackingColor="BFFFA8" dropRollOverFontColor="FFFFFF" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="Verbs%09%09%09relate to English phrase" finalFeedback="Molto bene!">
+
+	<dropNeeded>
+		<dropZone startDrop="bere" stopDrop="bere%09%09%09%09 six to eight glasses of water a day" />
+		<dropZone startDrop="variare" stopDrop="variare%09%09%09%09 often the selection of food" />
+		<dropZone startDrop="mangiare" stopDrop="mangiare%09%09%09 the correct food portions, fish two/three times a week" />
+		<dropZone startDrop="mangiare pi%C3%B9%20" stopDrop="mangiare pi%C3%B9%20%09%09 cereals, legumes, fruit and vegetables" />
+		<dropZone startDrop="limitare" stopDrop="limitare%09%09%09 consumption of foods containing animal fats" />
+		<dropZone startDrop="esagerare" stopDrop="esagerare%09%09%09 with sweets/food containing sugars" />
+		<dropZone startDrop="*ridurre" stopDrop="*ridurre%09%09%09 salt intake " />
+		<dropZone startDrop="*scegliere" stopDrop="*scegliere%09%09%09 fats from plant products." />
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="FF9175" dragFontColor="000000" rollOverBackingColor="BFFFA8" rollOverFontColor="000000">
+		<dragZone drag="cereals, legumes, fruit and vegetables" correct="3" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="consumption of foods containing animal fats" correct="4" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="fats from plant products" correct="7" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="the correct food portions, fish two/three times a week" correct="2" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="salt intake" correct="6" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="six to eight glasses of water a day" correct="0" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="often the selection of food" correct="1" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="with sweets/food containing sugars" correct="5" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+	</dragNeeded>
+</sentenceStart>
+
+

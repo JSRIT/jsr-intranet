@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lineDragDrop>
+	<openingSettings>
+		<startText textNeeded="Jawabannya" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<openingText titleText="Pertanyaan" />
+	</openingSettings>
+
+	<drags>
+		<drag dragName="1. Apa artinya nongkrong?" correctSpot="3" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="2. Apa artinya gayung?" correctSpot="2" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="3. Apa artinya bilas?" correctSpot="1" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<drag dragName="4. Apa artinya seres?" correctSpot="4" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+	    <drag dragName="5. Apa artinya pengering &#xD; pakaian?" correctSpot="0" colorNeeded="31BEBE" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		
+
+	</drags>
+	
+	<drops>
+		<drop dropNeeded="Mesin untuk mengeringkan pakaian." />
+		<drop dropNeeded="Setelah piring dicuci dengan sabun, dicuci lagi." />
+		<drop dropNeeded="Sebuah alat untuk menyiram diri." />
+		<drop dropNeeded="Bahasa Inggrisnya adalah 'squat'." />
+		<drop dropNeeded="Cokelat kecil kecil yang ditaruh di atas roti bakar atau donut." />
+
+
+
+	</drops>
+	
+</lineDragDrop>

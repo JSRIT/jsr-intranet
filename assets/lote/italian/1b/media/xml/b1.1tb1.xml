@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>andare a scuola a piedi</p></question>
+			<feedback><p><b>Vai a scuola a piedi?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>*salire le scale a piedi</p></question>
+			<feedback><p><b>Sali le scale a piedi?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>**andare in giro in bici</p></question>
+			<feedback><p><b>Vai in giro in bici?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>**fare sport</p></question>
+			<feedback><p><b>Fai sport?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>**andare in palestra</p></question>
+			<feedback><p><b>Vai in palestra?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>** fare un'attivit%C3%A0 fi sica leggera</p></question>
+			<feedback><p><b>Fai un'attivit%C3%A0 leggera?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>aiutare a mettere in ordine la casa</p></question>
+			<feedback><p><b>Aiuti a mettere in ordine la casa?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>**andare in piscina</p></question>
+			<feedback><p><b>Vai in piscina?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>*alzarsi presto (anche il fi ne settimana)</p></question>
+			<feedback><p><b>Ti alzi presto (anche il fi ne settimana)?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>**uscire con gli amici</p></question>
+			<feedback><p><b>Esci con gli amici?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>**fare una passeggiata (almeno quindici minuti al giorno)</p></question>
+			<feedback><p><b>Fai una passeggiata (almeno quindici minuti al giorno)?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>organizzare gite con gli amici</p></question>
+			<feedback><p><b>Organizzi gite con gli amici?</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>pulire la camera (-isc)</p></question>
+			<feedback><p><b>Pulisci la camera?</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+xmlMenu v1.5 
+by Jason Carle @ WestOne     
+	
+Menu Settings Parameters:
+(Settings node must be first node in XML file)
+mainBoxColur = 	hex value of background colour of menu items which have subitems
+subBoxColour = 	hex value of background colour of subitems
+textColour = 	hex value of text labels for all menu items
+itemHeight = 	pixel height of all menu items, adjust this to change vertical spacing. (Set to 20 for no gap)
+itemWidth =	pixel width of menu items  
+xOffset = 	number of pixels to shift subitems horizontally
+targetFrame = 	name of frame we wish to open URLs into
+            
+Menu Item Parameters:
+itemname = 	label text for the menu item
+itemurl = 	(optional) destination url when clicked. Even items with subitems can have a URL also.
+itemopen = 	(optional) if set to "true", this item has its submenu open upon loading. Defaults to false if not set.
+-->
+<menu>
+<settings mainBoxColour="66cc66" subBoxColour="cccccc" textColour="000000" itemHeight="20" itemWidth="177" xOffset="5" targetFrame="mainFrame" bgColour="ffffff"></settings>
+
+<menuitem itemname="Italian 1A" itemurl="../0.html" ></menuitem>
+
+<menuitem itemname="Voglia d'amicizia" itemurl="../a0.0.html" >
+
+	<subitem itemname="Incontri" itemurl="../a1.0.html">
+		<subitem itemname="Activity 1" itemurl="../a1.1.html"></subitem>
+		<subitem itemname="Activity 2" itemurl="../a1.2.html"></subitem>
+		<subitem itemname="Activity 3" itemurl="../a1.3.html"></subitem>
+		<subitem itemname="Activity 4" itemurl="../a1.4.html"></subitem>
+		<subitem itemname="Activity 5" itemurl="../a1.5.html"></subitem>
+		<subitem itemname="Activity 6" itemurl="../a1.6.html"></subitem>
+		<subitem itemname="Activity 7" itemurl="../a1.7.html"></subitem>
+		<subitem itemname="Activity 8" itemurl="../a1.8.html"></subitem>
+		<subitem itemname="Activity 9" itemurl="../a1.9.html"></subitem>
+		<subitem itemname="Activity 10" itemurl="../a1.10.html"></subitem>
+		<subitem itemname="Activity 11" itemurl="../a1.11.html"></subitem>
+		<subitem itemname="Extra" itemurl="../a1.extra.html"></subitem>
+		<subitem itemname="Per finire" itemurl="../a1.perfinire.html"></subitem>	
+	</subitem>
+
+	<subitem itemname="Conosciamoci" itemurl="../a2.0.html">
+		<subitem itemname="Activity 1" itemurl="../a2.1.html"></subitem>
+		<subitem itemname="Activity 2" itemurl="../a2.2.html"></subitem>
+		<subitem itemname="Activity 3" itemurl="../a2.3.html"></subitem>
+		<subitem itemname="Activity 4" itemurl="../a2.4.html"></subitem>
+		<subitem itemname="Activity 5" itemurl="../a2.5.html"></subitem>
+		<subitem itemname="Activity 6" itemurl="../a2.6.html"></subitem>
+		<subitem itemname="Activity 7" itemurl="../a2.7.html"></subitem>
+		<subitem itemname="Activity 8" itemurl="../a2.8.html"></subitem>
+		<subitem itemname="Activity 9" itemurl="../a2.9.html"></subitem>
+		<subitem itemname="Activity 10" itemurl="../a2.10.html"></subitem>
+		<subitem itemname="Activity 11" itemurl="../a2.11.html"></subitem>
+		<subitem itemname="Activity 12" itemurl="../a2.12.html"></subitem>		
+		<subitem itemname="Extra" itemurl="../a2.extra.html"></subitem>
+		<subitem itemname="Per finire" itemurl="../a2.perfinire.html"></subitem>				
+	</subitem>	
+
+	<subitem itemname="Amori.. ma non solo" itemurl="../a3.0.html">
+		<subitem itemname="Activity 1" itemurl="../a3.1.html"></subitem>
+		<subitem itemname="Activity 2" itemurl="../a3.2.html"></subitem>
+		<subitem itemname="Activity 3" itemurl="../a3.3.html"></subitem>
+		<subitem itemname="Activity 4" itemurl="../a3.4.html"></subitem>
+		<subitem itemname="Activity 5" itemurl="../a3.5.html"></subitem>
+		<subitem itemname="Activity 6" itemurl="../a3.6.html"></subitem>
+		<subitem itemname="Activity 7" itemurl="../a3.7.html"></subitem>
+		<subitem itemname="Activity 8" itemurl="../a3.8.html"></subitem>
+		<subitem itemname="Activity 9" itemurl="../a3.9.html"></subitem>
+		<subitem itemname="Activity 10" itemurl="../a3.10.html"></subitem>
+		<subitem itemname="Activity 11" itemurl="../a3.11.html"></subitem>
+		<subitem itemname="Activity 12" itemurl="../a3.12.html"></subitem>		
+		<subitem itemname="Extra" itemurl="../a3.extra.html"></subitem>
+		<subitem itemname="Per finire" itemurl="../a3.perfinire.html"></subitem>			
+	</subitem>	
+</menuitem>
+
+<menuitem itemname="Il mio mondo il tuo mondo"  itemurl="../b0.0.html">
+
+	<subitem itemname="Dove abito" itemurl="../b1.0.html">
+		<subitem itemname="Activity 1" itemurl="../b1.1.html"></subitem>
+		<subitem itemname="Activity 2" itemurl="../b1.2.html"></subitem>
+		<subitem itemname="Activity 3" itemurl="../b1.3.html"></subitem>
+		<subitem itemname="Activity 4" itemurl="../b1.4.html"></subitem>
+		<subitem itemname="Activity 5" itemurl="../b1.5.html"></subitem>
+		<subitem itemname="Extra" itemurl="../b1.extra.html"></subitem>
+		<subitem itemname="Per finire" itemurl="../b1.perfinire.html"></subitem>
+	</subitem>
+
+	<subitem itemname="Il mio spazio personale" itemurl="../b2.0.html">
+		<subitem itemname="Activity 1" itemurl="../b2.1.html"></subitem>
+		<subitem itemname="Activity 2" itemurl="../b2.2.html"></subitem>
+		<subitem itemname="Activity 3" itemurl="../b2.3.html"></subitem>
+		<subitem itemname="Activity 4" itemurl="../b2.4.html"></subitem>
+		<subitem itemname="Activity 5" itemurl="../b2.5.html"></subitem>
+		<subitem itemname="Activity 6" itemurl="../b2.6.html"></subitem>
+		<subitem itemname="Activity 7" itemurl="../b2.7.html"></subitem>
+		<subitem itemname="Extra" itemurl="../b2.extra.html"></subitem>
+		<subitem itemname="Per finire" itemurl="../b2.perfinire.html"></subitem>
+	</subitem>	
+
+	<subitem itemname="Cosa c'e da fare e vedere?" itemurl="../b3.0.html">
+		<subitem itemname="Activity 1" itemurl="../b3.1.html"></subitem>
+		<subitem itemname="Activity 2" itemurl="../b3.2.html"></subitem>
+		<subitem itemname="Activity 3" itemurl="../b3.3.html"></subitem>
+		<subitem itemname="Activity 4" itemurl="../b3.4.html"></subitem>
+		<subitem itemname="Activity 5" itemurl="../b3.5.html"></subitem>
+		<subitem itemname="Activity 6" itemurl="../b3.6.html"></subitem>
+		<subitem itemname="Activity 7" itemurl="../b3.7.html"></subitem>
+		<subitem itemname="Activity 8" itemurl="../b3.8.html"></subitem>
+		<subitem itemname="Activity 9" itemurl="../b3.9.html"></subitem>
+		<subitem itemname="Activity 10" itemurl="../b3.10.html"></subitem>
+		<subitem itemname="Extra" itemurl="../b3.extra.html"></subitem>
+		<subitem itemname="Per finire" itemurl="../b3.perfinire.html"></subitem>
+	</subitem>	
+</menuitem>
+
+<menuitem itemname="Risorse" itemurl="../risorse.html">
+</menuitem>
+</menu>

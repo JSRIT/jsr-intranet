@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/idea6_blog.dwt.html" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Indonesian 2B</title>
+<!-- InstanceEndEditable -->
+<script language="JavaScript" type="text/javascript" src="../js/swfobject.js"></script>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<link href="../css/menu.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/blog.css" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<script language="JavaScript" type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript">
+<!--
+	var thisSection = "d";
+	//addLoadEvent(initIdea);
+	addLoadEvent(doHides);
+
+//function doHides(){
+	//hide('ans1');
+//}
+
+//function doEx1(){
+	//show('ans1');
+//}
+
+
+
+function doHides(){
+	hide('q1_ans_1');
+	hide('q2_ans_1');
+}
+
+/*function doEx1(){
+	if (document.ex1.q1_inp_1.value =="")
+	{alert("");}
+	else
+	{
+	show('q1_ans_1');
+	}
+}*/
+function doEx1(doc, total, question){
+	var filled = true;
+
+for (i=0;i<total;i++){
+        
+        e = document.ex1;
+		if (!e.elements[i].value) filled = false;
+	}
+
+if (!filled){
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		for (i=0;i<1;i++){
+		show('q1_ans_1');
+		}	
+		}
+	
+	}
+	
+function doEx2(doc, total, question){
+	var filled = true;
+
+for (i=0;i<total;i++){
+        
+        e = document.ex2;
+		if (!e.elements[i].value) filled = false;
+	}
+
+if (!filled){
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		for (i=0;i<1;i++){
+		show('q2_ans_1');
+		}	
+		}
+	
+	}
+//--> 
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="main_wrapper">
+<div id="header_wrapper"><img src="../images/header.jpg" width="752" height="100" alt="Blog Cakra - Blog Cari Kerja Brendon dan Dewi" />
+	<div id="top_nav"><img src="../images/nav_left.jpg" alt="" width="32" height="38" />&nbsp;</div>
+</div>
+
+<div id="content_wrapper">
+<div id="content">
+	
+	<!-- START CONTENT -->
+	<!-- InstanceBeginEditable name="body" -->
+	<h2><strong>Kesempatan  kerja</strong></h2>
+	<p><img src="../images/AW8.jpg" alt="Brendon" class="icon" /><strong>Dari Brendon:</strong></p>
+	
+     <p>Here&rsquo;s an interview my old guru did with Heru and Dini, who  were doing some postgraduate study here for a short while. It shows their  perceptions of work opportunities for Australians in Indonesia. It&rsquo;s only the  perspectives of two people, but it&rsquo;s quite interesting. They weren&rsquo;t the first  jobs I thought of for Australians in Indonesia.</p>
+    
+	 <div  id="flash1">++ Load Video </div><div class="space"></div><br />
+	 <div  id="flash2">++ Load Video </div>
+	<p class="timestamp"><em>Diposting pada jam 19:31.</em></p>
+	<hr />
+	<h3>Komentar</h3>
+	<p class="commentor"><img src="../images/AW57.jpg" alt="teacher" class="icon" /><strong>Re: <em>Kesempatan kerja</em>, dari  IndoGuRu pada jam 07:23..</strong></p>
+	<p><acronym title="Identify the two fields of work Dini and Heru discuss.">Kedua  bidang pekerjaan apa yang disebutkan Dini dan Heru sebagai kesempatan kerja  untuk orang Australia di Indonesia?</acronym>  <acronym title="type">Ketiklah</acronym> jawaban Anda di bawah.</p>
+	<div class="space"></div><br />
+	<div class="greyCell1" >1. Dini:</div>
+	<div class="greyCell2">
+	<form id="ex1" name="ex1" method="post" action="#">
+	    <textarea name="textarea" cols="55" rows="2" id="q1_inp_1"></textarea>
+	</form>
+	</div>
+	<p class="answers" id="q1_ans_1">Segi bahasa (language sector), mengajar bahasa Inggris</p><input type="button" name="Button" value="Cek jawaban" onclick="javascript:doEx1('document.ex1',1,'q1');" />
+	<div class="space"></div><br />
+	<div class="greyCell1" >2. Heru:</div>
+	<div class="greyCell2">
+	<form id="ex2" name="ex2" method="post" action="#">
+	    <textarea name="textarea" cols="55" rows="2" id="q2_inp_1"></textarea>
+	</form>
+	</div>
+	<p class="answers" id="q2_ans_1">Segi konservasi/kehutanan (conservation/forestry).</p><input type="button" name="Button" value="Cek jawaban" onclick="javascript:doEx2('document.ex2',1,'q2');" />
+	<div class="space"></div>
+	<br />
+	<p>Jawablah pertanyaan berikut dalam bahasa Indonesia. Tulislah 1-2 paragraph.  Skema berikut akan membantu Anda. </p>
+	<ul type="square">
+      <li>Mengapa       orang Australia       bekerja di bidang tersebut, menurut Heru dan Dini?</li>
+	  <li>Ketrampilan       apa yang diperlukan bekerja di kedua bidang itu?</li>
+	  </ul>
+	<p>Pakailah <a href="docs/ws_3.doc" target="_blank">skema terlampir</a>   untuk membantu Anda. (You may need to infer some information.)</p>
+	<p>	  Kirimkanlah  paragraf-paragraf yang Anda tulis kepada guru Anda.</p>
+	<br />
+    <!-- InstanceEndEditable -->
+	<!-- InstanceBeginEditable name="nav" -->
+ <table width="100%" border="0" cellspacing="2" cellpadding="2">
+        <tr>
+          <td width="50%" class="navBox"><div align="left"><a href="e3.html"><img src="../images/arrowl.gif" alt="Previous"  border="0" /></a></div></td>
+          <td width="50%" class="navBox"><div align="right"><a href="e5.html"><img src="../images/arrow.gif" alt="Next"  border="0" /></a></div></td>
+        </tr>
+    </table>
+	<!-- InstanceEndEditable -->
+	<!-- END CONTENT -->
+  </div>
+</div>
+ <div id="rightnav_wrapper">
+	<div id="rightnav_head">&nbsp;</div>
+	<div class="rnav_Header">Discover post</div>
+	<div class="space"></div>
+	<div class="rnav_section">
+
+	  <!-- InstanceBeginEditable name="discover" -->
+        <div class="tswcssbuttons">
+			<ul>
+			<li><a href="d1.html">Kemitraan Australia - Indonesia</a></li>
+			<li><a href="d2.html">Lembaga Swadaya Masyarakat</a></li>
+			<li><a href="d3.html">Kata-kata pokok</a></li>
+			<li><a href="d4.html">Bentuk pasif lagi</a></li>
+			</ul>
+	  </div>
+	  <!-- InstanceEndEditable -->
+	</div>
+	<div class="rnav_Header">Engage post </div>
+	<div class="space"></div>	
+	<div class="rnav_section">
+	<!-- InstanceBeginEditable name="Engage" -->
+		<div class="tswcssbuttons">
+			<ul>
+			<li><a href="e1.html">Bencana dan musibah</a></li>
+			<li><a href="e2.html">Panti asuhan </a></li>
+			<li><a href="e3.html">Diskusi</a></li>
+			<li><a href="e4.html">Kesempatan kerja</a></li>
+			<li><a href="e5.html">Yogya pasca gempa article</a></li>
+           </ul>
+      </div>
+	<!-- InstanceEndEditable -->
+	</div>
+	
+	<div class="rnav_Header">Apply post</div>
+	<div class="space"></div>
+	<div class="rnav_section">
+	<!-- InstanceBeginEditable name="Apply" -->
+	<div class="tswcssbuttons">
+			<ul>
+			<li><a href="a0.html">Tugas</a></li>
+           </ul>
+    </div>
+	<!-- InstanceEndEditable -->
+	</div>
+    <div class="rnav_Header">Resource post</div>
+	<div class="space"></div>
+	<div class="rnav_section">
+	<div class="tswcssbuttons">
+	  <ul>
+	    <li><a href="../resources/index.html?strategi" target="_blank" >Strategi</a></li>
+		<li><a href="../resources/index.html?tata" target="_blank" >Tata bahasa</a></li>
+		<li><a href="../resources/index.html?pojok" target="_blank" >Pojok bahasa</a></li>
+  	  </ul>
+	</div>
+	</div>
+
+</div>	
+</div>
+<!-- InstanceBeginEditable name="script" --><script type="text/javascript">
+  var so = new SWFObject("../media/playFLV.swf?flv=Idea5E3Sillone_4a_T45_43", "mymovie", "380", "370", "8", "#ffffff");
+  // so.addVariable("flv", "video/av010101vod_1_T45_43.flv");
+     so.addParam("wmode", "transparent");
+   so.write("flash1");
+
+   var so2 = new SWFObject("../media/playFLV.swf?flv=Idea5Sillone_4b_T45_43", "mymovie", "380", "370", "8", "#ffffff");
+  // so.addVariable("flv", "video/av010101vod_1_T45_43.flv");
+     so2.addParam("wmode", "transparent");
+   so2.write("flash2");
+</script>   <!-- InstanceEndEditable -->
+
+</body>
+<!-- InstanceEnd --></html>

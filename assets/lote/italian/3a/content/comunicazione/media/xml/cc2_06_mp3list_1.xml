@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Audio CD – Track 8">
+	<mp3file title="DJ">../media/audio/a02_05_01.mp3</mp3file>
+	<mp3file title="DJ's questions">../media/audio/a02_05_02.mp3</mp3file>
+	<mp3file title="Fausto">../media/audio/a02_05_03.mp3</mp3file>
+	<mp3file title="Martina">../media/audio/a02_05_04.mp3</mp3file>
+	<mp3file title="Marco">../media/audio/a02_05_05.mp3</mp3file>
+	<mp3file title="Loredana">../media/audio/a02_05_06.mp3</mp3file>
+</playlist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p><b>Ti *mantieni</b> in forma?</p></question>
+			<feedback><p><b>Ti sei mantenuto/a</b> in forma?</p></feedback>
+		</answer>
+		<answer>
+			<question><p>I giocatori di football <b>si allenano</b> molto.</p></question>
+			<feedback><p>I giocatori di football<b>si sono allenati</b> molto.</p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Ci divertiamo</b> molto alla festa.</p></question>
+			<feedback><p><b>Ci siamo divertiti/e</b> molto alla festa.</p></feedback>
+		</answer>
+		<answer>
+			<question><p>Dopo una partita di calcio <b>mi sento</b> molto stanco.</p></question>
+			<feedback><p>Dopo una partita di calcio <b>mi sono sentito</b> molto stanco.</p></feedback>
+		</answer>
+		<answer>
+			<question><p><b>Vi rilassate</b> durante le vacanze?</p></question>
+			<feedback><p><b>Vi siete rilassati/e</b> durante le vacanze?</p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

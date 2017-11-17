@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Indonesian 2A</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript">
+<!--
+	var thisSection = "d";
+	addLoadEvent(initIdea);
+	addLoadEvent(doHides);
+	
+function doHides(){
+	toggle('hide1');
+}
+function doEx1(){
+	var filled = true;
+	for (i=0;i<6;i++){
+		if (!document.ex1.elements[i].value) filled = false;
+	}
+	if (!filled){
+		alert ("Coba jawablah semua pertanyaan!");
+	} else {
+		show('hide1');
+	}
+}
+//--> 
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header2">
+	<div id="idea"><a href="i.html"><img src="../images/i.jpg" alt="Introduce" name="inav" width="24" height="58" hspace="0" vspace="0" border="0" id="inav" onmouseover="javascript:doRoll(0);" onmouseout="javascript:initIdea();" /></a><a href="d0.html"><img src="../images/d.jpg" alt="Discover" name="dnav" width="34" height="58" hspace="0" vspace="0" border="0" id="dnav" onmouseover="javascript:doRoll(1);" onmouseout="javascript:initIdea();" /></a><a href="e0.html"><img src="../images/e.jpg" alt="Engage" name="enav" width="29" height="58" hspace="0" vspace="0" border="0" id="enav" onmouseover="javascript:doRoll(2);" onmouseout="javascript:initIdea();" /></a><a href="a0.html"><img src="../images/a.jpg" alt="Apply" name="anav" width="48" height="58" hspace="0" vspace="0" border="0" id="anav" onmouseover="javascript:doRoll(3);" onmouseout="javascript:initIdea();" /></a><br />
+	  <img src="../images/D_text.jpg" name="ideatitle" width="134" height="41" hspace="0" vspace="0" border="0" id="ideatitle" /></div>
+  </div>
+	<div id="content">
+	<!-- START CONTENT -->
+	
+	<h2><acronym title="Make your own prediction!">Bikin  ramalan sendiri!</acronym> </h2>
+	<form id="ex1" name="ex1" action="#">
+	<p>Write a set of predictions for a friend to help  you master a simple object focus pattern that you will find very useful later  on. </p>
+	<p><em><img src="../images/icon_pojokbahasa64.jpg" alt="Pojok bahasa icon" width="64" height="64" hspace="5" align="right" /></em>Use the <a href="../resources/docs/pojok2.doc" target="_blank">Pojok bahasa</a> to help you. </p>
+	<p>Complete the following sentences:	  </p>
+	<p>Minggu/bulan/tahun ini, <strong><acronym title="something">sesuatu</acronym></strong>  yang  akan anda <strong><acronym title="experience">alami</acronym></strong>  adalah&nbsp;...<br />
+	  <input name="textfield" type="text" class="yTextInput" id="textfield" size="20" />
+	</p>
+	<p>Sebuah <strong><acronym title="challenge">tantangan</acronym></strong>   yang akan Anda <strong><acronym title="face">hadapi</acronym></strong>  adalah ...<br />
+	  <input name="textfield2" type="text" class="yTextInput" id="textfield2" size="20" />
+	</p>
+	<p>Sesuatu yang harus Anda <strong>atasi</strong> get on top of/overcome adalah  ...<br />
+        <input name="textfield3" type="text" class="yTextInput" id="textfield3" size="20" />
+	</p>
+	<p>Seorang yang akan Anda <strong>kagumi</strong> admire adalah ... <br />
+	  <input name="textfield4" type="text" class="yTextInput" id="textfield4" size="20" />
+	</p>
+	<p>Seorang yang akan Anda <strong>cium</strong> kiss tahun ini adalah ... <br />
+	  <input name="textfield5" type="text" class="yTextInput" id="textfield5" size="20" />
+	</p>
+	<p>Answer the following question using the  structure above.<br />
+	  Apa yang ingin Anda <strong>capai</strong> achieve  tahun ini?	<br />
+	  <input name="textfield6" type="text" class="yTextInput" id="textfield6" size="60" />
+	  <br />
+	  <br />
+	  <input type="button" name="button" id="button" value="Tunjukkan jawaban" onclick="javascript: doEx1();" />
+	  </p>
+	  </form>
+	<div class="answers" id="hide1">Sesuatu yang ingin saya capai tahun ini adalah ...</div>
+    <br />
+	<table width="100%" border="0" cellspacing="2" cellpadding="0">
+      <tr>
+        <td width="50%" class="yellowBox"><div align="left"><a href="d4.html"><img src="../images/arrowl.gif" alt="Previous" border="0" /></a></div></td>
+        <td width="50%" class="yellowBox"><div align="right"><a href="d6.html"><img src="../images/arrow.gif" alt="Next" border="0" /></a></div></td>
+      </tr>
+    </table>
+	<!-- END CONTENT -->
+  </div>
+  <div id="footer">
+	</div>
+</div>
+<br />&nbsp;
+</body>
+</html>

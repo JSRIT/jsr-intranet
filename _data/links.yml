@@ -1,6 +1,66 @@
 # THIS FILE IS WHERE TO DEFINE GENERAL LINKS
-# EACH SECTION NEEDS TO INCLUDE TITLE, IMAGE AND URL. IMAGE SHOULD HAVE SAME FILENAME IN /IMAGES/LINKS FOLDER
+# EACH SECTION NEEDS TO INCLUDE TITLE, IMAGE AND URL. IMAGE SHOULD HAVE SAME FILENAME IN /IMAGES/%SECTIONNAME% FOLDER
 
+# images in this section should be saved in images/links
+links:
 - title: Google
   image: google.jpg
   url: https://www.google.com.au
+
+- title: Pic Search
+  image: picsearch.png
+  url: http://www.picsearch.com
+
+- title: Moodle
+  image: moodle.png
+  url: https://moodle.org
+
+- title: Wix
+  image: wix.png
+  url: http://www.wix.com
+
+# images in this section should be saved in images/school
+school:
+- title: Library Catalogue
+  image: libcatalog.png
+  url: http://library.jsracs.wa.edu.au/amlibweb/
+
+- title: School Website
+  image: ../logo.png
+  url: https://www.jsracs.wa.edu.au
+
+- title: Offline Files Access (eLearning)
+  image: files.png
+  url: https://files.jsracs.wa.edu.au 
+
+- title: Clickview
+  image: clickview.jpg
+  url: https://clickview.jsracs.wa.edu.au
+
+# images in this section should be saved in images/games
+games:
+- title: Learning Games for Kids
+  image: edugames.jpg
+  url: http://www.learninggamesforkids.com/
+
+- title: Starfall
+  image: starfall.png
+  url: http://www.starfall.com/n/level-k/index/play.htm?f
+
+- title: Jumping Spider
+  image: spider.png
+  url: http://www.media.perthnow.com.au/multimedia/2009/sept/fun/jumping_spider.html
+
+# images in this section should be saved in images/info
+info:
+- title: Student Internet Usage Policy
+  image: usage.jpg
+  url: /assets/policy.htm 
+
+- title: Learn how to stay safe on the internet
+  image: safety.jpg
+  url: http://www.kidshelp.com.au/kids/information/hot-topics/staying-safe-online.php
+
+- title: Languages (Indonesian and Italian)
+  image: lote.jpg
+  url: /assets/lote/LOTE.htm

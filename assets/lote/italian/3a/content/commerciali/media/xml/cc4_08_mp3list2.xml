@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="">
+	<mp3file title="» In and out «"></mp3file>
+		<mp3file title="Ti piace vestirti alla moda?">../media/audio/a04_a1_01.mp3</mp3file>
+		<mp3file title="Ti piace il look della stagione?">../media/audio/a04_a1_02.mp3</mp3file>
+		<mp3file title="Quali attività sono di tendenza nel tuo gruppo? ">../media/audio/a04_a1_03.mp3</mp3file>
+		<mp3file title="Per te, è importante fare parte di attività e di amicizie cool?">../media/audio/a04_a1_04.mp3</mp3file>
+	<mp3file title=""></mp3file>
+	
+	<mp3file title="» Tradizioni scolastiche  «"></mp3file>
+		<mp3file title="Quali tradizioni scolastiche ci sono nella tua scuola?">../media/audio/a04_a1_05.mp3</mp3file>
+		<mp3file title="Quale tradizione è la tua preferita?">../media/audio/a04_a1_06.mp3</mp3file>	
+	<mp3file title=""></mp3file>
+	
+	<mp3file title="» Il ballo «"></mp3file>
+		<mp3file title="Nella tua scuola c'è la tradizione del ballo?">../media/audio/a04_a1_07.mp3</mp3file>
+		<mp3file title="Ti piace la tradizione del ballo scolastico?">../media/audio/a04_a1_08.mp3</mp3file>
+		<mp3file title="Sei già stato al ballo? Come hai trovato l'esperienza?">../media/audio/a04_a1_09.mp3</mp3file>
+		<mp3file title="Quale aspetto del ballo è il più bello per te?">../media/audio/a04_a1_10.mp3</mp3file>
+		<mp3file title="Secondo te, questa tradizione scolastica è molto diffusa?">../media/audio/a04_a1_11.mp3</mp3file>
+		<mp3file title="Pensi che la tradizione sia diventata un po' esagerata?">../media/audio/a04_a1_12.mp3</mp3file>	
+	<mp3file title=""></mp3file>
+
+	<mp3file title="» Shopping online «"></mp3file>
+		<mp3file title="Ti piace fare shopping?">../media/audio/a04_a1_13.mp3</mp3file>
+		<mp3file title="Cosa ti piace comprare?">../media/audio/a04_a1_14.mp3</mp3file>
+		<mp3file title="Fai shopping online?">../media/audio/a04_a1_15.mp3</mp3file>
+		<mp3file title="Pensi che comprare in rete sia sicuro?">../media/audio/a04_a1_16.mp3</mp3file>	
+	<mp3file title=""></mp3file>
+
+	<mp3file title="» Problemi giovanili «"></mp3file>
+		<mp3file title="Quali problemi affrontano i giovani d'oggi?">../media/audio/a04_a1_17.mp3</mp3file>
+		<mp3file title="Secondo te, esiste il problema dell'alcol e della droga?">../media/audio/a04_a1_18.mp3</mp3file>
+		<mp3file title="C'è il problema tra i giovani di guidare ad alta velocità?">../media/audio/a04_a1_19.mp3</mp3file>
+		<mp3file title="Secondo te, i giovani s'annoiano facilmente?">../media/audio/a04_a1_20.mp3</mp3file>
+		<mp3file title="Come vi divertite nel tuo gruppo?">../media/audio/a04_a1_21.mp3</mp3file>
+		<mp3file title="I giovani, come potrebbero vivere meglio il tempo libero?">../media/audio/a04_a1_22.mp3</mp3file>			
+
+</playlist>

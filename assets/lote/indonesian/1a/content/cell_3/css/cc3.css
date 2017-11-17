@@ -1,0 +1,40 @@
+#compass {
+	position: relative;
+}
+
+#barat, #utara, #timur, #selatan, #tengah {
+	position: absolute;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+#barat {
+	top: 240px;
+	left: 20px;
+}
+
+#utara {
+	top: 120px;
+	left: 100px;
+}
+
+#timur {
+	top: 200px;
+	left: 220px;
+}
+
+#selatan {
+	top: 320px;
+	left: 140px;
+}
+
+#tengah {
+	top: 220px;
+	left: 140px;
+}
+
+.picture { 
+	float: left; 
+	width: 200px;
+	text-align:center;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<sentenceStart textColorNeeded="000000" dropBackingColor="FF9175" dropCorrectBackingColor="BFFFA8" dropRollOverFontColor="FFFFFF" goodFeedbackTextColor="00CC00" badFeedbackTextColor="FF0000" titleNeeded="" finalFeedback="Molto bene !">
+	
+	<dropNeeded>
+		<dropZone startDrop="I get up at about 7.30. = " stopDrop="I get up at about 7.30. = Mi alzo verso le sette e mezzo." />
+		<dropZone startDrop="I get up early. = " stopDrop="I get up early. = Mi alzo presto." />
+		<dropZone startDrop="I get ready for school. = " stopDrop="I get ready for school. = Mi preparo per scuola." />
+		<dropZone startDrop="I catch the 7.10 bus (coach). = " stopDrop="I catch the 7.10 bus (coach). = Prendo la corriera delle sette e dieci." />
+		<dropZone startDrop="I arrive at school at about 8.00. = " stopDrop="I arrive at school at about 8.00. = Arrivo a scuola verso le otto." />
+		<dropZone startDrop="I have to rush (run). = " stopDrop="I have to rush (run). = Devo correre." />
+		<dropZone startDrop="I rest for half an hour. = " stopDrop="I rest for half an hour. = Mi riposo per mezz'oretta." />
+		<dropZone startDrop="We talk, we joke around and we relax. = " stopDrop="We talk, we joke around and we relax. = Parliamo, scherziamo e ci rilassiamo." />
+		<dropZone startDrop="I spend the afternoon doing my homework. = " stopDrop="I spend the afternoon doing my homework. = Passo il pomeriggio a fare i compiti." />
+		<dropZone startDrop="I help mum with the housework. = " stopDrop="I help mum with the housework. = Aiuto la mamma con le faccende di casa." />
+	</dropNeeded>
+	
+	<dragNeeded dragBackingColor="FF9175" dragFontColor="000000" rollOverBackingColor="BFFFA8" rollOverFontColor="000000">
+		<dragZone drag="Mi preparo per scuola." correct="2" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Passo il pomeriggio a fare i compiti." correct="8" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Mi alzo verso le sette e mezzo." correct="0" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Mi riposo per mezz'oretta." correct="6" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Parliamo, scherziamo e ci rilassiamo." correct="7" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Arrivo a scuola verso le otto." correct="4" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Aiuto la mamma con le faccende di casa." correct="9" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Mi alzo presto. " correct="1" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Devo correre." correct="5" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+		<dragZone drag="Prendo la corriera delle sette e dieci." correct="3" goodFeedback="Correct!" badFeedback="Prova di nuovo!" />
+	</dragNeeded>
+</sentenceStart>
+
+

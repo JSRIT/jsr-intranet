@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dragon3>
+	<openingSettings>
+		<startText textNeeded="" />
+		<finalFeedback textNeeded="Bagus!" />
+		<buttonColors startColor="BAE3E4" rollOverColor="DEF1F2" fontColor="223542" />
+		<dropWaterMarks drop0="Formal" drop1="Informal" drop2="Either" />
+		<openingText titleText="Drag and drop the phrase at the bottom into each section below as suited to a formal conversation, information conversation or either." />
+	</openingSettings>
+
+	<wordsList>
+		<word txtNeeded="Daag" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Ini dari siapa?" correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Salam buat …" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Tolong beritahu dia bahwa…" correctPos0="0" correctPos1="-1"  correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Ngapain" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Ini dari ..." correctPos0="-1" correctPos1="-1" correctPos2="2" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Boleh saya titip pesan?" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Correct" badFeed="Salah! Coba lagi." />
+		<word txtNeeded="baik-baik saja" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Oh, hallo X, apa kabar?" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Kabar baik, terima kasih." correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Bagaimana kabarnya" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Hei, Yun, Rizky nih…" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Apakah X ada?" correctPos0="-1" correctPos1="1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+		<word txtNeeded="Selamat malam, Boleh bicara dengan…" correctPos0="0" correctPos1="-1" correctPos2="-1" correctFeed="Benar! Pintar." badFeed="Salah! Coba lagi." />
+
+	</wordsList>
+</dragon3>

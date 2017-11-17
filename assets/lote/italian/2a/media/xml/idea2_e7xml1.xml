@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist listTitle="Dati personali">
+	<mp3file title="Come ti chiami?">../media/audio/2e7_01.mp3</mp3file>
+	<mp3file title="Quanti anni hai?">../media/audio/2e7_02.mp3</mp3file>
+	<mp3file title="Quando sei nato/a?">../media/audio/2e7_03.mp3</mp3file>
+	<mp3file title="Dove abiti?">../media/audio/2e7_04.mp3</mp3file>
+	<mp3file title="Qual %C3%A8 la tua professione attuale?">../media/audio/2e7_05.mp3</mp3file>
+</playlist>

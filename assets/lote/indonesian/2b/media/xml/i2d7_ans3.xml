@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="77CCCE" />
+		<fontColor reqColor="223542" />
+		<buttonColors startColor="000000" rollOverColor="999999" fontColor="ffffff" />
+		<startText>"Please enter txt here" </startText>
+		<openingText introText="Instructional text" />
+		<openingText titleText="Interaction Title" />
+	</openingSettings>
+	
+	<questions>
+		<question>
+			<questionText>
+				<p>Saya menganjurkan teman saya yang sangat bertanggung jawab.</p>
+			</questionText>
+			<answerText>
+				<p>Teman yang saya anjurkan sangat bertanggung jawab.</p>
+                <p>The subject is first person (saya), so the verb must be base form, and the subject comes before the verb.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Pemilik restoran mengirim surat tawaran kemarin.</p>
+			</questionText>
+			<answerText>
+				<p>Surat tawaran dikirim pemilik restoran kemarin.</p>
+                <p>The subject is third person (pemilik restoran), so the verb must be a di-verb.</p>
+			</answerText>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Pemilik restoran memilih orang yang sangat berpengalaman.</p>
+			</questionText>
+			<answerText>
+				<p>Orang yang dipilih pemilik restoran sangat berpengalaman.</p>
+                <p>The subject is third person, so the verb must be a di-verb.</p>
+			</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Anda harus mengirimkan surat lamaran, CV dan foto kepada kantor kami sebelum tanggal 14 Oktober.</p>
+			</questionText>
+			<answerText>
+				<p>Surat lamaran, CV dan foto harus Anda kirimkan kepada kantor kami sebelum tanggal 14 Oktober.</p>
+                <p>The subject is second person (Anda), so the verb must be base form, and the subject comes before the verb.</p>
+				</answerText>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Karyawan kita melaksanakan beberapa tugas yang sangat penting.</p>
+			</questionText>
+			<answerText>
+				<p>Beberapa tugas yang sangat penting dilaksanakan karyawan kita.</p>
+                <p>The subject is third person (our workers), so the verb must be a di-verb.</p>
+			</answerText>
+		</question>
+		
+		
+
+	</questions>
+</enterAnswer>

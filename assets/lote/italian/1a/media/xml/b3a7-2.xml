@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<question1>
+		<sentence>Which adjectives are used to describe the city of Fremantle?</sentence>
+		<example>fascinating, multicultural</example> 		
+	</question1>
+	<question2>
+		<sentence>Which influences are nice to see in Fremantle?</sentence>
+		<example>influence of so many different/diverse cultures</example> 			
+	</question2>
+	<question3>
+		<sentence>What can you find in the cappuccino strip?</sentence>
+		<example>caf&#233;s, restaurants, pizzeria/pizza shops</example> 	
+	</question3>
+	<question4>
+		<sentence>Why is the Maritime Museum very interesting?</sentence>
+		<example>It is full of history.</example> 			
+	</question4>
+	<question5>
+		<sentence>Where is it  popular tor shop?</sentence>
+		<example>the markets</example> 		
+	</question5>	
+	<question6>
+		<sentence>What does Alana love about living in this city?</sentence>
+		<example>the cosmopolitan atmosphere</example> 	
+	</question6>
+</strings>

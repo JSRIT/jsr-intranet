@@ -1,0 +1,30 @@
+/* CSS Document */
+
+table.forum {
+font-size:12px;
+line-height:150%;
+}
+
+table.forum th {
+color:#333;
+text-align:left;
+}
+
+table.forum td, table.forum th {
+background-color: #E6E6E6;
+
+}
+
+
+.altcolor td, table .altcolor th, table td.altcolor {
+background-color:#B3D1EA;
+}
+
+.forum th {
+border-bottom:1px solid #333333;
+}
+
+.forum td {
+padding-bottom:20px;
+}
+

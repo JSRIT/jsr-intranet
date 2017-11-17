@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="77CCCE" />
+		<fontColor reqColor="223542" />
+		<buttonColors startColor="000000" rollOverColor="999999" fontColor="ffffff" />
+		<startText> </startText>
+		<openingText introText="Instructional text" />
+		<openingText titleText="Interaction Title" />
+	</openingSettings>
+	
+	<questions>
+		<question>
+			<questionText>
+				<p>Sukarelawan mengerjakan berbagai macam tugas.</p>
+			</questionText>
+			<answerText>
+				<p>Sukarelawan</p>
+			</answerText>
+			<answerText2>
+				<p>berbagai macam tugas </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Orang dari seluruh pelosok dunia mengirim makanan dan sumbangan lain.</p>
+			</questionText>
+			<answerText>
+				<p>Orang dari seluruh pelosok dunia </p>
+			</answerText>
+			<answerText2>
+				<p>makanan dan sumbangan lain </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Berbagai macam bencana dan musibah melanda Indonesia setiap tahun.</p>
+			</questionText>
+			<answerText>
+				<p>Berbagai macam bencana dan musibah </p>
+			</answerText>
+			<answerText2>
+				<p>Indonesia </p>
+			</answerText2>
+		</question>
+		
+		<question>
+			<questionText>
+				<p>Tahun lalu, teman saya mengunjungi beberapa daerah yang dilanda bencana.</p>
+			</questionText>
+			<answerText>
+				<p>Teman saya </p>
+				</answerText>
+			<answerText2>
+				<p>beberapa daerah yang dilanda bencana. </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Letusan gunung api menyebabkan terjadinya pengungsian (evacuation) beberapa desa.</p>
+			</questionText>
+			<answerText>
+				<p>Letusan gunung api </p>
+				</answerText>
+			<answerText2>
+				<p>pengungsian beberapa desa </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Politik di Australia mempengaruhi jumlah dana yang diberikan kepada negara miskin.</p>
+			</questionText>
+			<answerText>
+				<p>Politik di Australia </p>
+				</answerText>
+			<answerText2>
+				<p>jumlah dana yang diberi kepada negara miskin </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Anggota UN biasanya memberikan dana kepada negara yang dilanda bencana.</p>
+			</questionText>
+			<answerText>
+				<p>Anggota UN </p>
+				</answerText>
+			<answerText2>
+				<p>dana</p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Anda bisa mengerjakan banyak tugas kalau terjadi bencana.</p>
+			</questionText>
+			<answerText>
+				<p>Anda </p>
+				</answerText>
+			<answerText2>
+				<p>banyak tugas </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Saya bisa menerjemahkan frasa-frasa sederhana untuk dokter yang berbahasa Inggris kalau terjadi bencana di Indonesia.</p>
+			</questionText>
+			<answerText>
+				<p>Saya </p>
+				</answerText>
+			<answerText2>
+				<p>frasa-frasa sederhana </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Saya bisa mengemudi kendaraan roda empat dalam keadaan darurat.</p>
+			</questionText>
+			<answerText>
+				<p>Saya </p>
+				</answerText>
+			<answerText2>
+				<p>kendaraan roda empat </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Anda seharusnya mengirimkan pakaian bekas Anda kepada orang miskin di Indonesia.</p>
+			</questionText>
+			<answerText>
+				<p>Anda </p>
+				</answerText>
+			<answerText2>
+				<p>bekas pakaian Anda</p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Anda bisa membawa buku sekolah dan alat olahraga ke Bali kalau Anda berlibur di sana.</p>
+			</questionText>
+			<answerText>
+				<p>Anda </p>
+				</answerText>
+			<answerText2>
+				<p>buku sekolah dan alat olahraga </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Anda bisa menyumbangkan barang-barang semacam itu kepada panti asuhan di Bali.</p>
+			</questionText>
+			<answerText>
+				<p>Anda </p>
+				</answerText>
+			<answerText2>
+				<p>barang-barang semacam itu </p>
+			</answerText2>
+		</question>
+
+		<question>
+			<questionText>
+				<p>Saya belum pernah mengalami keadaan darurat seperti bencana atau musibah.</p>
+			</questionText>
+			<answerText>
+				<p>Saya </p>
+				</answerText>
+			<answerText2>
+				<p>keadaan darurat seperti bencana atau musibah </p>
+			</answerText2>
+		</question>
+		
+		
+
+	</questions>
+</enterAnswer>

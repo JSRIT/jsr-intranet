@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<question1>
+		<sentence>La mia camera &#232; spaziosa.</sentence>
+		<example>My room is spacious.</example> 		
+	</question1>
+	<question2>
+		<sentence>La camera &#232; ampia.</sentence>
+		<example>My room is spacious</example> 			
+	</question2>
+	<question3>
+		<sentence>La mia camera &#232; piccola ma compatta.</sentence>
+		<example>My room is small and compact.</example> 	
+	</question3>
+	<question4>
+		<sentence>Di solito la mia camera &#232; ordinata.</sentence>
+		<example>Usually my room is tidy.</example> 			
+	</question4>
+	<question5>
+		<sentence>La mia camera non &#232; grande.</sentence>
+		<example>My room is not big.</example> 		
+	</question5>	
+	<question6>
+		<sentence>L&#8217;arredamento &#232; neutro.</sentence>
+		<example>The decor is neutral.</example> 	
+	</question6>
+	<question7>
+		<sentence>&#200; uno spazio personale che &#232; pulito ed accogliente.</sentence>
+		<example>It is a personal space which is clean and welcoming.</example> 		
+	</question7>
+	<question8>
+		<sentence>La mia camera &#232; disordinata.</sentence>
+		<example>My room is untidy.</example> 		
+	</question8>
+	<question9>
+		<sentence>Ho tutto qui per studiare e per rilassarmi.</sentence>
+		<example>I have everything here to study and relax.</example> 	
+	</question9>
+	<question10>
+		<sentence>La mia zona &#232; ordinata.</sentence>
+		<example>My area is tidy.</example>		
+	</question10>	
+</strings>
+
+		
+
+
+
+
+
+
+
+
+
+
+

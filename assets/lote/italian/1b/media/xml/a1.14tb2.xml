@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>incontrare gli amici: 94%25</p></question>
+			<feedback><p><b>to meet friends</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>incontrare il proprio gruppo: 81%25</p></question>
+			<feedback><p><b>to meet (your) group </b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>girare per i negozi e guardare le vetrine: 65%25</p></question>
+			<feedback><p><b>to go around the shops/browse/window-shop</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>frequentare bar, gelaterie, pizzeria, pub, paninoteche ecc: 64%25</p></question>
+			<feedback><p><b>to go to bars, pizza parlours, pubs, etc</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>praticare dello sport: 62%25</p></question>
+			<feedback><p><b>to do sport</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>frequentare cinema, teatri o concerti: 63%25</p></question>
+			<feedback><p><b>to go to the cinema, theatres or concerts</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>andare in discoteca: 60%25</p></question>
+			<feedback><p><b>to go to the disco</b></p></feedback>
+		</answer>
+	</answers>
+</enterAnswer>

@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+body {
+	color: #333333;
+	background-color: #ffffff;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 90%
+}
+
+abbr, acronym, .help {
+  	border-bottom: 1px dotted #333;
+ 	cursor: help; 
+  	background-color:#D4FD96;
+}
+
+
+h2 {	font-size: medium;
+		font-weight: bold;
+		color: #CC0000;
+}
+
+h3 {	font-size: 14px;
+		font-weight: bold;
+		color: #009900;
+}
+
+li { margin-bottom: 5px; }
+
+p {	line-height: 135%;
+	font-size: 14px;
+}
+
+.greybg {	background-color: #f0f0f0; 
+			padding: 5px;
+			}
+
+.greybox {
+	background-color:#f0f0f0;
+	border-color: #333333;
+	border-style:dotted;
+	border-width: 1px;
+	padding: 10px;
+}
+.whitebox {
+	background-color:#ffffff;
+	border-color: #999999;
+	border-style:dotted;
+	border-width: 1px;
+	padding: 10px;
+}
+.redtxt { color: #FF3300; }
+.redtxtb { color: #FF3300; 
+		font-weight: bold;
+}
+
+.greyheadtbl {
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.greyheadtbl th {
+	background-color: #CCC;
+}
+.greyheadtbl td, .greyheadtbl th {
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	vertical-align: top;
+}
+

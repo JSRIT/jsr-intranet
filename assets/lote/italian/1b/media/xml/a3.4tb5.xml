@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<enterAnswer>
+	<openingSettings>
+		<backingColor reqColor="006600" />
+		<backingImage reqColor="" />
+		<pageFontColor reqColor="000000" />
+		<answewrFontColor reqColor="000000" />
+		<questBackingColor reqColor="FFFFFF" />
+		<ansBackingColor reqColor="FFFFFF" />
+		<feedbackBackingColor reqColor="FFFFFF" />
+		<finalFeedback textNeeded="Well done, you have completed this interaction." />
+		<buttonBackingColor reqColor="00CC00" />
+		<buttonRolloverColor reqColor="CC0000" />
+		<buttonFontColor reqColor="FFFFFF" />
+		<buttonFontRollOverColor reqColor="FFFFFF" />
+	</openingSettings>
+	<answers>
+		<answer>
+			<question><p>A che ora arriva il treno da Milano? (16:00)</p></question>
+			<feedback><p><b>alle sedici</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>A che ora arriva il treno da Roma? (9:15)</p></question>
+			<feedback><p><b>alle nove e quindici/un quarto</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>A che ora arriva il treno da Firenze? (8:45)</p></question>
+			<feedback><p><b>alle otto e quarantacinque</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>A che ora arriva il treno da Perugia? (6:30)</p></question>
+			<feedback><p><b>alle sei e mezzo/trenta</b></p></feedback>
+		</answer>
+		<answer>
+			<question><p>A che ora arriva il treno da Venezia? (23:20)</p></question>
+			<feedback><p><b>alle ventitre e venti</b></p></feedback>
+		</answer>
+</enterAnswer>

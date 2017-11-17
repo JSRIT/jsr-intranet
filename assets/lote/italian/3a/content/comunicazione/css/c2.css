@@ -1,0 +1,119 @@
+/*  accordion styles
+----------------------------------------------- */
+
+.accordionHolder {
+	margin-top:10px;
+	margin-bottom:0px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.accordionHeader {
+	background-color:#007195;
+	color:#ffffff;
+	height:30px;
+}
+.leftAccordion {padding-top:5px;padding-left:5px;height:24px;font-size: 1.1em;line-height: 140%;color:#ffffff;background: transparent;font-weight:bold;float:left;}
+.rightAccordion {padding-top:5px;padding-right:5px;line-height: 140%;float:right;color:#ffffff;background: transparent;}
+.accordion {
+	margin-top: 0px;
+  	margin-bottom: 0px;
+  	border: 1px solid #C7DBDF; 
+	background-color:#ffffff;
+}
+.accordion_content {
+/*	padding-left:30px;
+	margin-left: 10px;
+	margin-right: 40px;*/
+}
+
+.greyheadtbl {
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+/*	margin:5px;*/
+/*	width:600px;*/
+	width:100%;
+	
+}
+.greyheadtbl th {
+	background-color: #CCC;
+	width:50%;
+}
+.greyheadtbl td, .greyheadtbl th {
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	vertical-align: top;
+	/*border:1px solid #000;*/
+}
+
+div.accordion ul li ul li p {font-size: 1.0em;}
+.rightAccordion a:link {color:#FFFFFF;text-decoration:underline;}
+.rightAccordion a:visited {color:#FFFFFF;text-decoration:underline;}
+.rightAccordion a:active {color:#FFFFFF;text-decoration:underline;}
+.rightAccordion a:hover {color:#FFFFFF;text-decoration:none;}
+
+.accordion h3 {
+  margin: 0;
+  padding: 5px;
+  color: #343434;
+  background: #C7DBDF;
+  background-position:right;
+  background-repeat:no-repeat;
+  border-top: 2px solid #fffff7;
+  border-bottom: 2px solid #fffff7;
+  cursor: pointer;
+  font-size: 0.9em;
+
+}
+.accordion h3.sub {margin-left:25px;width: 787px;}
+.accordion h3.heading {
+  margin: 0;
+  padding: 5px;
+  color: #343434;
+  background: #C7DBDF;
+  background-position:right;
+  background-repeat:no-repeat;
+  border-top: 2px solid #fffff7;
+  border-bottom: 2px solid #fffff7;
+  cursor:text;
+  font-size: 0.9em;
+
+}
+.accordionArrow {float:right; width:50%; text-align:left;}
+.accordion img { border:none; }
+
+.ucb_browser {
+	background: url(../images/browser_bg.jpg) repeat-y;
+	width: 580px;
+	padding: 20px 0 0 20px;
+	margin: 0;
+}
+.ucb_browser p {
+	padding-right: 40px;
+}
+
+.box.ucb {	background-color:#66CC66; }
+.box.cinema { background-color:#CCFFFF; }
+
+.notepad_pink {
+	background: url(../images/AW22_1_pink.jpg) repeat-y;
+	width: 540px;
+	padding: 60px 80px 20px 80px;
+	margin: 0;
+}
+.notepad_blue {
+	background: url(../images/AW22_2_blue.jpg) repeat-y;
+	width: 540px;
+	padding: 60px 80px 20px 80px;
+	margin: 0;
+}
+
+.leftbox {
+	float:left;
+	width:50%;
+	padding:10px;
+}
+.rightbox {
+	margin-left:50%;
+	width:50%;
+	padding:10px;
+}

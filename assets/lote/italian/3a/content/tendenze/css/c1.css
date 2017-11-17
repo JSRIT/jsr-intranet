@@ -1,0 +1,37 @@
+#la_moda {background: url(../images/aw5.jpg);}
+
+#c1_04_ta1_b1 { background-color: #6AC8FF; }
+#c1_04_ta1_b2 { background-color: #C6FFFF; }
+
+.hl_yellow { background-color:#FFFF00; }
+.hl_green { background-color:#00CC00; }
+.hl_blue { background-color:#66CCFF; }
+.hl_red { background-color:#FF0000; }
+
+#c1_browser {
+	background: url(../images/aw10.jpg) no-repeat;
+	width: 550px;
+	padding: 75px 0 50px 10px;
+	font-size: 90%;
+}
+#c1_browser p {
+	width: 530px;
+}
+* html #c1_browser p {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top:0;
+	margin-bottom:13px;
+}
+
+.notize {
+	background:url(../images/aw15_16.jpg) no-repeat;
+	width: 570px;
+	padding: 120px 0 20px 20px;
+	min-height: 550px;
+}
+.notize * {
+	margin-right: 50px;
+}
+* html .notize { height: 550px; }
+.notize .hidden { margin-top: 200px;}
