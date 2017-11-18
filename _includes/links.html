@@ -3,16 +3,16 @@
         <div class="col">
                 <div class="display-4">{{ type[0] | capitalize }}</div>
                 <hr class="my-4">
-                {% for item in type[1] %}
                 <ul class="link-container">
+			{% for item in type[1] %}
 			<li class="col">
                         	<a href="{{ item.url }}">
 					<p class="lead">{{ item.title }}</p>
                         		<img src="{{ site.url }}/{{ site.baseurl }}/images/{{ type[0] }}/{{ item.image }}" alt="{{ item.title }}" class="img-responsive img-rounded" />
 				</a>
                         </li>
+			{% endfor %}
                 </ul>
-                {% endfor %}
         </div>
         {% endfor %}
 </div>
