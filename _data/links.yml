@@ -15,10 +15,6 @@ links:
   image: moodle.png
   url: https://moodle.org
 
-- title: Wix
-  image: wix.png
-  url: http://www.wix.com
-
 # images in this section should be saved in images/school
 school:
 - title: Library Catalogue
@@ -64,3 +60,7 @@ info:
 - title: Languages (Indonesian and Italian)
   image: lote.jpg
   url: assets/lote/LOTE.htm
+
+- title: Internet Lesson Override
+  image: #.jpg
+  url: lesson.localnetwork.zone
