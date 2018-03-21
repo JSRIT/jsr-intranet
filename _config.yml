@@ -3,4 +3,4 @@ description: >- # this means to ignore newlines until "baseurl:"
   A student intranet for John Septimus Roe Anglican Community School
 author: github.com/js-jh
 baseurl: "/jsr-intranet" # the subpath of your site, e.g. /blog
-url: "https://gostega.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jsrit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
