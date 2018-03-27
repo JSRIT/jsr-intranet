@@ -14,7 +14,19 @@ links:
 - title: Moodle
   image: moodle.png
   url: https://moodle.org
-
+  
+- title: Library Webs
+  image: librarywebs.png
+  url: http://www.librarywebs.net/Login.aspx
+  
+- title: Echo Online; Username: 222jsroe, Password: mentor
+  image: echologo.png
+  url: http://www.echoeducation.com.au/schools/
+  
+- title: Gale Reference Library; pass: library
+  image: Galelogo.png
+  url: http://go.galegroup.com/ps/start.do?p=GVRL&u=61wa_jsracs
+  
 # images in this section should be saved in images/school
 school:
 - title: Library Catalogue
